@@ -66,7 +66,7 @@ This makes melee characters a lot easier to play.
 ## Helpful Links
 
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
-- [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/whipowill/holy) - Keep track of your items as you find them.
+- [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what Runewords you can make.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - A fan website w/ helpful information about the game.
 - [Reddit Community](https://www.reddit.com/r/diablo2/) - A Reddit forum for the fans of D2.
