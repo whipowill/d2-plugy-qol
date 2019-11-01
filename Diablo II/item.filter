@@ -4,13 +4,13 @@
 
 // Add Icons
 //Indicators: Grey (Normal), Red (Exceptional), Purple (Elite)
- 
+
 // Uniques
 ItemDisplay[UNI NORM]: %GRAY%0 %GOLD%%NAME%%CONTINUE%
 ItemDisplay[UNI EXC]: %RED%0 %GOLD%%NAME%%CONTINUE%
 ItemDisplay[UNI ELT]: %PURPLE%0 %GOLD%%NAME%%CONTINUE%
 ItemDisplay[UNI (rin OR amu OR jew)]: %GRAY%0 %GOLD%%NAME%%CONTINUE%
- 
+
 // Set Items
 ItemDisplay[SET NORM]: %GRAY%0 %GREEN%%NAME%%CONTINUE%
 ItemDisplay[SET EXC]: %RED%0 %GREEN%%NAME%%CONTINUE%
@@ -44,21 +44,21 @@ ItemDisplay[SOCK>0]: %NAME% (%SOCKETS%)%CONTINUE%
 //=================================================
 
 // Level based filters
-ItemDisplay[aqv CLVL>10]: 
-ItemDisplay[key CLVL>10]: 
-ItemDisplay[tsc CLVL>10]: 
-ItemDisplay[isc CLVL>10]: 
-ItemDisplay[hp1 CLVL>10]: 
-ItemDisplay[hp2 CLVL>15]: 
-ItemDisplay[hp3 CLVL>20]: 
-ItemDisplay[hp4 CLVL>35]: 
-//ItemDisplay[hp5 CLVL>50]: 
-ItemDisplay[mp1 CLVL>10]: 
-ItemDisplay[mp2 CLVL>15]: 
-ItemDisplay[mp3 CLVL>20]: 
-ItemDisplay[mp4 CLVL>35]: 
-//ItemDisplay[mp5 CLVL>70]: 
-ItemDisplay[rvs CLVL>60]: 
+ItemDisplay[aqv CLVL>10]:
+ItemDisplay[key CLVL>10]:
+ItemDisplay[tsc CLVL>10]:
+ItemDisplay[isc CLVL>10]:
+ItemDisplay[hp1 CLVL>10]:
+ItemDisplay[hp2 CLVL>15]:
+ItemDisplay[hp3 CLVL>20]:
+ItemDisplay[hp4 CLVL>35]:
+//ItemDisplay[hp5 CLVL>50]:
+ItemDisplay[mp1 CLVL>10]:
+ItemDisplay[mp2 CLVL>15]:
+ItemDisplay[mp3 CLVL>20]:
+ItemDisplay[mp4 CLVL>35]:
+//ItemDisplay[mp5 CLVL>70]:
+ItemDisplay[rvs CLVL>60]:
 
 // Shorten item names, ignore junk
 ItemDisplay[tsc]: %BLUE%=%WHITE%Scroll
@@ -101,7 +101,7 @@ ItemDisplay[leg]: %ORANGE%%NAME%
 // GEMS
 //=================================================
 
-// Shortens name 
+// Shortens name
 ItemDisplay[GEM=1]: Chipped%CONTINUE%
 ItemDisplay[GEM=2]: Flawed%CONTINUE%
 ItemDisplay[GEM=3]: Normal%CONTINUE%
@@ -167,12 +167,15 @@ ItemDisplay[UNI cm3]: %WHITE%ooo %TAN%%NAME%
 //=================================================
 
 //Ignore blue items over lvl 20
-ItemDisplay[MAG !(rin OR amu OR jew) CLVL>20]: 
+ItemDisplay[MAG !(rin OR amu OR jew) CLVL>20]:
 
 //=================================================
 // WHITE ITEMS
 //=================================================
 
 //Ignore inferior items
-ItemDisplay[INF]: 
-ItemDisplay[NMAG SOCK=1]: 
+ItemDisplay[INF]:
+ItemDisplay[NMAG SOCK<2]:
+
+//Ignore all non-superior items
+//ItemDisplay[NMAG !SUP]:

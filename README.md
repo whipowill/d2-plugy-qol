@@ -23,7 +23,7 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 
 ## How To Install
 
-- Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
+- Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc).
 - Install [Patch v1.13d](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe).
 - Install [Glide](http://www.svenswrapper.de/english/files.html).
