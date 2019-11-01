@@ -1,6 +1,6 @@
 # Diablo II QOL Mod Pack
 
-This is a mod pack for Diablo II v1.13d that brings together the best quality-of-life features I have found to maximize the singleplayer experience.
+This is a mod pack for Diablo II v1.13d that brings together the best quality-of-life features I have found to maximize the singleplayer experience, with the goal of enhancing the game in limited and tasteful way.
 
 ![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/F2wfSek.jpg)
 
@@ -68,7 +68,7 @@ This makes melee characters a lot easier to play.
 
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
-- [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what Runewords you can make.
+- [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - A fan website w/ helpful information about the game.
 - [Reddit Community](https://www.reddit.com/r/diablo2/) - A Reddit forum for the fans of D2.
 - [Bugs List](https://us.battle.net/forums/en/d3/topic/6037267083) - A list of all the bugs in the game.
