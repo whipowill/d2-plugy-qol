@@ -1,0 +1,178 @@
+//=================================================
+// QUALITY
+//=================================================
+
+// Add Icons
+//Indicators: Grey (Normal), Red (Exceptional), Purple (Elite)
+ 
+// Uniques
+ItemDisplay[UNI NORM]: %GRAY%0 %GOLD%%NAME%%CONTINUE%
+ItemDisplay[UNI EXC]: %RED%0 %GOLD%%NAME%%CONTINUE%
+ItemDisplay[UNI ELT]: %PURPLE%0 %GOLD%%NAME%%CONTINUE%
+ItemDisplay[UNI (rin OR amu OR jew)]: %GRAY%0 %GOLD%%NAME%%CONTINUE%
+ 
+// Set Items
+ItemDisplay[SET NORM]: %GRAY%0 %GREEN%%NAME%%CONTINUE%
+ItemDisplay[SET EXC]: %RED%0 %GREEN%%NAME%%CONTINUE%
+ItemDisplay[SET ELT]: %PURPLE%0 %GREEN%%NAME%%CONTINUE%
+ItemDisplay[SET (rin OR amu OR jew)]: %GRAY%0 %GREEN%%NAME%%CONTINUE%
+
+// Rare Items
+ItemDisplay[RARE NORM]: %GRAY%0 %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[RARE EXC]: %RED%0 %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[RARE ELT]: %PURPLE%0 %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[RARE (rin OR amu OR jew)]: %GRAY%0 %YELLOW%%NAME%%CONTINUE%
+
+// Magic Items
+ItemDisplay[MAG NORM]: %GRAY%0 %BLUE%%NAME%%CONTINUE%
+ItemDisplay[MAG EXC]: %RED%0 %BLUE%%NAME%%CONTINUE%
+ItemDisplay[MAG ELT]: %PURPLE%0 %BLUE%%NAME%%CONTINUE%
+ItemDisplay[MAG (rin OR amu OR jew)]: %GRAY%0 %BLUE%%NAME%%CONTINUE%
+
+// White Items
+ItemDisplay[NMAG NORM]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG EXC]: %RED%0 %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG ELT]: %PURPLE%0 %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG (rin OR amu OR jew)]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
+
+// Add ethereality, sockets, ilvl, superiority, weapon speed to the name
+ItemDisplay[ETH]: %NAME% (Eth)%CONTINUE%
+ItemDisplay[SOCK>0]: %NAME% (%SOCKETS%)%CONTINUE%
+
+//=================================================
+// CONSUMABLES
+//=================================================
+
+// Level based filters
+ItemDisplay[aqv CLVL>10]: 
+ItemDisplay[key CLVL>10]: 
+ItemDisplay[tsc CLVL>10]: 
+ItemDisplay[isc CLVL>10]: 
+ItemDisplay[hp1 CLVL>10]: 
+ItemDisplay[hp2 CLVL>15]: 
+ItemDisplay[hp3 CLVL>20]: 
+ItemDisplay[hp4 CLVL>35]: 
+//ItemDisplay[hp5 CLVL>50]: 
+ItemDisplay[mp1 CLVL>10]: 
+ItemDisplay[mp2 CLVL>15]: 
+ItemDisplay[mp3 CLVL>20]: 
+ItemDisplay[mp4 CLVL>35]: 
+//ItemDisplay[mp5 CLVL>70]: 
+ItemDisplay[rvs CLVL>60]: 
+
+// Shorten item names, ignore junk
+ItemDisplay[tsc]: %BLUE%=%WHITE%Scroll
+ItemDisplay[isc]: %RED%=%WHITE%Scroll
+ItemDisplay[vps CLVL>10]: //Ignore stamina potions
+ItemDisplay[vps]: %WHITE%o Stam
+ItemDisplay[yps CLVL>10]: //Ignore antidote potions
+ItemDisplay[yps]: %GREEN%o %WHITE%Antidote
+ItemDisplay[wms]: //Ignore Thawing potion
+ItemDisplay[gps]: //Ignore Rancid Gas potion
+ItemDisplay[ops]: //Ignore Oil potion
+ItemDisplay[gpm]: //Ignore Choking Gas potion
+ItemDisplay[opm]: //Ignore Exploding potion
+ItemDisplay[gpl]: //Ignore Strangling Gas potion
+ItemDisplay[opl]: //Ignore Fulminating potion
+
+ItemDisplay[hp1]: %RED%**%WHITE%H1
+ItemDisplay[hp2]: %RED%**%WHITE%H2
+ItemDisplay[hp3]: %RED%**%WHITE%H3
+ItemDisplay[hp4]: %RED%**%WHITE%H4
+ItemDisplay[hp5]: %RED%**%WHITE%H5
+ItemDisplay[mp1]: %BLUE%**%WHITE%M1
+ItemDisplay[mp2]: %BLUE%**%WHITE%M2
+ItemDisplay[mp3]: %BLUE%**%WHITE%M3
+ItemDisplay[mp4]: %BLUE%**%WHITE%M4
+ItemDisplay[mp5]: %BLUE%**%WHITE%M5
+ItemDisplay[rvs]: %PURPLE%**%WHITE%R1
+ItemDisplay[rvl]: %PURPLE%**%WHITE%R2
+ItemDisplay[aqv]: %WHITE%Arrows
+ItemDisplay[cqv]: //Ignore Bolts
+ItemDisplay[key]: Key
+
+// Pandemonium keys
+ItemDisplay[pk1 OR pk2 OR pk3]: %ORANGE%%NAME%
+
+// Wirts Leg
+ItemDisplay[leg]: %ORANGE%%NAME%
+
+//=================================================
+// GEMS
+//=================================================
+
+// Shortens name 
+ItemDisplay[GEM=1]: Chipped%CONTINUE%
+ItemDisplay[GEM=2]: Flawed%CONTINUE%
+ItemDisplay[GEM=3]: Normal%CONTINUE%
+ItemDisplay[GEM=4]: Flawless%CONTINUE%
+ItemDisplay[GEM=5]: Perfect%CONTINUE%
+
+// Adds a matching circle (instead of gem type in name)
+ItemDisplay[GEMTYPE=1]: %PURPLE%o %WHITE%%NAME%%CONTINUE%
+ItemDisplay[GEMTYPE=2]: %WHITE%o %NAME%%CONTINUE%
+ItemDisplay[GEMTYPE=3]: %GREEN%o %WHITE%%NAME%%CONTINUE%
+ItemDisplay[GEMTYPE=4]: %RED%o %WHITE%%NAME%%CONTINUE%
+ItemDisplay[GEMTYPE=5]: %BLUE%o %WHITE%%NAME%%CONTINUE%
+ItemDisplay[GEMTYPE=6]: %YELLOW%o %WHITE%%NAME%%CONTINUE%
+ItemDisplay[GEMTYPE=7]: %GRAY%o %WHITE%%NAME%%CONTINUE%
+
+//=================================================
+// RUNES
+//=================================================
+
+//Runes up to Fal orange
+ItemDisplay[RUNE<20]: %WHITE%o %ORANGE%%RUNENAME%%GRAY% %RUNENUM%
+
+//Runes Lem to Gul Red, box on map
+ItemDisplay[(RUNE>19 AND RUNE<26)]: %WHITE%oo %RED%%RUNENAME%%GRAY% %RUNENUM%
+
+//Show a purple box on map for rune Vex and higher
+ItemDisplay[RUNE>25]: %WHITE%ooo %PURPLE%%RUNENAME%%GRAY% %RUNENUM%
+
+//=================================================
+// CHARMS
+//=================================================
+
+ItemDisplay[!ID MAG cm1]: %WHITE%o %ORANGE%%NAME%
+ItemDisplay[!ID MAG cm2]: %WHITE%oo %ORANGE%%NAME%
+ItemDisplay[!ID MAG cm3]: %WHITE%ooo %ORANGE%%NAME%
+ItemDisplay[MAG cm1]: %WHITE%o %BLUE%%NAME%
+ItemDisplay[MAG cm2]: %WHITE%oo %BLUE%%NAME%
+ItemDisplay[MAG cm3]: %WHITE%ooo %BLUE%%NAME%
+ItemDisplay[!ID UNI cm1]: %WHITE%o %TAN%%NAME%
+ItemDisplay[!ID UNI cm2]: %WHITE%oo %TAN%%NAME%
+ItemDisplay[!ID UNI cm3]: %WHITE%ooo %TAN%%NAME%
+ItemDisplay[UNI cm1]: %WHITE%o %TAN%%NAME%
+ItemDisplay[UNI cm2]: %WHITE%oo %TAN%%NAME%
+ItemDisplay[UNI cm3]: %WHITE%ooo %TAN%%NAME%
+
+//=================================================
+// UNIQUE ITEMS
+//=================================================
+
+
+//=================================================
+// SET ITEMS
+//=================================================
+
+
+//=================================================
+// RARE ITEMS
+//=================================================
+
+
+//=================================================
+// MAGIC ITEMS
+//=================================================
+
+//Ignore blue items over lvl 20
+ItemDisplay[MAG !(rin OR amu OR jew) CLVL>20]: 
+
+//=================================================
+// WHITE ITEMS
+//=================================================
+
+//Ignore inferior items
+ItemDisplay[INF]: 
+ItemDisplay[NMAG SOCK=1]: 

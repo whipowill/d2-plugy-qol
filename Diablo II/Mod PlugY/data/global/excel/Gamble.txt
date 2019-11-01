@@ -1,0 +1,169 @@
+name	code
+amulet	amu
+ring	rin
+Hand Axe	hax
+Axe	axe
+Double Axe	2ax
+Military Pick	mpi
+War Axe	wax
+Large Axe	lax
+Broad Axe 	bax
+Battle Axe	btx
+Great Axe	gax
+Giant Axe	gix
+Club	clb
+Spiked Club	spc
+Mace	mac
+Morning Star	mst
+Flail	fla
+War Hammer	whm
+Maul	mau
+Great Maul	gma
+Short Sword	ssd
+Scimitar	scm
+Saber	sbr
+Falchion	flc
+Crystal Sword	crs
+Broad Sword	bsd
+Long Sword 	lsd
+War Sword	wsd
+Two-Handed Sword	2hs
+Claymore	clm
+Giant Sword	gis
+Bastard Sword	bsw
+Flamberge	flb
+Great Sword	gsd
+Dagger	dgr
+Dirk	dir
+Kriss	kri
+Blade	bld
+Spear	spr
+Trident	tri
+Brandistock	brn
+Spetum	spt
+Pike	pik
+Bardiche	bar
+Voulge	vou
+Scythe	scy
+Poleaxe	pax
+Halberd	hal
+War Scythe	wsc
+Short Bow	sbw
+Hunter's Bow	hbw
+Long Bow	lbw
+Composite Bow	cbw
+Short Battle Bow	sbb
+Long Battle Bow	lbb
+Short War Bow	swb
+Long War Bow	lwb
+Light Crossbow	lxb
+Crossbow	mxb
+Heavy Crossbow	hxb
+Repeating Crossbow	rxb
+Cap/hat	cap
+Skull Cap	skp
+Helm	hlm
+Full Helm	fhl
+Great Helm	ghm
+Crown	crn
+Mask	msk
+Quilted Armor	qui
+Leather Armor	lea
+Hard Leather Armor	hla
+Studded Leather 	stu
+Ring Mail	rng
+Scale Mail	scl
+Chain Mail	chn
+Breast Plate	brs
+Splint Mail	spl
+Plate Mail	plt
+Field Plate	fld
+Gothic Plate	gth
+Full Plate Mail	ful
+Ancient Armor	aar
+Light Plate	ltp
+Buckler	buc
+Small Shield	sml
+Large Shield	lrg
+Kite Shield	kit
+Tower Shield	tow
+Gothic Shield	gts
+Gloves(L)	lgl
+Heavy Gloves	vgl
+Bracers(M)	mgl
+Light Gauntlets	tgl
+Gaunlets(H)	hgl
+Leather Boots	lbt
+Heavy Boots	vbt
+Chain Boots	mbt
+Light Plate Boots	tbt
+Plate Boots	hbt
+Sash(L)	lbl
+Light Belt	vbl
+Belt(M)	mbl
+Heavy Belt	tbl
+Girdle(H)	hbl
+Bone Helm	bhm
+Bone Shield	bsh
+Spiked Shield	spk
+Expansion	
+Throwing Knife	tkf
+Throwing Axe	tax
+Balanced Knife	bkf
+Balanced Axe	bal
+Javelin	jav
+Pilum	pil
+Short Spear	ssp
+Glaive	glv
+Throwing Spear	tsp
+Katar	ktr
+Wrist Blade	wrb
+Axe Fist	axf
+Cestus	ces
+Claws	clw
+Blade Talons	btl
+Scissors Katar	skr
+Circlet	ci0
+Coronet	ci1
+Wand	wnd
+Yew Wand	ywn
+Bone Wand	bwn
+Grim Wand	gwn
+Eagle Orb	ob1
+Scepter	scp
+Grand Scepter	gsc
+War Scepter	wsp
+Short Staff	sst
+Long Staff	lst
+Gnarled Staff	cst
+Battle Staff	bst
+War Staff	wst
+Sacred Globe	ob2
+Smoked Sphere	ob3
+Clasped Orb	ob4
+Dragon Stone	ob5
+Stag Bow	am1
+Reflex Bow	am2
+Maiden Spear	am3
+Maiden Pike	am4
+Maiden Javelin	am5
+Wolf Head	dr1
+Hawk Helm	dr2
+Antlers	dr3
+Falcon Mask	dr4
+Spirit Mask	dr5
+Jawbone Cap	ba1
+Fanged Helm	ba2
+Horned Helm	ba3
+Assault Helmet	ba4
+Avenger Guard	ba5
+Targe	pa1
+Rondache	pa2
+Heraldic Shield	pa3
+Aerin Shield	pa4
+Crown Shield	pa5
+Preserved Head	ne1
+Zombie Head	ne2
+Unraveller Head	ne3
+Gargoyle Head	ne4
+Demon Head	ne5

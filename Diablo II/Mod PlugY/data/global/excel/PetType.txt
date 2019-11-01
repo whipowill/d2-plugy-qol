@@ -1,0 +1,21 @@
+pet type	idx	group	basemax	warp	range	partysend	unsummon	automap	name	drawhp	icontype	baseicon	mclass1	micon1	mclass2	micon2	mclass3	micon3	mclass4	micon4	eol
+none	0																				0
+single	1		1	1		1		1													0
+valkyrie	2		0	1		1	1	1	StrUI4	1	1	valkarieicon									0
+golem	3		0	1		1	1	1	StrUI0	1	3	earthgolumicon	290	bloodgolumicon	291	metalgolumicon	292	firegolumicon			0
+skeleton	4		0	1		1	1	1	StrUI1	1	2	skeletonicon									0
+skeletonmage	5		0	1		1	1	1	StrUI2	1	2	skeletonmageicon									0
+revive	6		0	1		1	1	1	StrUI3	1	2	revivedicon									0
+hireable	7		1	1		1		1		1		rogueicon	338	act2hireableicon	359	act3hireableicon	561	barbhirable_icon			0
+dopplezon	8		0				1	1		1											0
+invis	9		0	1																	0
+raven	10		0	1					strUI5		2	raven									0
+spiritwolf	11		0	1		1	1	1	strUI6	1	2	wolf									0
+fenris	12		0	1		1	1	1	UIFenirsui	1	2	wolf									0
+totem	13		0	1		1	1	1	strUI14	1	3	oaksage	423	heartofwolverine	422	spiritofbarbs					0
+vine	14		0	1		1	1	1	strUI13	1	3	plaguepoppy	426	cycleoflife	427	vines					0
+grizzly	15		0	1		1	1	1	strUI7	1	1	bear									0
+shadowwarrior	16		0	1		1	1	1	UiShadowUI	1	1	shadowassassin									0
+assassintrap	17		0		1																0
+pettrap	18		0		1																0
+hydra	19		0		1																0
