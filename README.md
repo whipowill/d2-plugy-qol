@@ -61,6 +61,7 @@ This makes melee characters a lot easier to play.
 - When you first select a widescreen resolution the game will crash, but only the first time.
 - When you first boot the game you will have to click settings to activate the custom loot filter.
 - The loot filter sometimes throws "invalid stat" errors in chat, but I don't think it breaks anything.
+- There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) which increases inventory, and it works, but I thought it was too much so I didn't include it.
 - I wish I could shift-click between inventory and stash.
 
 ## Helpful Links
