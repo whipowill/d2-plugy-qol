@@ -1,6 +1,6 @@
 # Diablo II QOL Mod Pack
 
-This is a mod pack for Diablo II v1.13d that brings together the best quality-of-life features I have found to maximize the singleplayer experience, with the goal of enhancing the game in limited and tasteful way.
+This is a mod pack for Diablo II v1.13d that brings together the best quality-of-life features I have found to maximize the singleplayer experience, with the goal of enhancing the game in a limited and tasteful way.
 
 ![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/F2wfSek.jpg)
 
