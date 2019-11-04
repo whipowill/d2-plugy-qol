@@ -6,7 +6,7 @@ Here are the keybind settings that I use.
 - Character Screen - X
 - Inventory Screen - C
 - Party Screen - B
-- Hireling Scren - V
+- Hireling Screen - V
 - Message Log - None
 - Quest Log - Z
 - Help Screen - None
