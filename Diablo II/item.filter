@@ -29,16 +29,19 @@ ItemDisplay[MAG EXC]: %RED%0 %BLUE%%NAME%%CONTINUE%
 ItemDisplay[MAG ELT]: %PURPLE%0 %BLUE%%NAME%%CONTINUE%
 ItemDisplay[MAG (rin OR amu OR jew)]: %GRAY%0 %BLUE%%NAME%%CONTINUE%
 
-// White Items
-ItemDisplay[NMAG NORM]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
-ItemDisplay[NMAG EXC]: %RED%0 %WHITE%%NAME%%CONTINUE%
-ItemDisplay[NMAG ELT]: %PURPLE%0 %WHITE%%NAME%%CONTINUE%
-ItemDisplay[NMAG (rin OR amu OR jew)]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
+// Non-Superior White Items
+ItemDisplay[NMAG !SUP NORM]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG !SUP EXC]: %RED%0 %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG !SUP ELT]: %PURPLE%0 %WHITE%%NAME%%CONTINUE%
+
+// Superior White Items
+ItemDisplay[NMAG SUP NORM]: %TAN%+%GRAY%0%TAN%+ %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG SUP EXC]: %TAN%+%RED%0%TAN%+ %WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG SUP ELT]: %TAN%+%PURPLE%0%TAN%+ %WHITE%%NAME%%CONTINUE%
 
 // Add ethereality, sockets, ilvl, superiority, weapon speed to the name
 ItemDisplay[ETH]: %NAME% (Eth)%CONTINUE%
 ItemDisplay[SOCK>0]: %NAME% (%SOCKETS%)%CONTINUE%
-ItemDisplay[SUP]: %TAN%+%NAME%%CONTINUE%
 
 //=================================================
 // CONSUMABLES
