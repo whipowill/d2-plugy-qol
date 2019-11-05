@@ -1,4 +1,4 @@
-# Cube Cheat Sheet
+# Horadric Cube
 
 This is a list of the most important Horadric Cube recipes. For a list of all recipes, see the official [documentation](http://classic.battle.net/diablo2exp/items/cube.shtml).
 
@@ -98,7 +98,7 @@ Ort + Weapon = Fully Repaired Weapon
 Ral + Armor = Fully Repaired Armor
 ```
 
-# Portals
+## Portals
 
 You can open a portal to a secret level:
 
