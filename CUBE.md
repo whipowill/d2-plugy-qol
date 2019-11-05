@@ -87,6 +87,8 @@ Tal + Amn + Perfect Ruby + Normal Shield = Socketed Shield
 Hel + Scroll of Town Portal + Any Socketed Item = Remove Items From Sockets
 ```
 
+Note the "[Eth Bug](https://forums.d2jsp.org/topic.php?t=27584148)" which will allow you to use the above mentioned socket recipes to glitch an Ethereal armor into having higher than normal defense.
+
 ## Repairs
 
 You can fully repair non-Ethereal items:
