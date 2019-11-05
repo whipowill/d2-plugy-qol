@@ -38,6 +38,7 @@ ItemDisplay[NMAG (rin OR amu OR jew)]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
 // Add ethereality, sockets, ilvl, superiority, weapon speed to the name
 ItemDisplay[ETH]: %NAME% (Eth)%CONTINUE%
 ItemDisplay[SOCK>0]: %NAME% (%SOCKETS%)%CONTINUE%
+ItemDisplay[SUP]: %TAN%+%NAME%%CONTINUE%
 
 //=================================================
 // CONSUMABLES
@@ -154,8 +155,5 @@ ItemDisplay[MAG !(rin OR amu OR jew) CLVL>20]:
 // Ignore inferior items
 ItemDisplay[(ARMOR OR WEAPON) INF]:
 
-// Ignore white items w/ less than 2 sockets
-ItemDisplay[(ARMOR OR WEAPON) NMAG SOCK<2]:
-
-// Ignore white non-superior items
-//ItemDisplay[(ARMOR OR WEAPON) NMAG !SUP]:
+// Ignore white items w/ 1 socket
+ItemDisplay[(ARMOR OR WEAPON) NMAG SOCK=1]:
