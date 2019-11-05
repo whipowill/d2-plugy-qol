@@ -13,53 +13,42 @@
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>Action</key>
-								<string>Click</string>
-								<key>Button</key>
-								<integer>0</integer>
-								<key>ClickCount</key>
-								<integer>1</integer>
-								<key>DisplayMatches</key>
-								<false/>
-								<key>DragHorizontalPosition</key>
-								<string>0</string>
-								<key>DragVerticalPosition</key>
-								<string>0</string>
-								<key>Fuzz</key>
-								<integer>15</integer>
-								<key>HorizontalPositionExpression</key>
-								<string>0</string>
-								<key>MacroActionType</key>
-								<string>MouseMoveAndClick</string>
-								<key>Modifiers</key>
-								<integer>0</integer>
-								<key>MouseDrag</key>
-								<string>Hold</string>
-								<key>Relative</key>
-								<string>Mouse</string>
-								<key>RelativeCorner</key>
-								<string>TopLeft</string>
-								<key>RestoreMouseLocation</key>
-								<true/>
-								<key>VerticalPositionExpression</key>
-								<string>0</string>
-							</dict>
-						</array>
-						<key>CountExpression</key>
-						<string>1</string>
+						<key>Action</key>
+						<string>Click</string>
+						<key>Button</key>
+						<integer>0</integer>
+						<key>ClickCount</key>
+						<integer>1</integer>
+						<key>DisplayMatches</key>
+						<false/>
+						<key>DragHorizontalPosition</key>
+						<string>0</string>
+						<key>DragVerticalPosition</key>
+						<string>0</string>
+						<key>Fuzz</key>
+						<integer>15</integer>
+						<key>HorizontalPositionExpression</key>
+						<string>0</string>
 						<key>MacroActionType</key>
-						<string>Repeat</string>
-						<key>TimeOutAbortsMacro</key>
+						<string>MouseMoveAndClick</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>MouseDrag</key>
+						<string>Hold</string>
+						<key>Relative</key>
+						<string>Mouse</string>
+						<key>RelativeCorner</key>
+						<string>TopLeft</string>
+						<key>RestoreMouseLocation</key>
 						<true/>
+						<key>VerticalPositionExpression</key>
+						<string>0</string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>561693652.07778001</real>
 				<key>ModificationDate</key>
-				<real>594242610.47281599</real>
+				<real>594685487.14195502</real>
 				<key>Name</key>
 				<string>SPACE</string>
 				<key>Triggers</key>
