@@ -33,7 +33,7 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste the files (one at a time, don't mass merge) into your D2 folder.
 - Play the game.
 
-If you are having errors and the install process didn't work for you, it's probably:
+If you're having errors and the install process didn't work for you, it's probably:
 
 - You aren't using v1.13d.
 - You tried to downgrade from v1.14, which you can't do.
@@ -41,7 +41,7 @@ If you are having errors and the install process didn't work for you, it's proba
 
 ### How To Limited Install
 
-If you want to install these mods but you don't want any changes to the actual gameplay (no changes to drops or skills), then delete the ``Mod PlugY/data/global/`` folder.
+If you want to install these mods but you don't want any changes to the actual gameplay (no changes to drops or skills), then delete the ``C:\Games\Diablo II\Mod PlugY/Data/Global/`` folder.
 
 ### How To Uninstall
 
