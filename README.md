@@ -41,11 +41,11 @@ If you're having errors and the install process didn't work for you, it's probab
 
 ### How To Limited Install
 
-If you want to install these mods but you don't want any changes to the actual gameplay (no changes to drops or skills), then delete the ``C:\Games\Diablo II\Mod PlugY/Data/Global/`` folder.
+If you want to install these mods but you don't want any changes to the actual gameplay (no changes to drops or skills), then delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
 
 ### How To Uninstall
 
-Delete all the files you merged through this install process and copy the files from ``_backups`` and into your ``C:\Games\Diablo II\`` folder.
+Delete all the files you merged through this install process and copy the files from ``_backups`` and into your ``C:/Games/Diablo II/`` folder.
 
 ## Mac OSX
 
