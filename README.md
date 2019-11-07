@@ -24,21 +24,19 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 ## How To Install
 
 - Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
-- Install [Diablo II LOD v1.12](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) (use this installer, you can't downgrade v1.14).
-- Install [Patch v1.13d](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe).
-- Install [Glide v1.4e](http://www.svenswrapper.de/english/files.html).
-- Install [PlugY v11.02](http://plugy.free.fr/en/index.html).
+- Install [Diablo II LOD](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) v1.12 (use this installer, you can't downgrade v1.14).
+- Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) v1.13d.
+- Install [Glide](http://www.svenswrapper.de/english/files.html) v1.4e.
+- Install [PlugY](http://plugy.free.fr/en/index.html) v11.02.
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as administrator and as Windows XP SP3.
 - Modify the PlugY shortcut to have ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt`` as the target.
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste the files (one at a time, don't mass merge) into your D2 folder.
 - Play the game.
 
-### How to Debug Errors
-
 If you are having errors and the install process didn't work for you, it's probably:
 
 - You aren't using v1.13d.
-- You tried to downgrade from 1.14, which you cannot do.
+- You tried to downgrade from v1.14, which you cannot do.
 - You didn't merge the files properly.
 
 ### How To Limited Install
