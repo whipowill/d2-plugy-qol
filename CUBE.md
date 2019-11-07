@@ -4,7 +4,7 @@ This is a list of the most important Horadric Cube recipes. For a list of all re
 
 ## Gems
 
-You can combine gems to make upgraded gems:
+How to upgrade gems:
 
 ```
 3 of same = 1 of higher
@@ -12,55 +12,65 @@ You can combine gems to make upgraded gems:
 
 ## Runes
 
-You can combine runes to make upgraded runes:
+How to upgrade runes:
 
 ```
-3 El = Eld Rune
-3 Eld = Tir Rune
-3 Tir = Nef Rune
-3 Nef = Eth Rune
-3 Eth = Ith Rune
-3 Ith = Tal Rune
-3 Tal = Ral Rune
-3 Ral = Ort Rune
-3 Ort = Thul Rune
-3 Thul + Chipped Topaz = Amn Rune
-3 Amn + Chipped Amethyst = Sol Rune
-3 Sol + Chipped Sapphire = Shael Rune
-3 Shael + Chipped Ruby = Dol Rune
-3 Dol + Chipped Emerald = Hel Rune
-3 Hel + Chipped Diamond = Io Rune
-3 Io + Flawed Topaz = Lum Rune
-3 Lum + Flawed Amethyst = Ko Rune
-3 Ko + Flawed Sapphire = Fal Rune
-3 Fal + Flawed Ruby = Lem Rune
-3 Lem + Flawed Emerald = Pul Rune
-2 Pul + Flawed Diamond = Um Rune
-2 Um + Topaz = Mal Rune
-2 Mal + Amethyst = Ist Rune
-2 Ist + Sapphire = Gul Rune
-2 Gul + Ruby = Vex Rune
-2 Vex + Emerald = Ohm Rune
-2 Ohm + Diamond = Lo Rune
-2 Lo + Flawless Topaz = Sur Rune
-2 Sur + Flawless Amethyst = Ber Rune
-2 Ber + Flawless Sapphire = Jah Rune
-2 Jah + Flawless Ruby = Cham Rune
-2 Cham + Flawless Emerald = Zod Rune
+3 El = Eld
+3 Eld = Tir
+3 Tir = Nef
+3 Nef = Eth
+3 Eth = Ith
+3 Ith = Tal
+3 Tal = Ral
+3 Ral = Ort
+3 Ort = Thul
+3 Thul + Chipped Topaz = Amn
+3 Amn + Chipped Amethyst = Sol
+3 Sol + Chipped Sapphire = Shael
+3 Shael + Chipped Ruby = Dol
+3 Dol + Chipped Emerald = Hel
+3 Hel + Chipped Diamond = Io
+3 Io + Flawed Topaz = Lum
+3 Lum + Flawed Amethyst = Ko
+3 Ko + Flawed Sapphire = Fal
+3 Fal + Flawed Ruby = Lem
+3 Lem + Flawed Emerald = Pul
+2 Pul + Flawed Diamond = Um
+2 Um + Topaz = Mal
+2 Mal + Amethyst = Ist
+2 Ist + Sapphire = Gul
+2 Gul + Ruby = Vex
+2 Vex + Emerald = Ohm
+2 Ohm + Diamond = Lo
+2 Lo + Flawless Topaz = Sur
+2 Sur + Flawless Amethyst = Ber
+2 Ber + Flawless Sapphire = Jah
+2 Jah + Flawless Ruby = Cham
+2 Cham + Flawless Emerald = Zod
 ```
 
 ## Accessories
 
-You can combine rings and amulets to make better ones:
+How to upgrade rings, amulets, and charms:
 
 ```
 3 Magic Rings = Random Magic Amulet
 3 Magic Amulets = Random Magic Ring
+
+6 Perfect Gems (1 of each type) + 1 Amulet (Magic) = Prismatic Amulet // All Resistances +16-20
+1 Magic Ring + 1 Perfect Emerald + 1 Antidote Potion = 1 Jade Ring // Poison Resistance +21-30
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion = 1 Garnet Ring // Fire Resistance +21-30
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion = 1 Coral Ring // Lightning Resistance +21-30
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion = 1 Cobalt Ring // Cold Resistance +21-30
+
+3 Perfect Gems (of any type) + 1 Magic Item = 1 New Random Magic Item of the Same Type // Upgrade Charms
 ```
+
+Note that most players only reroll "[Baal Grand Charms](https://www.diabloii.net/forums/threads/baal-gc.476162/)" w/ item level 91+.
 
 ## Qualities
 
-You can upgrade the quality of rare and unique items:
+How to upgrade item qualities:
 
 ```
 Ort + Amn + Perfect Sapphire + Normal Rare Weapon = Exceptional Rare Weapon
@@ -76,7 +86,7 @@ Ko + Lem + Perfect Diamond + Exceptional Unique Armor = Elite Unique Armor
 
 ## Sockets
 
-You can add sockets to white items:
+How to add sockets to items:
 
 ```
 Tal + Thul + Perfect Topaz + Normal Body Armor = Socketed Body Armor
@@ -91,7 +101,7 @@ Note the "[Eth Bug](https://forums.d2jsp.org/topic.php?t=27584148)" which will a
 
 ## Repairs
 
-You can fully repair non-Ethereal items:
+How to repair items:
 
 ```
 Ort + Weapon = Fully Repaired Weapon
@@ -100,7 +110,7 @@ Ral + Armor = Fully Repaired Armor
 
 ## Portals
 
-You can open a portal to a secret level:
+How to open secret levels:
 
 ```
 Wirt's Leg + A Tome of Town Portal = Secret Cow Level
