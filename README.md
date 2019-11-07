@@ -24,7 +24,7 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 ## How To Install
 
 - Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
-- Install [Diablo II LOD](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) v1.12 (use this installer, you can't downgrade v1.14).
+- Install [Diablo II LOD](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) v1.12 (use this installer, don't downgrade v1.14).
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) v1.13d.
 - Install [Glide](http://www.svenswrapper.de/english/files.html) v1.4e.
 - Install [PlugY](http://plugy.free.fr/en/index.html) v11.02.
@@ -36,7 +36,7 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 If you are having errors and the install process didn't work for you, it's probably:
 
 - You aren't using v1.13d.
-- You tried to downgrade from v1.14, which you cannot do.
+- You tried to downgrade from v1.14, which you can't do.
 - You didn't merge the files properly.
 
 ### How To Limited Install
@@ -45,7 +45,7 @@ If you want to install these mods but you don't want any changes to the actual g
 
 ### How To Uninstall
 
-Delete all the files you merged through this install process and copy the files from ``_backups`` and paste them into your ``C:\your\path\to\Diablo II\`` folder.
+Delete all the files you merged through this install process and copy the files from ``_backups`` and into your ``C:\Games\Diablo II\`` folder.
 
 ## Mac OSX
 
