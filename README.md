@@ -7,7 +7,7 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 ## What's Included
 
 - [PlugY](http://plugy.free.fr/en/index.html) - adds unlimited stash, shared stash, infinite respec, all runewords.
-- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup.
+- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup, control-click items to stash.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) - 2X as likely to find uniques, 1.5X to find sets, no change to runes.
@@ -20,6 +20,8 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 - Druid
     - Shapeshifting duration increased 50%.
     - Can summon all beasts at same time.
+
+- Stack sizes increased (keys 24, scrolls 48, arrows 500).
 
 ## How To Install
 
@@ -65,11 +67,11 @@ This makes melee characters a lot easier to play.
 ## Advanced Notes
 
 - Make sure you don't have the [CPU fix](http://europebattle.net/d2/tools) installed, as BaseMod already has it.
+- BaseMod allows you to hold ``CONTROL`` and right-click items between inventory and stash (HT ubeogesh).
 - When you first select a widescreen resolution the game will crash, but only the first time.
 - When you first boot the game you will have to click settings to activate the custom loot filter.
 - The loot filter sometimes throws "invalid stat" errors in chat, but I don't think it breaks anything.
 - There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) which increases inventory size, but I didn't include it in this pack.
-- I wish I could shift-click between inventory and stash.
 
 ## Helpful Links
 
@@ -85,7 +87,7 @@ Be sure to also checkout my advice on how to properly [organize](https://github.
 ## Credits
 
 - [PlugY](http://plugy.free.fr/en/index.html) provided by [Yohann Nicolas](http://plugy.free.fr/en/index.html) (v11.02).
-- [BaseMod](https://www.dropbox.com/s/fj3f5smvxdld3kx/BaseMod106.zip) provided by [devurandom](https://d2mods.info/forum/viewtopic.php?t=65492) (v1.06).
+- [BaseMod](https://www.dropbox.com/s/vddpupz1v20zh3q/BaseMod1131.zip) provided by [devurandom](https://d2mods.info/forum/viewtopic.php?t=65492) (v1.13.1).
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
 - [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
