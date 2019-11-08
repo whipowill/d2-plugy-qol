@@ -67,11 +67,11 @@ This makes melee characters a lot easier to play.
 ## Advanced Notes
 
 - Make sure you don't have the [CPU fix](http://europebattle.net/d2/tools) installed, as BaseMod already has it.
-- BaseMod allows you to hold ``CONTROL`` and right-click items between inventory and stash (HT ubeogesh).
 - When you first select a widescreen resolution the game will crash, but only the first time.
 - When you first boot the game you will have to click settings to activate the custom loot filter.
 - The loot filter sometimes throws "invalid stat" errors in chat, but I don't think it breaks anything.
-- There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) which increases inventory size, but I didn't include it in this pack.
+- There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) that increases inventory size, but I didn't include it in this pack.
+- You can hold ``CONTROL`` and left-click items between inventory and stash (HT ubeogesh).
 
 ## Helpful Links
 
