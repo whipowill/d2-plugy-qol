@@ -1,6 +1,6 @@
 # Diablo II QOL Mod Pack
 
-This is a mod pack for Diablo II v1.13d that brings together the best quality-of-life features I have found to maximize the singleplayer experience, with the goal of enhancing the game in a limited and tasteful way.
+This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.
 
 ![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/F2wfSek.jpg)
 
@@ -12,8 +12,8 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) - 2X as likely to find uniques, 1.5X to find sets, no change to runes.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die (I play HC so I don't care about this).
-- [LootFilter](https://github.com/Synial/SynFilter/tree/cd4ab9d8b51320973c7b3df9c90b74b3d1ea8f91/xfiles) - adds the loot filter from [Path of Diablo](https://pathofdiablo.com/).
-- [MultiRes](https://drive.google.com/drive/folders/1hLbrYs_U7eVcK-bWOom_Lr2_Y839AVba) - adds widescreen resolutions to the game.
+- [LootFilter](https://github.com/Synial/SynFilter) - adds the loot filter from [Path of Diablo](https://pathofdiablo.com/).
+- [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
 
 ### Additional Changes
 
@@ -21,7 +21,7 @@ This is a mod pack for Diablo II v1.13d that brings together the best quality-of
     - Shapeshifting duration increased 50%.
     - Can summon all beasts at same time.
 
-- Stack sizes increased (keys 24, scrolls 48, arrows 500).
+- Stack sizes increased (keys 24, scrolls 48).
 
 ## How To Install
 
@@ -86,11 +86,11 @@ Be sure to also checkout my advice on how to properly [organize](https://github.
 
 ## Credits
 
-- [PlugY](http://plugy.free.fr/en/index.html) provided by [Yohann Nicolas](http://plugy.free.fr/en/index.html) (v11.02).
-- [BaseMod](https://www.dropbox.com/s/vddpupz1v20zh3q/BaseMod1131.zip) provided by [devurandom](https://d2mods.info/forum/viewtopic.php?t=65492) (v1.13.1).
-- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
-- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
-- [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
-- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) provided by [SnakeByteStudios](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/).
-- [LootFilter](https://github.com/Synial/SynFilter/tree/cd4ab9d8b51320973c7b3df9c90b74b3d1ea8f91/xfiles) provided by [Path of Diablo](https://pathofdiablo.com/).
-- [MultiRes](https://drive.google.com/drive/folders/1hLbrYs_U7eVcK-bWOom_Lr2_Y839AVba) provided by [SlashDiablo](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/).
+- [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas (v11.02).
+- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom (v1.13.1).
+- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
+- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
+- [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) by SnakeByteStudios.
+- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
+- [LootFilter](https://github.com/Synial/SynFilter) by [Path of Diablo](https://pathofdiablo.com/).
+- [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
