@@ -12,7 +12,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) - 2X as likely to find uniques, 1.5X to find sets, no change to runes.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die (I play HC so I don't care about this).
-- [LootFilter](https://github.com/Synial/SynFilter) - adds the loot filter from [Path of Diablo](https://pathofdiablo.com/).
+- [LootFilter](https://pathofdiablo.com/) - adds the loot filter from Path of Diablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
 
 ### Additional Changes
@@ -32,7 +32,8 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - Install [PlugY](http://plugy.free.fr/en/index.html) v11.02.
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as administrator and as Windows XP SP3.
 - Modify the PlugY shortcut to have ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt`` as the target.
-- Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste the files (one at a time, don't mass merge) into your D2 folder.
+- Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste into your D2 folder (one at a time, don't mass merge).
+- Download files [#1](https://d2.lc/pod.dll) and [#2](https://d2.lc/D2PoDClient.dll) and paste into your D2 folder.
 - Play the game.
 
 If you're having errors and the install process didn't work for you, it's probably:
@@ -92,5 +93,5 @@ Be sure to also checkout my advice on how to properly [organize](https://github.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
 - [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
-- [LootFilter](https://github.com/Synial/SynFilter) by [Path of Diablo](https://pathofdiablo.com/).
+- [LootFilter](https://pathofdiablo.com/) by Path of Diablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
