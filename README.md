@@ -89,7 +89,7 @@ Be sure to also checkout my advice on how to properly [organize](https://github.
 
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
-- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492&start=200) - by devurandom.
+- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492&start=200) by devurandom.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
