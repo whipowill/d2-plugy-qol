@@ -7,11 +7,11 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 ## What's Included
 
 - [PlugY](http://plugy.free.fr/en/index.html) - adds unlimited stash, shared stash, infinite respec, all runewords.
-- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup, control-click items to stash.
+- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup.
+- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492&start=200) - removes diminishing returns on magic find %.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
-- [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) - 2X as likely to find uniques, 1.5X to find sets, no change to runes.
-- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die (I play HC so I don't care about this).
+- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
 - [LootFilter](https://pathofdiablo.com/) - adds the loot filter from Path of Diablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
 
@@ -87,11 +87,11 @@ Be sure to also checkout my advice on how to properly [organize](https://github.
 
 ## Credits
 
-- [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas (v11.02).
-- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom (v1.13.1).
+- [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
+- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
+- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492&start=200) - by devurandom.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
-- [DropMod](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#betterdrops) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
 - [LootFilter](https://pathofdiablo.com/) by Path of Diablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
