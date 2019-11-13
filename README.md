@@ -61,7 +61,7 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome by p
 - On PC using [AutoHotKey](https://autohotkey.com/), run this [script](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/_macros/AutoAttack.ahk).
 - On Mac using [Keyboard Maestro](https://www.keyboardmaestro.com/main/), run this [script](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/_macros/AutoAttack.kmmacros).
 
-After importing the macros on Mac, you'll need to specify that the macro is only for use in Wine.  Also note that you won't be able to type spaces while these scripts are running, but typing ``/players8`` still works w/ no space.
+If using the Mac version, you can hit ``command-d`` to activate/deactivate the macro.  Note that you won't be able to type spaces while these scripts are running, but typing ``/players8`` still works w/ no space.
 
 This makes melee characters a lot easier to play.
 

@@ -11,10 +11,6 @@
 		<false/>
 		<key>CreationDate</key>
 		<real>561684326.69681895</real>
-		<key>FocussedWindowConditionType</key>
-		<string>TitleIs</string>
-		<key>FocussedWindowTitle</key>
-		<string>Diablo II</string>
 		<key>KeyCode</key>
 		<integer>2</integer>
 		<key>Macros</key>
@@ -27,7 +23,7 @@
 						<array>
 							<dict>
 								<key>Action</key>
-								<string>MoveAndClick</string>
+								<string>Click</string>
 								<key>Button</key>
 								<integer>0</integer>
 								<key>ClickCount</key>
@@ -53,7 +49,7 @@
 								<key>RelativeCorner</key>
 								<string>TopLeft</string>
 								<key>RestoreMouseLocation</key>
-								<false/>
+								<true/>
 								<key>VerticalPositionExpression</key>
 								<string>0</string>
 							</dict>
@@ -61,13 +57,9 @@
 								<key>MacroActionType</key>
 								<string>Pause</string>
 								<key>Time</key>
-								<string>35</string>
+								<string>.15</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
-								<key>TimeOutPeriod</key>
-								<real>120</real>
-								<key>Unit</key>
-								<string>Hundredths</string>
 							</dict>
 						</array>
 						<key>Conditions</key>
@@ -95,7 +87,7 @@
 				<key>CreationDate</key>
 				<real>561693652.07778001</real>
 				<key>ModificationDate</key>
-				<real>595293061.09648395</real>
+				<real>595313301.09675503</real>
 				<key>Name</key>
 				<string>AutoAttack</string>
 				<key>Triggers</key>
