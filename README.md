@@ -15,11 +15,20 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [LootFilter](https://pathofdiablo.com/) - adds the loot filter from Path of Diablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
 
-### Additional Changes
+### My Custom Changes
 
 - Druid
-    - Shapeshifting duration increased 50%.
-    - Can summon all beasts at same time.
+	- Shapeshifting duration increased.
+	- Can summon all beasts at same time.
+
+- Quivers
+	- All arrows are now replenishing.
+	- Magic and rare quivers are possible.
+
+- Mercenaries
+	- Act 1 - Blessed Aim
+	- Act 3 - Meditation
+	- Act 5 - Might
 
 - Stack sizes increased (keys 24, scrolls 48).
 
@@ -56,7 +65,7 @@ You can successfully install the game on Mac but you will have to use Wine in or
 
 ## Keyboard Macros
 
-This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this, I wrote a keyboard macro that lets you hold down the spacebar to move and attack.
+This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this, I wrote a keyboard macro that lets you hold down ``spacebar`` to move and attack.
 
 - On PC using [AutoHotKey](https://autohotkey.com/), run this [script](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/_macros/AutoAttack.ahk).
 - On Mac using [Keyboard Maestro](https://www.keyboardmaestro.com/main/), run this [script](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/_macros/AutoAttack.kmmacros).
@@ -72,7 +81,7 @@ This makes melee characters a lot easier to play.
 - When you first boot the game you will have to click settings to activate the custom loot filter.
 - The loot filter sometimes throws "invalid stat" errors in chat, but I don't think it breaks anything.
 - There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) that increases inventory size, but I didn't include it in this pack.
-- You can hold ``CONTROL`` and left-click items between inventory and stash (HT ubeogesh).
+- You can hold ``control`` and left-click items between inventory and stash (HT ubeogesh).
 
 ## Helpful Links
 

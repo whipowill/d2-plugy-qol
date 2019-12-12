@@ -1,0 +1,40 @@
+Name	*comment	version	spawnable	rare	level	maxlevel	levelreq	class	classlevelreq	classspecific	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transform	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	divide	multiply	add
+Fletcher's		100	1	1	1		15				3	300	skilltab	0	1	1											armo	weap													0
+Bowyer's		100	1	1	40		30				2	300	skilltab	0	2	2											armo	weap													0
+Archer's		100	1		60		45				1	300	skilltab	0	3	3											armo	weap													0
+Acrobat's		100	1	1	1		15				3	301	skilltab	1	1	1											armo	weap													0
+Gymnast's		100	1	1	40		30				2	301	skilltab	1	2	2											armo	weap													0
+Athlete's		100	1		60		45				1	301	skilltab	1	3	3											armo	weap													0
+Harpoonist's		100	1	1	1		15				3	302	skilltab	2	1	1											armo	weap													0
+Spearmaiden's		100	1	1	40		30				2	302	skilltab	2	2	2											armo	weap													0
+Lancer's		100	1		60		45				1	302	skilltab	2	3	3											armo	weap													0
+of the Jackal		100	1	1	1		3				6	303	hp		1	5											armo	weap													0
+of the Fox		100	1	1	11		8				5	303	hp		6	10											armo	weap													0
+of the Wolf		100	1	1	27		20				4	303	hp		11	20											armo	weap													0
+of the Tiger		100	1	1	43		35				3	303	hp		21	30											armo	weap													0
+of the Mammoth		100	1	1	59		51				2	303	hp		31	40											armo	weap													0
+of the Colossus		100	1		75		67				1	303	hp		41	60											armo	weap													0
+Lizard's		100	1	1	3		2				4	303	mana		1	5											armo	weap													0
+Snake's		100	1	1	12		9				3	303	mana		5	10											armo	weap													0
+Serpent's		100	1	1	23		16				2	303	mana		11	20											armo	weap													0
+Drake's		100	1	1	34		26				2	303	mana		21	30									1	cblu	armo	weap													0
+Dragon's		100	1	1	45		37				1	303	mana		31	40									1	cblu	armo	weap													0
+Wyrm's		100	1	1	56		48				1	303	mana		41	60									1	cblu	armo	weap													0
+Great Wyrm's		100	1		67		59				1	303	mana		61	80									1	cblu	armo	weap													0
+Shimmering		100	1	1	1		3				8	304	res-all		5	10											armo	weap													0
+Rainbow		100	1	1	18		13				7	304	res-all		8	15											armo	weap													0
+Scintillating		100	1	1	28		21				6	304	res-all		16	30											armo	weap													0
+Prismatic		100	1	1	39		31				5	304	res-all		25	35											armo	weap													0
+Chromatic		100	1		50		42				4	304	res-all		35	45											armo	weap													0
+Sharp		100	1	1	10		5				3	304	att		15	30	dmg%		10	20							armo	weap													0
+Fine		100	1	1	18		13				3	304	att		31	60	dmg%		21	30							armo	weap													0
+Warrior's		100	1	1	30		23				2	304	att		61	80	dmg%		31	40							armo	weap													0
+Soldier's		100	1	1	42		34				2	304	att		81	100	dmg%		41	50							armo	weap													0
+Knight's		100	1	1	50		42				2	304	att		101	121	dmg%		51	65					1	dgld	armo	weap													0
+of Blight		100	1	1	1		3				3	305	pois-min		8	8	pois-max		24	24	pois-len		75	75			armo	weap													0
+of Venom		100	1	1	15		11				2	305	pois-min		16	16	pois-max		48	48	pois-len		75	75			armo	weap													0
+of Pestilence		100	1	1	25		18				2	305	pois-min		32	32	pois-max		72	72	pois-len		100	100			armo	weap													0
+of Anthrax		100	1		33		25				2	305	pois-min		64	64	pois-max		128	128	pois-len		100	100			armo	weap													0
+Tinkerer’s		0	1	1	1		1				3	350	rep-quant	33													bowq	xboq													0
+Engineer’s		0	1	1	40		1				2	350	rep-quant	66													bowq	xboq													0
+Quartermaster’s		0	1	1	60		1				1	350	rep-quant	99													bowq	xboq													0
