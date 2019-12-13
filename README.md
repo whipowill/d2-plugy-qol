@@ -31,7 +31,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Magic and rare quivers are possible.
 
 - Drops
-	- Chests are more likely to drop loot.
+	- Chests are less likely to nodrop.
 	- Countess always drops 3 runes.
 
 ## How To Install
