@@ -21,16 +21,20 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Shapeshifting duration increased.
 	- Can summon all beasts at same time.
 
-- Quivers
-	- All arrows are now replenishing.
-	- Magic and rare quivers are possible.
-
 - Mercenaries
 	- Act 1 - Blessed Aim
 	- Act 3 - Meditation
 	- Act 5 - Might
 
-- Stack sizes increased (keys 24, scrolls 48).
+- Quivers
+	- Arrows and bolts are replenishing.
+	- Magic and rare quivers are possible.
+
+- Drops
+	- Chests are more likely to drop loot.
+	- Countess always drops 3 runes.
+
+These game changes are optional.  If you'd like to read more about these changes and why I made them you can reference my Git [repository](https://github.com/whipowill/d2-113c-txt-changes) where I do my testing.  You'll be able see exactly what was edited in the gamefiles.  I welcome any feedback if you guys have any opinions.
 
 ## How To Install
 
@@ -53,7 +57,7 @@ If you're having errors and the install process didn't work for you, it's probab
 
 ### How To Limited Install
 
-If you want to install these mods but you don't want any changes to the actual gameplay (no changes to drops or skills), then delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
+If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes), then delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
 
 ### How To Uninstall
 
