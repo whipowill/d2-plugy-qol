@@ -29,12 +29,6 @@ ItemDisplay[MAG EXC]: %RED%0 %BLUE%%NAME%%CONTINUE%
 ItemDisplay[MAG ELT]: %PURPLE%0 %BLUE%%NAME%%CONTINUE%
 ItemDisplay[MAG (rin OR amu OR jew OR aqv OR cqv))]: %GRAY%0 %BLUE%%NAME%%CONTINUE%
 
-// Desirable Base Items (Monarch) (Matriarch, Grand Matron) (Dusk Shroud, Archon Plate, Mage Plate) (Threshers, Giant Threshers) (Scourge, Berserkers, Crystal, Phase, Collosus, Greater Talons)
-//ItemDisplay[NMAG (uit OR (amb OR amc) OR (uui OR utp OR xtp) OR (7s8 OR 7wc OR 7p7) OR (7fl OR 7wa OR crs OR 7cr OR 7gd OR 9tw))]: %DGREEN%%NAME%%CONTINUE%
-
-// Class Specific Items
-ItemDisplay[NMAG (EQ7 OR CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7)]: %DGREEN%%NAME%%CONTINUE%
-
 // White Items
 ItemDisplay[NMAG NORM]: %GRAY%0 %WHITE%%NAME%%CONTINUE%
 ItemDisplay[NMAG EXC]: %RED%0 %WHITE%%NAME%%CONTINUE%
@@ -43,24 +37,6 @@ ItemDisplay[NMAG ELT]: %PURPLE%0 %WHITE%%NAME%%CONTINUE%
 // Add ethereality and sockets
 ItemDisplay[ETH]: %NAME% %GRAY%(eth)%GRAY%%CONTINUE%
 ItemDisplay[SOCK>0]: %NAME% %GRAY%(%SOCKETS%)%GRAY%%CONTINUE%
-
-// Add Icon to Item w/ Skill
-ItemDisplay[ALLSK>0 OR CLSK0>0 OR CLSK1>0 OR CLSK2>0 OR CLSK3>0 OR CLSK4>0 OR CLSK5>0 OR CLSK6>0 OR TABSK0>0 OR TABSK0>1 OR TABSK0>2 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0]: %NAME% %GRAY%(skill)%GRAY%%CONTINUE%
-
-// Add Icon to Item w/ Faster Cast Rate or Faster Attack Speed
-ItemDisplay[FCR>0 OR IAS>0]: %NAME% %GRAY%(fast)%GRAY%%CONTINUE%
-
-// Add Icon to Item w/ Resistance
-ItemDisplay[RES>0 OR ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0]: %NAME% %GRAY%(resist)%GRAY%%CONTINUE%
-
-// Add Icon to Item w/ Life or Mana Leach
-ItemDisplay[ITEMSTAT60>0 OR ITEMSTAT62>0]: %NAME% %GRAY%(leech)%GRAY%%CONTINUE%
-
-// Add Icon to Item w/ Magic Find
-ItemDisplay[ITEMSTAT80>0]: %NAME% %GRAY%(magic)%GRAY%%CONTINUE%
-
-// Add Icon to Item w/ Gold Find
-ItemDisplay[ITEMSTAT79>0]: %NAME% %GRAY%(gold)%GRAY%%CONTINUE%
 
 //=================================================
 // CONSUMABLES
