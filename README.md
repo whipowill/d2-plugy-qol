@@ -34,8 +34,6 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Chests are more likely to drop loot.
 	- Countess always drops 3 runes.
 
-These game changes are optional.  If you'd like to read more about these changes and why I made them you can reference my Git [repository](https://github.com/whipowill/d2-113c-txt-changes) where I do my testing.  You'll be able see exactly what was edited in the gamefiles.  I welcome any feedback if you guys have any opinions.
-
 ## How To Install
 
 - Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
