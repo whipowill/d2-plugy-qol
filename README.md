@@ -30,10 +30,6 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Arrows and bolts are replenishing.
 	- Magic and rare quivers are possible.
 
-- Drops
-	- Chests are less likely to nodrop.
-	- Countess always drops 3 runes.
-
 ## How To Install
 
 - Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
