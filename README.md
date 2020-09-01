@@ -33,7 +33,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## How To Install
 
-- Purchase [keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
+- Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) v1.12 (use this installer, don't downgrade v1.14).
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) v1.13d.
 - Install [Glide](http://www.svenswrapper.de/english/files.html) v1.4e.
