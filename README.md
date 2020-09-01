@@ -12,7 +12,8 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
-- [LootFilter](https://pathofdiablo.com/) - adds the loot filter from Path of Diablo.
+- [MapHack](https://github.com/youbetterdont/bhconfig/wiki/User-Guide) - shows the entire map w/ monsters and chests (optional).
+- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filters items and get notified about drops (optional).
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
 
 ### My Custom Changes
@@ -32,22 +33,23 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## How To Install
 
-- Purchase [registration keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
-- Install [Diablo II LOD](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) v1.12 (use this installer, don't downgrade v1.14).
+- Purchase [keys](https://us.shop.battle.net/en-us/family/diablo-ii) from Blizzard.
+- Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) v1.12 (use this installer, don't downgrade v1.14).
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) v1.13d.
 - Install [Glide](http://www.svenswrapper.de/english/files.html) v1.4e.
 - Install [PlugY](http://plugy.free.fr/en/index.html) v11.02.
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as administrator and as Windows XP SP3.
 - Modify the PlugY shortcut to have ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt`` as the target.
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste into your D2 folder (one at a time, don't mass merge).
-- Download files [#1](https://d2.lc/pod.dll) and [#2](https://d2.lc/D2PoDClient.dll) and paste into your D2 folder.
-- Play the game.
+- Play the game by launching ``Plugy.exe``.
+- Modify the lootfilter and maphack settings by clicking the BH button.
 
 If you're having errors and the install process didn't work for you, it's probably:
 
 - You aren't using v1.13d.
 - You tried to downgrade from v1.14, which you can't do.
 - You didn't merge the files properly.
+- You're missing the ``StormLib.dll`` file.
 
 ### How To Limited Install
 
@@ -55,34 +57,28 @@ If you want to install these mods but you don't want any changes to the actual g
 
 ### How To Uninstall
 
-Delete all the files you merged through this install process and copy the files from ``_backups`` and into your ``C:/Games/Diablo II/`` folder.
+Delete all the files you merged through this install process and copy the files from ``_backups`` into your ``C:/Games/Diablo II/`` folder.
 
-## Mac OSX
+### Mac OSX
 
-You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  The best tutorial for doing this can be found [here](https://gist.github.com/whipowill/8f9a117895f2927cd6b52ccc611c8266).
+You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written instructions which can be found [here](https://gist.github.com/whipowill/8f9a117895f2927cd6b52ccc611c8266).
 
 ## Keyboard Macros
 
-This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this, I wrote a keyboard macro that lets you hold down ``spacebar`` to move and attack.
+This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this, I wrote a keyboard macro that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
 
-- On PC using [AutoHotKey](https://autohotkey.com/), run this [script](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/_macros/AutoAttack.ahk).
-- On Mac using [Keyboard Maestro](https://www.keyboardmaestro.com/main/), run this [script](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/_macros/AutoAttack.kmmacros).
-
-If using the Mac version, you can hit ``command-d`` to activate/deactivate the macro.  Note that you won't be able to type spaces while these scripts are running, but typing ``/players8`` still works w/ no space.
-
-This makes melee characters a lot easier to play.
+[Click here to download the Auto Attack keyboard macro](https://github.com/whipowill/ahk-autoattack).
 
 ## Advanced Notes
 
-- Make sure you don't have the [CPU fix](http://europebattle.net/d2/tools) installed, as BaseMod already has it.
+- Make sure you don't have the [CPU fix](http://europebattle.net/d2/tools) installed.
 - When you first select a widescreen resolution the game will crash, but only the first time.
-- When you first boot the game you will have to click settings to activate the custom loot filter.
-- The loot filter sometimes throws "invalid stat" errors in chat, but I don't think it breaks anything.
 - There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) that increases inventory size, but I didn't include it in this pack.
-- You can hold ``control`` and left-click items between inventory and stash (HT ubeogesh).
+- You can hold ``control`` and left-click items between inventory and stash (HT ubeogesh).  If you hold down ``shift`` the game will crash due to a mods conflict.
 
 ## Helpful Links
 
+- [Arq Backup](https://www.arqbackup.com/) - Recommended app for backing up your save files.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
@@ -90,7 +86,7 @@ This makes melee characters a lot easier to play.
 - [Reddit Community](https://www.reddit.com/r/diablo2/) - A Reddit forum for the fans of D2.
 - [Bugs List](https://us.battle.net/forums/en/d3/topic/6037267083) - A list of all the bugs in the game.
 
-Be sure to also checkout my advice on how to properly [organize](https://github.com/whipowill/d2-plugy-qol/blob/master/STASH.md) your PlugY stash.
+Be sure to checkout my advice on how to properly [organize](https://github.com/whipowill/d2-plugy-qol/blob/master/STASH.md) your PlugY stash.
 
 ## Credits
 
@@ -100,5 +96,11 @@ Be sure to also checkout my advice on how to properly [organize](https://github.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
-- [LootFilter](https://pathofdiablo.com/) by Path of Diablo.
+- [MapHack](https://github.com/youbetterdont/slashdiablo-maphack) by SlashDiablo.
+- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) by SlashDiablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
+
+## Changelog
+
+- 2020-09-01 - Replaced loot filter.
+- 2019-11-01 - Original release.
