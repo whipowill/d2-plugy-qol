@@ -59,7 +59,7 @@ If you want to install these mods but you don't want any changes to the actual g
 
 Delete all the files you merged through this install process and copy the files from ``_backups`` into your ``C:/Games/Diablo II/`` folder.
 
-### Mac OSX
+### How To Install on Mac OSX
 
 You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written instructions which can be found [here](https://gist.github.com/whipowill/8f9a117895f2927cd6b52ccc611c8266).
 
