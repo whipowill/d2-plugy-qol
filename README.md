@@ -38,11 +38,11 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) v1.13d.
 - Install [Glide](http://www.svenswrapper.de/english/files.html) v1.4e.
 - Install [PlugY](http://plugy.free.fr/en/index.html) v11.02.
-- Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as administrator and as Windows XP SP3.
+- Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as admin and as Windows XP.
 - Modify the PlugY shortcut to have ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt`` as the target.
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste into your D2 folder (one at a time, don't mass merge).
-- Play the game by launching ``Plugy.exe``.
-- Modify the lootfilter and maphack settings by clicking the BH button.
+- Launch the game by running ``Plugy.exe``.
+- Modify the loot filter settings by clicking the BH button.
 
 If you're having errors and the install process didn't work for you, it's probably:
 
@@ -59,34 +59,46 @@ If you want to install these mods but you don't want any changes to the actual g
 
 Delete all the files you merged through this install process and copy the files from ``_backups`` into your ``C:/Games/Diablo II/`` folder.
 
-### How To Install on Mac OSX
+### How To Install On Mac OSX
 
 You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written instructions which can be found [here](https://gist.github.com/whipowill/8f9a117895f2927cd6b52ccc611c8266).
 
-## Keyboard Macros
-
-This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this, I wrote a keyboard macro that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
-
-[Click here to download the Auto Attack keyboard macro](https://github.com/whipowill/ahk-autoattack).
-
 ## Advanced Notes
 
-- Make sure you don't have the [CPU fix](http://europebattle.net/d2/tools) installed.
 - When you first select a widescreen resolution the game will crash, but only the first time.
-- There is a [StashMod](https://www.moddb.com/games/diablo-2-lod/addons/10x10-stash-mod-lod-113d-compatible) that increases inventory size, but I didn't include it in this pack.
-- You can hold ``control`` and left-click items between inventory and stash (HT ubeogesh).  If you hold down ``shift`` the game will crash due to a mods conflict.
+- You can ``control-leftclick`` items between inventory and stash (HT ubeogesh).
+
+### How To Use The Loot Filter
+
+This loot filter uses the ``BH.cfg`` file which I have customized for my purposes.  You can try the [default](https://github.com/youbetterdont/bhconfig) filter from the original team which includes more features, but wasn't to my taste.
+
+I wanted to keep the loot filter as simple as possible, and using the ingame panel you should set the ping to ``Tier 6`` and set the filter to your desired level:
+
+- 0 - ``Off``
+- 1 - ``Light`` - filters white items (lesser potions, lesser gems, most whites).
+- 2 - ``Moderate`` - filters white and blue items (lesser potions, lesser gems, most whites, most blues).
+- 3 - ``Aggressive`` - filters white, blue, and rare items (most potions, most gems, most whites, most blues, most rares).
+
+No matter what setting you use: runes, charms, jewels, higher gems, craftable magic rings/ammys/gloves/boots/belts, magic/rare quivers, suitable base white items, set items, unique items, and certain rare items are never filtered out.
+
+You can inspect the config file to see exactly what is filtered out by searching the string ``FILTLVL``.  If I screwed up anything in this loot filter just open a ticket and let me know where I went wrong.
+
+### How To Use Keyboard Macros
+
+This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.
+
+To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack (for PC and Mac).  This makes melee characters a lot easier to play.
 
 ## Helpful Links
 
-- [Arq Backup](https://www.arqbackup.com/) - Recommended app for backing up your save files.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - A fan website w/ helpful information about the game.
 - [Reddit Community](https://www.reddit.com/r/diablo2/) - A Reddit forum for the fans of D2.
+- [Stash Tips](https://github.com/whipowill/d2-plugy-qol/blob/master/STASH.md) - Tips on how to organize your PlugY stash.
+- [Arq Backup](https://www.arqbackup.com/) - Recommended app for backing up your save files.
 - [Bugs List](https://us.battle.net/forums/en/d3/topic/6037267083) - A list of all the bugs in the game.
-
-Be sure to checkout my advice on how to properly [organize](https://github.com/whipowill/d2-plugy-qol/blob/master/STASH.md) your PlugY stash.
 
 ## Credits
 
