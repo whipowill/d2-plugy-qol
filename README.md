@@ -75,7 +75,7 @@ This loot filter uses the ``BH.cfg`` file which I have customized for my purpose
 I wanted to keep the loot filter as simple as possible, and using the ingame panel you should set the ping to ``Tier 6`` and set the filter to your desired level:
 
 - ``Off``
-- ``Light`` - filters white items (lesser potions/gems + most whites).
+- ``Minimal`` - filters white items (lesser potions/gems + most whites).
 - ``Moderate`` - filters white and blue items (lesser potions/gems + most whites/blues).
 - ``Aggressive`` - filters white, blue, and rare items (lesser potions/gems + most whites/blues/rares).
 
