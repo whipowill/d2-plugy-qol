@@ -34,10 +34,10 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 ## How To Install
 
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
-- Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) ``v1.12`` (use this installer, don't downgrade ``v1.14``).
-- Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) ``v1.13d``.
-- Install [Glide](http://www.svenswrapper.de/english/files.html) ``v1.4e``.
-- Install [PlugY](http://plugy.free.fr/en/index.html) ``v11.02``.
+- Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``.
+- Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``.
+- Install [Glide](http://www.svenswrapper.de/english/files.html) - ``v1.4e``.
+- Install [PlugY](http://plugy.free.fr/en/index.html) - ``v11.02``.
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as admin and as Windows XP.
 - Modify the PlugY shortcut to have ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt`` as the target.
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste into your D2 folder (one at a time, don't mass merge).
@@ -75,11 +75,11 @@ This loot filter uses the ``BH.cfg`` file which I have customized for my purpose
 I wanted to keep the loot filter as simple as possible, and using the ingame panel you should set the ping to ``Tier 6`` and set the filter to your desired level:
 
 - ``Off``
-- ``Light`` - filters white items (lesser potions, lesser gems, most whites).
-- ``Moderate`` - filters white and blue items (lesser potions, lesser gems, most whites, most blues).
-- ``Aggressive`` - filters white, blue, and rare items (most potions, most gems, most whites, most blues, most rares).
+- ``Light`` - filters white items (lesser potions/gems + most whites).
+- ``Moderate`` - filters white and blue items (lesser potions/gems + most whites/blues).
+- ``Aggressive`` - filters white, blue, and rare items (lesser potions/gems + whites/blues/rares).
 
-No matter what setting you use: runes, charms, jewels, higher gems, set items, unique items, certain rare items, craftable magic items, and suitable base white items are never filtered out.
+No matter what setting you use: runes, charms, jewels, higher gems, set items, unique items, special rare items, craftable magic items, and suitable base white items are never filtered out.
 
 You can inspect the config file to see exactly what is filtered out by searching the string ``FILTLVL``.  If I screwed up anything in this loot filter just open a ticket and let me know where I went wrong.
 
