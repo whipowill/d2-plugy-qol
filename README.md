@@ -77,7 +77,7 @@ I wanted to keep the loot filter as simple as possible, and using the ingame pan
 - ``Off``
 - ``Light`` - filters white items (lesser potions/gems + most whites).
 - ``Moderate`` - filters white and blue items (lesser potions/gems + most whites/blues).
-- ``Aggressive`` - filters white, blue, and rare items (lesser potions/gems + whites/blues/rares).
+- ``Aggressive`` - filters white, blue, and rare items (lesser potions/gems + most whites/blues/rares).
 
 No matter what setting you use: runes, charms, jewels, higher gems, set items, unique items, special rare items, craftable magic items, and suitable base white items are never filtered out.
 
