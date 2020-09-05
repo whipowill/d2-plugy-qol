@@ -836,9 +836,9 @@ Durielq (H)			5					0	tsc	1	Durielq (H) - Base	2																				0
 ROP			1	1024				0	Diablo	1																						0
 ROP (N)			1	1024				0	Diablo (N)	4	Annihilus	1																				0
 ROP (H)			1	1024				0	Annihilus	1																						0
-Countess Rune			3					0	Runes 4	15																						0
-Countess Rune (N)			3					0	Runes 8	15																						0
-Countess Rune (H)			3					0	Runes 12	15																						0
+Countess Rune			3					0	Runes 10	15																						0
+Countess Rune (N)			3					0	Runes 13	15																						0
+Countess Rune (H)			3					0	Runes 16	15																						0
 Countess Item			5					19	"gld,mul=1280"	11	Act 1 Equip C	19	Act 2 Junk	15	Act 2 Good	3																0
 Countess Item (N)			5					19	"gld,mul=1536"	11	Act 1 (N) Equip C	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
 Countess Item (H)			5					19	"gld,mul=2048"	11	Act 1 (H) Equip C	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	pk1	1														0
