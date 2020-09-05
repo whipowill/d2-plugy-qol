@@ -16,7 +16,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filters items and get notified about drops (optional).
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
 
-### My Custom Changes
+### Custom Changes
 
 - Stacks
 	- Keys stack to 24
@@ -31,20 +31,17 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Strafe no longer makes grunting sound
 
 - Quivers
-	- Arrows and Bolts are replenishing (5 seconds)
-	- Magic and Rare quivers are possible
+	- Arrows and bolts are replenishing
+	- Magic and rare quivers are possible
 
 - Mercenaries
-	- Act 1 - Blessed Aim + Exploding / Ice Arrow
+	- Act 1 - Blessed Aim
 	- Act 3 - Meditation
 	- Act 5 - Might
 
 - Drops
 	- Chest ``nodrop`` chances are decreased 50%
-	- Countess always drops 3 runes and the drop table is increased
-		- Normal drops up to Lem (20)
-		- Nightmare drops up to Vex (26)
-		- Hell drops up to Cham (32)
+	- Countess always drops 3 runes
 
 ## How To Install
 
