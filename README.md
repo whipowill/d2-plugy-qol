@@ -40,7 +40,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Act 5 - Might
 
 - Drops
-	- Chest ``nodrop`` chances are decreased 50%
+	- Chest ``nodrop`` chances are decreased
 	- Countess always drops 3 runes
 
 ## How To Install
