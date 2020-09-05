@@ -2,7 +2,7 @@
 
 This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.
 
-![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/F2wfSek.jpg)
+![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/D1CKhA2.jpg)
 
 ## What's Included
 
@@ -41,7 +41,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Drops
 	- Chest ``nodrop`` chances are decreased
-	- Countess always drops 3 runes
+	- Countess always drops 3 runes and the drop table is increased
 
 ## How To Install
 
@@ -51,9 +51,9 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - Install [Glide](http://www.svenswrapper.de/english/files.html) - ``v1.4e``
 - Install [PlugY](http://plugy.free.fr/en/index.html) - ``v11.02``
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as admin and as Windows XP.
-- Modify the PlugY shortcut to have ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt`` as the target.
+- Make a ``PlugY.exe`` shortcut w/ target ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -3dfx -direct -txt``.
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and paste into your D2 folder (one at a time, don't mass merge).
-- Launch the game by running ``PlugY.exe``.
+- Launch the game by running the ``PlugY.exe`` shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
 If you're having errors and the install process didn't work for you, it's probably:
