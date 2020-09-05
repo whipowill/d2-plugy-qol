@@ -8,11 +8,11 @@ This is the best way I've come up w/ to organize my PlugY stash.  This format tr
 - Page 10 - Runes
 - Page 20 - Gems
 - Page 30 - Jewels
-- Page 40 - Charms (Small)
-- Page 50 - Charms (Large)
+- Page 40 - Rings
+- Page 50 - Amulets
 - Page 60 - Charms (Grand)
-- Page 70 - Rings
-- Page 80 - Amulets
+- Page 70 - Charms (Small)
+- Page 80 - Charms (Large)
 - Page 90 - Potions
 
 ## Pages 100-199 - Rares

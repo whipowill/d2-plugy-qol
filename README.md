@@ -18,18 +18,33 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ### My Custom Changes
 
+- Stacks
+	- Keys stack to 24
+	- Scrolls stack to 48
+	- Quivers stack to 480
+
 - Druid
-	- Shapeshifting duration increased.
-	- Can summon all beasts at same time.
+	- Shapeshifting duration increased
+	- Can summon all beasts at same time
+
+- Amazon
+	- Strafe no longer makes grunting sound
+
+- Quivers
+	- Arrows and Bolts are replenishing (5 seconds)
+	- Magic and Rare quivers are possible
 
 - Mercenaries
-	- Act 1 - Blessed Aim
+	- Act 1 - Blessed Aim + Exploding / Ice Arrow
 	- Act 3 - Meditation
 	- Act 5 - Might
 
-- Quivers
-	- Arrows and bolts are replenishing.
-	- Magic and rare quivers are possible.
+- Drops
+	- Chest ``nodrop`` chances are decreased 50%
+	- Countess always drops 3 runes and the drop table is increased
+		- Normal drops up to Lem (20)
+		- Nightmare drops up to Vex (26)
+		- Hell drops up to Cham (32)
 
 ## How To Install
 
@@ -75,11 +90,11 @@ This loot filter uses the ``BH.cfg`` file which I have customized for my purpose
 I wanted to keep the loot filter as simple as possible, and using the ingame panel you should set the ping to ``Tier 6`` and set the filter to your desired level:
 
 - ``Off``
-- ``Minimal`` - filters white items (lesser potions/gems + most whites).
-- ``Moderate`` - filters white and blue items (lesser potions/gems + most whites/blues).
-- ``Aggressive`` - filters white, blue, and rare items (lesser potions/gems + most whites/blues/rares).
+- ``Minimal`` - filters white items (lesser potions + most whites).
+- ``Moderate`` - filters white and blue items (lesser potions + most whites/blues).
+- ``Aggressive`` - filters white, blue, and rare items (lesser potions + most whites/blues/rares).
 
-No matter what setting you use: runes, charms, jewels, higher gems, set items, unique items, special rare items, craftable magic items, and suitable base white items are never filtered out.
+No matter what setting you use: runes, charms, jewels, gems, set items, unique items, special rare items, craftable magic items, and eligable white items are never filtered out.
 
 You can inspect the config file to see exactly what is filtered out by searching the string ``FILTLVL``.  If I screwed up anything in this loot filter just open a ticket and let me know where I went wrong.
 
@@ -94,11 +109,12 @@ To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoa
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
-- [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - A fan website w/ helpful information about the game.
-- [Reddit Community](https://www.reddit.com/r/diablo2/) - A Reddit forum for the fans of D2.
+- [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - Fan website w/ helpful information about the game.
+- [Reddit Community](https://www.reddit.com/r/diablo2/) - Reddit forum for the fans of D2.
 - [Arq Backup](https://www.arqbackup.com/) - Recommended app for backing up your save files.
-- [Stash Tips](https://github.com/whipowill/d2-plugy-qol/blob/master/STASH.md) - Tips on how to organize your PlugY stash.
-- [Bugs List](https://us.battle.net/forums/en/d3/topic/6037267083) - A list of all the bugs in the game.
+- [Base Items](https://www.reddit.com/r/diablo2/comments/8lrl5a/overview_of_best_bases/) - Recommended base items for Runewords.
+- [Stash Tips](https://github.com/whipowill/d2-plugy-qol/blob/master/STASH.md) - How to organize your PlugY stash.
+- [Bugs List](https://us.battle.net/forums/en/d3/topic/6037267083) - List of all the bugs in the game.
 
 ## Credits
 
