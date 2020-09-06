@@ -41,7 +41,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Drops
 	- Chest ``nodrop`` chances are decreased
-	- Countess always drops 3 runes and the drop table is increased
+	- Countess always drops 3 runes
 
 ## How To Install
 
