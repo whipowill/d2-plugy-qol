@@ -51,18 +51,9 @@ How to upgrade runes:
 
 ## Accessories
 
-How to upgrade rings, amulets, and charms:
+How to upgrade charms:
 
 ```
-3 Magic Rings = Random Magic Amulet
-3 Magic Amulets = Random Magic Ring
-
-6 Perfect Gems (1 of each type) + 1 Amulet (Magic) = Prismatic Amulet // All Resistances +16-20
-1 Magic Ring + 1 Perfect Emerald + 1 Antidote Potion = 1 Jade Ring // Poison Resistance +21-30
-1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion = 1 Garnet Ring // Fire Resistance +21-30
-1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion = 1 Coral Ring // Lightning Resistance +21-30
-1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion = 1 Cobalt Ring // Cold Resistance +21-30
-
 3 Perfect Gems (of any type) + 1 Magic Item = 1 New Random Magic Item of the Same Type // Upgrade Charms
 ```
 

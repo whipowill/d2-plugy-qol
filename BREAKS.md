@@ -1,6 +1,6 @@
 # Breakpoints
 
-A list of the frame breakpoints in the game, as taken from this forum [post](https://forums.d2jsp.org/topic.php?t=2450747).
+A list of the frame breakpoints in the game, as taken from this forum [post](https://forums.d2jsp.org/topic.php?t=2450747):
 
 ## FASTER HIT RECOVERY (FHR)
 

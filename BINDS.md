@@ -1,6 +1,6 @@
 # Keybinds
 
-Here are the keybind settings that I use.
+Here are the keybind settings that I use:
 
 ```
 - Character Screen - X
