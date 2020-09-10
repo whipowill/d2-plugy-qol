@@ -39,9 +39,10 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Act 3 - Meditation
 	- Act 5 - Might
 
-- Drops
-	- Chest ``nodrop`` chances are decreased
+- Misc
 	- Countess always drops 3 runes
+	- Chest ``nodrop`` chances are decreased
+	- Deckard Cain relocated in Act 5 town (this is huge)
 
 ## How To Install
 
