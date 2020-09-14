@@ -136,6 +136,6 @@ To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoa
 
 ## Changelog
 
-- ``2020-09-14`` - Made ``PlugY``, ``Glide``, and ``DDraw`` preinstalled.
-- ``2020-09-01`` - Replaced loot filter.
+- ``2020-09-14`` - Make ``PlugY``, ``Glide``, and ``DDraw`` preinstalled.
+- ``2020-09-01`` - Replace loot filter.
 - ``2019-11-01`` - Original release.
