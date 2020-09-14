@@ -71,7 +71,7 @@ $ d2plugy
 
 If you're using Wine you'll have to use the command line.
 
-Run the ``glide-init.exe`` executable:
+- Run the ``glide-init.exe`` executable:
 ```bash
 $ cd ~/.wine_d2plugy/drive_c/games/diablo\ ii
 $ WINEPREFIX=~/.wine_d2plugy wine glide-init.exe
