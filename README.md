@@ -107,12 +107,9 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome by p
 
 To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack (for PC and Mac).  This makes melee characters a lot easier to play.
 
-## Community & Help Desk
-
-- [Discord](https://discord.gg/DK2pGF) - A channel for D2QOL players.
-
 ## Helpful Links
 
+- [Discord](https://discord.gg/DK2pGF) - A channel for D2QOL players.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
