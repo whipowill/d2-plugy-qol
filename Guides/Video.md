@@ -14,11 +14,8 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 - Open ``regedit`` on your Windows machine:
 	- Navigate to ``HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig``.
 	- Change the ``Render`` value to zero.
-- Modify your game shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect ``).
-
-### PlugY
-
-If you're using PlugY you'll need to make sure the files to the right locations:
+- Modify your PlugY shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect ``).
+- When using PlugY you need to make sure the files to the right locations:
 
 - ``C:/Games/Diablo II/ddraw.dll``
 - ``C:/Games/Diablo II/Mod PlugY/ddraw.ini``
@@ -69,7 +66,7 @@ $ d2plugy
 		- Turn on ``no gamma``.
 	- On the ``Extensions`` tab:
 		- Turn on ``MGL_EXT_swap_control``.
-- Modify your game shortcut target to include ``-w -3dfx -nofixaspect -direct -txt``.
+- Modify your PlugY shortcut target to include ``-w -3dfx -nofixaspect -direct -txt``.
 
 ### Wine
 
