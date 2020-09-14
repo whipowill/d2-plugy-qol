@@ -16,7 +16,6 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 	- Change the ``Render`` value to zero.
 - Modify your PlugY shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect ``).
 - When using PlugY you need to make sure the files to the right locations:
-
 - ``C:/Games/Diablo II/ddraw.dll``
 - ``C:/Games/Diablo II/Mod PlugY/ddraw.ini``
 - ``C:/Games/Diablo II/Shaders/``
