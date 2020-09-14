@@ -56,8 +56,8 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as admin and as Windows XP.
 - Make a ``PlugY.exe`` shortcut on your desktop w/ a modified target:
-	- If using ``DDraw`` modify the target to be ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``.
-	- If using ``Glide`` modify the target to be ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``.
+	- If using ``DDraw`` - ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``.
+	- If using ``Glide`` - ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``.
 - Launch the game by running the ``PlugY`` shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
