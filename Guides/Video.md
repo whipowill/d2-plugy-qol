@@ -28,13 +28,13 @@ If you're using Wine you'll have to use the command line.
 
 - Edit the registry:
 ```bash
-$ WINEPREFIX=~/.wine_d2 regedit
+$ WINEPREFIX=~/.wine_d2plugy regedit
 > Navigate to HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig.
 > Change the Render value to zero.
 ```
 - Edit the Wine config:
 ```bash
-$ WINEPREFIX=~/.wine_d2 winecfg
+$ WINEPREFIX=~/.wine_d2plugy winecfg
 > On the Applications tab, run as Windows XP.
 > On the Libraries tab, add override for "ddraw".
 ```
@@ -73,8 +73,8 @@ If you're using Wine you'll have to use the command line.
 
 Run the ``glide-init.exe`` executable:
 ```bash
-$ cd ~/.wine_d2/drive_c/games/diablo\ ii
-$ WINEPREFIX=~/.wine_d2 wine glide-init.exe
+$ cd ~/.wine_d2plugy/drive_c/games/diablo\ ii
+$ WINEPREFIX=~/.wine_d2plugy wine glide-init.exe
 ```
 - Modify your Terminal alias:
 ```bash
