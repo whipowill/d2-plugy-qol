@@ -8,8 +8,8 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 
 ## DDraw
 
-- Download the official [release](https://github.com/CnCNet/cnc-ddraw/releases) (``v1.3.5``).
-- Download my updated [config](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/Diablo II/Mod Plugy/ddraw.ini) file customized for D2.
+- Download the official [release](https://github.com/CnCNet/cnc-ddraw/releases).
+- Download my updated [config](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/Diablo%20II/Mod%20Plugy/ddraw.ini) file customized for D2.
 - Copy the files into your D2 directory.
 - Open ``regedit`` on your Windows machine:
 	- Navigate to ``HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig``.
@@ -51,7 +51,7 @@ $ d2plugy
 
 ## Glide
 
-- Download the official [release](http://www.svenswrapper.de/english/files.html) (``v.1.4e``).
+- Download the official [release](http://www.svenswrapper.de/english/files.html).
 - Copy the files into your D2 directory.
 - Run the ``glide-init.exe`` file and modify the settings:
 	- Switch to ``English``.
