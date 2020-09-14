@@ -9,7 +9,7 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 ## DDraw
 
 - Download the [v1.3.5](https://github.com/CnCNet/cnc-ddraw/releases) files.
-- Download my updated [config](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/Diablo%20II/Mod%20Plugy/ddraw.ini) file customized for D2.
+- Download my updated [config](https://github.com/whipowill/d2-plugy-qol/blob/master/Diablo%20II/Mod%20PlugY/ddraw.ini) file customized for D2.
 - Copy the files into your D2 directory.
 - Open ``regedit`` on your Windows machine:
 	- Navigate to ``HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig``.
