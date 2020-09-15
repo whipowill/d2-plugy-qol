@@ -28,9 +28,6 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Shapeshifting duration increased
 	- Can summon all beasts at same time
 
-- Amazon
-	- Strafe no longer makes grunting sound
-
 - Quivers
 	- Arrows and bolts are replenishing
 	- Magic and rare quivers are possible
@@ -109,7 +106,7 @@ To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoa
 
 ## Helpful Links
 
-- [Discord](https://discord.gg/DK2pGF) - A channel for D2QOL players.
+- [Discord](https://discord.gg/DK2pGF) - Community and helpdesk for D2QOL players.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
