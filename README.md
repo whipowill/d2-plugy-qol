@@ -1,6 +1,6 @@
 # Diablo II QOL Mod Pack
 
-This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.  Join me on [Discord](https://discord.gg/DK2pGF) for a community of D2QOL players.
+This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.  Join me on [Discord](https://discord.gg/KjDU67x) for a community of D2QOL players.
 
 ![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/D1CKhA2.jpg)
 
@@ -106,7 +106,7 @@ To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoa
 
 ## Helpful Links
 
-- [Discord](https://discord.gg/DK2pGF) - Community and helpdesk for D2QOL players.
+- [Discord](https://discord.gg/KjDU67x) - Community and helpdesk for D2QOL players.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
