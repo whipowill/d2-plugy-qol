@@ -1,11 +1,23 @@
 # D2QOL | Trade
 
-The following rules apply for trading between remote players:
+How to trade w/ remote players on PlugY SP Diablo II.
 
-- A new mule character is created.
-- The item for trade is placed in the character inventory.
-- Both parties transmit their respective ``D2S`` save files.
-- Both parties open the recieved save files to inspect the contents.
-- If the trade was conducted honestly, the players delete the temp characters.
-- If the trade was conducted dishonestly, the players retrieve their original items.
-- No duping of items is allowed under any circumstances.
+Join our [Discord](https://discord.gg/KjDU67x) server and post to the ``#trading`` board to find potential trades.
+
+## Pre Trade
+
+- Find someone willing to trade with you.
+- Remind them that cheaters go to Hell.
+
+## Trade
+
+- Create a new mule character.
+- Place the items for trade in the character inventory.
+- Transmit your respective ``D2S`` save files.
+- Open the recieved save file and inspect the contents.
+- Move the new items into your shared stash.
+
+## Post Trade
+
+- If the trade was conducted honestly, delete the temp characters.
+- If the trade was conducted dishonestly, retrieve your original items and report them as a cheater.

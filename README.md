@@ -1,6 +1,6 @@
 # Diablo II QOL Mod Pack
 
-This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.  Join me on [Discord](https://discord.gg/KjDU67x) for a community of D2QOL players.
+This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.  Join our [Discord](https://discord.gg/KjDU67x) server for a community of D2QOL players.
 
 ![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/D1CKhA2.jpg)
 
@@ -53,8 +53,8 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as admin and as Windows XP.
 - Make a ``PlugY.exe`` shortcut on your desktop w/ a modified target:
-	- If using ``DDraw`` use ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``.
-	- If using ``Glide`` use ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``.
+	- If using ``DDraw`` - ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``
+	- If using ``Glide`` - ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``
 - Launch the game by running the ``PlugY`` shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
@@ -110,6 +110,7 @@ To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoa
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
+- [D1RU's Skill Calculator](http://www.diablo1.ru/poleznoe/calculator.php) - Plan your skill allocations.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - Fan website w/ helpful information about the game.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [Bugs](https://us.battle.net/forums/en/d3/topic/6037267083) - List of all the bugs in the game.
