@@ -98,8 +98,8 @@ This is the best way I've come up w/ to organize my PlugY stash.  This format tr
 	- Page ``xx3`` - Items w/ required clvl ``30-39``
 	- Page ``xx4`` - Items w/ required clvl ``40-49``
 	- Page ``xx5`` - Items w/ required clvl ``50-59``
-	- Page ``xx4`` - Items w/ required clvl ``60-69``
-	- Page ``xx4`` - Items w/ required clvl ``70-79``
-	- Page ``xx4`` - Items w/ required clvl ``80-89``
-	- Page ``xx4`` - Items w/ required clvl ``90-99``
+	- Page ``xx6`` - Items w/ required clvl ``60-69``
+	- Page ``xx7`` - Items w/ required clvl ``70-79``
+	- Page ``xx8`` - Items w/ required clvl ``80-89``
+	- Page ``xx9`` - Items w/ required clvl ``90-99``
 - Only keep the best two of any unique item (except rings and ammys).
