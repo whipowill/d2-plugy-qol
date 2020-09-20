@@ -1,8 +1,8 @@
 # D2QOL | Stash
 
-This is the best way I've come up w/ to organize my PlugY stash.  This format tries to take advantage of the buttons that let you skip pages by 10s and 100s.  So even though this format uses hundreds of pages, you can arrive at the you want in just a few clicks.
+This is the best way I've come up w/ to organize my PlugY stash.  This format tries to take advantage of the buttons that let you skip pages by 10s and 100s.  So even though this format uses hundreds of pages, you can arrive at the page you want in just a few clicks.
 
-## ``1-99`` - Mats
+### ``1-99`` - Mats
 
 - ``1`` - Items To Be Sorted Later
 - ``10`` - Runes
@@ -15,7 +15,7 @@ This is the best way I've come up w/ to organize my PlugY stash.  This format tr
 - ``80`` - Charms (Large)
 - ``90`` - Potions
 
-## ``100-199`` - Rares & Crafts
+### ``100-199`` - Rares & Crafts
 
 - ``100`` - Helms / Armors
 - ``110`` - Gloves / Belts / Boots
@@ -28,7 +28,7 @@ This is the best way I've come up w/ to organize my PlugY stash.  This format tr
 - ``180`` - Bows / Crossbows / Javelins
 - ``190`` - Staves / Orbs / Necro
 
-## ``200-299`` - Uniques
+### ``200-299`` - Uniques
 
 - ``200`` - Helms / Armors
 - ``210`` - Gloves / Belts / Boots
@@ -41,7 +41,7 @@ This is the best way I've come up w/ to organize my PlugY stash.  This format tr
 - ``280`` - Bows / Crossbows / Javelins
 - ``290`` - Staves / Orbs / Necro
 
-## ``300-399`` - Sets
+### ``300-399`` - Sets
 
 - ``300`` - Arctic Gear (clvl 2)
 - ``301`` - Berserker's Arsenal (clvl 3)
@@ -76,7 +76,7 @@ This is the best way I've come up w/ to organize my PlugY stash.  This format tr
 - ``330`` - Tal Rasha's Wrappings (clvl 53)
 - ``331`` - Bul-Kathos' Children (clvl 63)
 
-## ``400-499`` - Runewords
+### ``400-499`` - Runewords
 
 - ``400`` - Helms / Armors
 - ``410`` - Gloves / Belts / Boots
