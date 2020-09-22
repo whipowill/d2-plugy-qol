@@ -89,8 +89,8 @@ Amazon Bow	abow	bow	amaz	0	1	rarm	larm	bowq		0	0	0	0		1	0	0	0	0	3	4	5	1	1		0	ama
 Amazon Spear	aspe	spea	amaz	1	1	rarm	larm			0	0	0	0		1	0	0	0	0	3	4	6	0	1		0	ama	0							weap	0
 Amazon Javelin	ajav	jave	amaz	1	1	rarm	larm			1	1	1	1		1	0	0	0	0	0	0	0	0	1		0	ama	0							misc	0
 Hand to Hand 2	h2h2	h2h		1	1	rarm	larm			0	0	0	0		1	0	0	0	0	2	3	3	0	2	ass	0	ass	0							weap	0
-Magic Bow Quiv	mboq	bowq		0	1	rarm	larm		bow	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3		0		0							misc	0
-Magic Xbow Quiv	mxbq	xboq		0	1	rarm	larm		xbow	0	1	0	0	1	1	0	0	0	0	0	0	0	0	3		0		0							misc	0
+Magic Bow Quiv	mboq	bowq		0	1	rarm	larm		bow	0	1	0	0			0	0	0	0	0	0	0	0	3		0		0							misc	0
+Magic Xbow Quiv	mxbq	xboq		0	1	rarm	larm		xbow	0	1	0	0			0	0	0	0	0	0	0	0	3		0		0							misc	0
 Chipped Gem	gem0	gem		0	0					0	0	0	0			1	0	1	0	0	0	0	0	3		0		0							misc	0
 Flawed Gem	gem1	gem		0	0					0	0	0	0			1	0	1	0	0	0	0	0	3		0		0							misc	0
 Standard Gem	gem2	gem		0	0					0	0	0	0			1	0	1	0	0	0	0	0	3		0		0							misc	0

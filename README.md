@@ -29,23 +29,26 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Can summon all beasts at same time
 
 - Quivers
-	- Arrows and bolts are replenishing
 	- Magic and rare quivers are possible
+	- Arrows and bolts are infinite
+
+- Corruption
+	- Orb of Corruption - Add sockets to a unique or set item
+	- Orb of Regret - Restore a corrupted item
 
 - Mercenaries
 	- Act 1 - Blessed Aim
 	- Act 3 - Meditation
 	- Act 5 - Might
 
-- Drops
-	- Countess always drops 3 runes
-	- Chest ``nodrop`` chances decreased
-
 - Misc
+	- Countess always drops 3 runes
+	- Rune upgrades no longer require gems
 	- Deckard Cain relocated in Act 5 town
 
 ## How To Install
 
+- Backup your save files if you are upgrading an existing setup.
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
@@ -66,17 +69,17 @@ If you're having errors and the install process didn't work for you, it's probab
 - You're missing the ``StormLib.dll`` file.
 - You didn't merge the files properly.
 
-### How To Limited Install
+### How To Install w/out Game Changes
 
 If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes), then delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
-
-### How To Uninstall
-
-Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:/Games/Diablo II/`` folder.
 
 ### How To Install On Mac OSX
 
 You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written a [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/MacOSX.md) on how to do this.
+
+### How To Uninstall
+
+Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:/Games/Diablo II/`` folder.
 
 ## Advanced Notes
 
@@ -85,9 +88,7 @@ You can successfully install the game on Mac but you will have to use Wine in or
 
 ### How To Use The Loot Filter
 
-This loot filter uses the ``BH.cfg`` file which I have customized for my purposes.  You can try the [default](https://github.com/youbetterdont/bhconfig) filter from the original team which includes more features, but wasn't to my taste.
-
-I wanted to keep the loot filter as simple as possible, and using the ingame panel you should set the ping to ``Tier 6`` and set the filter to your desired level:
+I wanted to keep the loot filter as simple as possible, and using the ingame panel you can set the ping to ``Tier 6`` and set the filter to your desired level:
 
 - ``Off``
 - ``Minimal`` - filters white items (lesser potions + most whites).
@@ -96,13 +97,13 @@ I wanted to keep the loot filter as simple as possible, and using the ingame pan
 
 No matter what setting you use: runes, charms, jewels, gems, set items, unique items, special rare items, craftable magic items, and eligable white items are never filtered out.
 
-You can inspect the config file to see exactly what is filtered out by searching the string ``FILTLVL``.  If I screwed up anything in this loot filter just open a ticket and let me know where I went wrong.
+You can inspect the ``BH.cfg`` config file to see exactly what is filtered out by searching the string ``FILTLVL``.  If I screwed up anything in this loot filter just open a ticket and let me know where I went wrong.
 
-### How To Use Keyboard Macros
+### How To Use The Keyboard Macros
 
 This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.
 
-To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack (for PC and Mac).  This makes melee characters a lot easier to play.
+To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack (for PC and Mac).  This makes melee characters a lot easier to play.
 
 ## Helpful Links
 
@@ -131,6 +132,7 @@ To avoid this, I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoa
 
 ## Changelog
 
+- ``2020-09-22`` - Add corruption mechanic.
 - ``2020-09-14`` - Make ``PlugY``, ``Glide``, and ``DDraw`` preinstalled.
 - ``2020-09-01`` - Replace loot filter.
 - ``2019-11-01`` - Original release.
