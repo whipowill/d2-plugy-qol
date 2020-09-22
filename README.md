@@ -48,7 +48,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## How To Install
 
-- Backup your save files if you are upgrading an existing setup.
+- Backup your save files if you're upgrading an existing setup.
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
@@ -114,7 +114,6 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 - [D1RU's Skill Calculator](http://www.diablo1.ru/poleznoe/calculator.php) - Plan your skill allocations.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - Fan website w/ helpful information about the game.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
-- [Bugs](https://us.battle.net/forums/en/d3/topic/6037267083) - List of all the bugs in the game.
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
 
 ## Credits
