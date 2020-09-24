@@ -34,7 +34,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Corruption
 	- Orb of Corruption - Add sockets to a unique or set item
-	- Orb of Regret - Restore a corrupted item
+	- Orb of Cleansing - Restore a corrupted item
 
 - Mercenaries
 	- Act 1 - Blessed Aim
