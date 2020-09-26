@@ -160,3 +160,5 @@ orb of corruption + set armor -> corrupted set armor	1			100	17	359	1		2	"tors,s
 orb of corruption + set helm -> corrupted set helm	1			100	17	359	1		2	"helm,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
 orb of corruption + set shield -> corrupted set shield	1			100	17	359	1		2	"shld,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
 orb of regret + any set item -> set item	1			100	18	359	1		2	"any,set"	ops						"useitem,reg"																																																																																							0
+orb of ascension + any unique item -> eth unique item	1			100					2	"any,uni,eth"	gpm						"useitem,reg,noe"																																																																																							0
+orb of descension + any eth unique item -> non-eth unique item	1			100					2	"any,uni,noe"	opm						"useitem,reg,eth"																																																																																							0

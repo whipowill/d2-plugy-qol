@@ -8,7 +8,8 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - [PlugY](http://plugy.free.fr/en/index.html) - adds shared stash, infinite respec, all runewords.
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup.
-- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492&start=200) - removes diminishing returns on magic find %.
+- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492) - removes diminishing returns on magic find.
+- [MercEquip](https://d2mods.info/forum/viewtopic.php?t=65492) - adds all equipment slots to mercenaries.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
@@ -34,7 +35,9 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Corruption
 	- Orb of Corruption - Add sockets to a unique or set item
-	- Orb of Cleansing - Restore a corrupted item
+	- Orb of Cleansing - Remove corruption from an item
+	- Orb of Ascension - Make a unique item Ethereal
+	- Orb of Descension - Make an eth unique item non-Ethereal
 
 - Mercenaries
 	- Act 1 - Blessed Aim
@@ -120,7 +123,8 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
-- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492&start=200) by devurandom.
+- [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
+- [MercEquip](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
@@ -131,6 +135,7 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 
 ## Changelog
 
+- ``2020-09-24`` - Update BaseMod to ``1.3.3``.
 - ``2020-09-22`` - Add corruption mechanic.
 - ``2020-09-14`` - Make ``PlugY``, ``Glide``, and ``DDraw`` preinstalled.
 - ``2020-09-01`` - Replace loot filter.
