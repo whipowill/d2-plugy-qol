@@ -358,4 +358,6 @@ shortparam1	355			16													1024																																			0
 questitemdifficulty	356																1024				2	0																														0
 passive_mag_mastery	357		1	12											1211	431	1024		8	0	9	50																														0
 passive_mag_pierce	358		1	9												2812	1024		8	0	8	0																														0
-item_iscorrupted	359			11			1	0	10			1	1				1024		7	32	7	32																	255	3		Moditemiscorrupted	Moditemiscorrupted									0
+item_iscorrupted	359			11			1	0	10			1	1				1024		7	32	7	32																	254	3		Moditemiscorrupted	Moditemiscorrupted									0
+item_isascended	360			11			1	0	10			1	1				1024		7	32	7	32																	255	3		Moditemisascended	Moditemisascended									0
+item_isdescended	361			11			1	0	10			1	1				1024		7	32	7	32																	255	3		Moditemisdescended	Moditemisdescended									0

@@ -1,6 +1,6 @@
 Treasure Class	group	level	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	Item2	Prob2	Item3	Prob3	Item4	Prob4	Item5	Prob5	Item6	Prob6	Item7	Prob7	Item8	Prob8	Item9	Prob9	Item10	Prob10	SumItems	TotalProb	DropChance	Term
 Gold			1						gld	1																						0
-Orbs			1					48	gps	4	ops	2	gpm	1	opm	1																0
+Orbs			1					48	gps	4	ops	0	gpm	1	opm	1																0
 Jewelry A			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
 Jewelry B			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
 Jewelry C			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0

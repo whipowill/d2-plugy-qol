@@ -34,10 +34,9 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 	- Arrows and bolts are infinite
 
 - Corruption
-	- Orb of Corruption - Add sockets to a unique or set item
-	- Orb of Cleansing - Remove corruption from an item
-	- Orb of Ascension - Make a unique item Ethereal
-	- Orb of Descension - Make an eth unique item non-Ethereal
+	- Orb of Corruption - add sockets to a unique or set item
+	- Orb of Ascension - reforge a unique item to be Ethereal
+	- Orb of Descension - reforge an eth unique item to be non-Ethereal
 
 - Mercenaries
 	- Act 1 - Blessed Aim
