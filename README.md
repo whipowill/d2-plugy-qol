@@ -50,7 +50,8 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## How To Install
 
-- Backup your save files if you're upgrading an existing setup.
+Backup your save files if you're upgrading an existing setup!
+
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
@@ -73,7 +74,10 @@ If you're having errors and the install process didn't work for you, it's probab
 
 ### How To Install w/out Game Changes
 
-If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes), then delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
+If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes):
+
+- Delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
+- Turn ``MercEquip`` off in the ``BaseMod.ini`` file.
 
 ### How To Install On Mac OSX
 

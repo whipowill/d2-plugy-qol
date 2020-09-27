@@ -1,5 +1,6 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 *.cfg text eol=crlf
 *.ini text eol=crlf
+"Diablo II/PlugY/LocalizedStrings.ini" text eol=lf
 *.filter text eol=crlf
 *.txt text eol=crlf
