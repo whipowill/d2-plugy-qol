@@ -150,22 +150,26 @@ r01 + gcv + tempered weapon -> +30-50 ar				100					3	"weap,tmp"	r01	gcv					use
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
 Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
-orb of corruption - block javelin	1			100	17	359	1		2	"jave,uni,nos"	gps						useitem																													gps																																																										0
-orb of corruption	1			100	17	359	1		2	"weap,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of corruption	1			100	17	359	1		2	"tors,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of corruption	1			100	17	359	1		2	"helm,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of corruption	1			100	17	359	1		2	"shld,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of redemption - block javelin	1			100	18	359	1		2	"jave,uni,noe"	ops						useitem																													ops																																																										0
-orb of redemption - block javelin	1			100	18	359	1		2	"jave,uni,eth"	ops						useitem																													ops																																																										0
-orb of redemption	1			100	18	359	1		2	"any,uni,noe"	ops						"useitem,reg"																																																																																							0
-orb of redemption	1			100	18	359	1		2	"any,uni,eth"	ops						"useitem,reg,eth"																																																																																							0
-orb of corruption	1			100	17	359	1		2	"weap,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of corruption	1			100	17	359	1		2	"tors,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of corruption	1			100	17	359	1		2	"helm,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of corruption	1			100	17	359	1		2	"shld,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
-orb of redemption	1			100	18	359	1		2	"any,set,noe"	ops						"useitem,reg"																																																																																							0
-orb of redemption	1			100	18	359	1		2	"any,set,eth"	ops						"useitem,reg,eth"																																																																																							0
-orb of transmutation - block javelin	1			100	17	361	1		2	"jave,uni,noe"	gpm						useitem																													gpm																																																										0
-orb of transmutation - block javelin	1			100	17	360	1		2	"jave,uni,eth"	gpm						useitem																													gpm																																																										0
+orb of corruption - block javelin	1			100					2	"jave,uni,nos"	gps						useitem																													gps																																																										0
+orb of corruption - unique items	1			100	17	359	1		2	"weap,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - unique items	1			100	17	359	1		2	"tors,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - unique items	1			100	17	359	1		2	"helm,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - unique items	1			100	17	359	1		2	"shld,uni,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - set items	1			100	17	359	1		2	"weap,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - set items	1			100	17	359	1		2	"tors,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - set items	1			100	17	359	1		2	"helm,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of corruption - set items	1			100	17	359	1		2	"shld,set,nos"	gps						useitem				sock			1	6	corruption			1	1																																																																										0
+orb of redemption - block javelin	1			100					2	"jave,uni,noe"	ops						useitem																													ops																																																										0
+orb of redemption - block eth javelin	1			100					2	"jave,uni,eth"	ops						useitem																													ops																																																										0
+orb of redemption - unique items that were transmuted	1			100	18	361	1		2	"any,uni,noe"	ops						"useitem,reg,eth"																																																																																							0
+orb of redemption - unique eth items that were transmuted	1			100	18	360	1		2	"any,uni,eth"	ops						"useitem,reg"																																																																																							0
+orb of redemption - set items that were transmuted (not possible)	1			100	18	361	1		2	"any,set,noe"	ops						"useitem,reg,eth"																																																																																							0
+orb of redemption - set eth items (not possible)	1			100	18	360	1		2	"any,set,eth"	ops						"useitem,reg"																																																																																							0
+orb of redemption - unique items	1			100					2	"any,uni,noe"	ops						"useitem,reg"																																																																																							0
+orb of redemption - unique eth items	1			100					2	"any,uni,eth"	ops						"useitem,reg,eth"																																																																																							0
+orb of redemption - set items	1			100					2	"any,set,noe"	ops						"useitem,reg"																																																																																							0
+orb of redemption - set eth items (not possible)	1			100					2	"any,set,eth"	ops						"useitem,reg,eth"																																																																																							0
+orb of transmutation - block javelin	1			100					2	"jave,uni,noe"	gpm						useitem																													gpm																																																										0
+orb of transmutation - block eth javelin	1			100					2	"jave,uni,eth"	gpm						useitem																													gpm																																																										0
 orb of transmutation	1			100	17	361	1		2	"any,uni,noe"	gpm						"useitem,reg,eth"				ascension			1	1																																																																															0
 orb of transmutation	1			100	17	360	1		2	"any,uni,eth"	gpm						"useitem,reg,noe"				descension			1	1																																																																															0

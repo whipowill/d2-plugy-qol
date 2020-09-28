@@ -35,7 +35,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Corruption
 	- Orb of Corruption - add sockets to a unique or set item
-	- Orb of Transmutation - reforge a unique item to/from Ethereal
+	- Orb of Transmutation - reforge a unique item to/from being Ethereal
 
 - Mercenaries
 	- Act 1 - Blessed Aim
