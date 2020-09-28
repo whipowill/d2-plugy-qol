@@ -14,13 +14,13 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 - Open ``regedit`` on your Windows machine:
 	- Navigate to ``HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig``.
 	- Change the ``Render`` value to zero.
-- Modify your PlugY shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect ``).
+- Modify your PlugY shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect``).
 - When using PlugY you need to make sure the files to the right locations:
 	- ``C:/Games/Diablo II/ddraw.dll``
 	- ``C:/Games/Diablo II/Mod PlugY/ddraw.ini``
 	- ``C:/Games/Diablo II/Shaders/``
 
-I haven't yet figured out how to get the custom shaders to load, but I will update this guide when I get it working.  Even w/out the custom shaders the game runs so much better than on ``Glide``.
+The shaders and upscaling of graphics only works on Windows and Linux.  It seems like there is a problem with OpenGL on Mac that prevents the shaders from working, although DDraw will work just fine otherwise.
 
 ### Wine
 
