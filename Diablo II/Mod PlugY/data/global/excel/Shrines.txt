@@ -1,0 +1,22 @@
+Shrine Type	Shrine name	Effect	Code	Arg0	Arg1	Duration in frames	reset time in minutes	rarity	view name	niftyphrase	effectclass	LevelMin
+None	None	none	0	100	100	0	2	1	blah	blah	0	0
+Recharge	Refill	fills health and mana	1	100	100	0	2	1	blah	blah	4	1
+Recharge	Health Boost	doubles current health (even over maximum) (OUT)	2	200	400	0	5	2	blah	blah	2	1
+Recharge	Mana Boost	"doubles current mana ("") (OUT)"	3	200	400	0	5	2	blah	blah	3	1
+Recharge	Health Exchange	"takes 1/2 health, gives 5 times that number to current mana (OUT)"	4	50	500	0	0	3	blah	blah	2	2
+Recharge	Mana Exchange	"takes 1/2 mana, gives 5 times that number to current health (OUT)"	5	50	500	0	0	3	blah	blah	3	2
+Booster	Armor Boost	+100% AC	6	100	1	2400	5	2	blah	blah	4	5
+Booster	Combat Boost	"+200% to hit, +200% min and max damage"	7	200	200	2400	5	2	blah	blah	4	8
+Booster	Resist Fire Boost	+75% to resist fire	8	75	0	3600	5	2	blah	blah	4	5
+Booster	Resist Cold Boost	+75% to resist cold	9	75	0	3600	5	2	blah	blah	4	26
+Booster	Resist Lightning Boost	+75% to resist lightning	10	75	0	3600	5	2	blah	blah	4	32
+Booster	Resist Poison Boost	"+75% to resist poison, and poison duration = 0"	11	75	0	3600	5	2	blah	blah	4	21
+Booster	Skill Boost	+2 to all skill levels	12	2	0	2400	5	2	blah	blah	4	1
+Booster	Recharge Boost	+400% mana recharge rate	13	400	0	2400	5	2	blah	blah	4	1
+Booster	Stamina Boost	Unlimited stamina	14	200	0	4800	5	3	blah	blah	4	1
+Booster	Experience Boost	50% more experience per kill	15	50	50	3600	0	3	blah	blah	4	1
+Magic	Shrine of Enirhs	reverses character name (OUT)	16	0	0	0	0	3	blah	blah	1	1
+Magic	Portal to unknown	opens a portal to town	17	0	0	0	0	2	blah	blah	1	3
+Magic	Gem Upgrade	"upgrades a random gem (up to one before max level if available), or gives a random gem"	18	0	0	0	0	3	blah	blah	1	4
+Magic	Storm Shrine	"all players and monsters lose 1/2 current HP, shoots fireballs"	19	50	2000	0	0	2	blah	blah	1	1
+Magic	Warping Shrine	nearest monster becomes unique	20	0	0	0	0	3	blah	blah	1	3
