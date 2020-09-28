@@ -16,7 +16,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [MapHack](https://github.com/youbetterdont/bhconfig/wiki/User-Guide) - shows the entire map w/ monsters and chests.
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filters items and get notified about drops.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
-- [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - reduces input lag, improves video framerate, upscales graphics.
+- [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - improves video framerate, upscales graphics.
 
 ### Custom Changes
 
@@ -35,8 +35,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Corruption
 	- Orb of Corruption - add sockets to a unique or set item
-	- Orb of Ascension - reforge a unique item to be Ethereal
-	- Orb of Descension - reforge an eth unique item to be non-Ethereal
+	- Orb of Transmutation - reforge a unique item to/from Ethereal
 
 - Mercenaries
 	- Act 1 - Blessed Aim
