@@ -171,5 +171,5 @@ orb of redemption - set items	1			100					2	"any,set,noe"	ops						"useitem,reg"
 orb of redemption - set eth items (not possible)	1			100					2	"any,set,eth"	ops						"useitem,reg,eth"																																																																																							0
 orb of transmutation - block javelin	1			100					2	"jave,uni,noe"	gpm						useitem																													gpm																																																										0
 orb of transmutation - block eth javelin	1			100					2	"jave,uni,eth"	gpm						useitem																													gpm																																																										0
-orb of transmutation	1			100	17	361	1		2	"any,uni,noe"	gpm						"useitem,reg,eth"				ascension			1	1																																																																															0
-orb of transmutation	1			100	17	360	1		2	"any,uni,eth"	gpm						"useitem,reg,noe"				descension			1	1																																																																															0
+orb of transmutation - unique items	1			100	17	361	1		2	"any,uni,noe"	gpm						"useitem,reg,eth"				ascension			1	1																																																																															0
+orb of transmutation - unique eth items	1			100	17	360	1		2	"any,uni,eth"	gpm						"useitem,reg,noe"				descension			1	1																																																																															0

@@ -56,11 +56,11 @@ Backup your save files if you're upgrading an existing setup!
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
-- Modify the properties of ``C:/Games/Diablo II/Mod PlugY/PlugY.exe`` to run as admin and as Windows XP.
-- Make a ``PlugY.exe`` shortcut on your desktop w/ a modified target:
-	- If using ``DDraw`` - ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``
-	- If using ``Glide`` - ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``
-- Launch the game by running the ``PlugY`` shortcut you made.
+- Make a ``Game.exe`` shortcut on your desktop w/ modifications:
+	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``
+	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``
+	- Run as Administrator and Windows XP
+- Launch the game by running the shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
 If you're having errors and the install process didn't work for you, it's probably:
