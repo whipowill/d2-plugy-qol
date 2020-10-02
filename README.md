@@ -57,9 +57,9 @@ Backup your save files if you're upgrading an existing setup!
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Make a ``Game.exe`` shortcut on your desktop w/ modifications:
-	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``
-	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``
-	- Run as Administrator and Windows XP
+	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``.
+	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``.
+	- Run as Administrator and Windows XP SP3.
 - Launch the game by running the shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
