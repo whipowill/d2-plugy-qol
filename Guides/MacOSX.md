@@ -12,7 +12,7 @@ In this guide you'll end up with:
 - Use [Homebrew](https://brew.sh/) to install Wine:
 
 ```bash
-$ brew install wine
+$ brew cask install wine-stable
 ```
 
 - If using Mac OSX Catalina then use this brew tap instead:
