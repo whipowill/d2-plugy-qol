@@ -9,16 +9,12 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 ## DDraw
 
 - Download the [v1.3.5](https://github.com/CnCNet/cnc-ddraw/releases) files.
-- Download my updated [config](https://github.com/whipowill/d2-plugy-qol/blob/master/Diablo%20II/Mod%20PlugY/ddraw.ini) file customized for D2.
+- Download my updated [config](https://github.com/whipowill/d2-plugy-qol/blob/master/Diablo%20II/ddraw.ini) file customized for D2.
 - Copy the files into your D2 directory.
 - Open ``regedit`` on your Windows machine:
 	- Navigate to ``HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig``.
 	- Change the ``Render`` value to zero.
-- Modify your PlugY shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect``).
-- When using PlugY you need to make sure the files to the right locations:
-	- ``C:/Games/Diablo II/ddraw.dll``
-	- ``C:/Games/Diablo II/Mod PlugY/ddraw.ini``
-	- ``C:/Games/Diablo II/Shaders/``
+- Modify your game shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect``).
 
 The shaders and upscaling of graphics only works on Windows and Linux.  It seems like there is a problem with OpenGL on Mac that prevents the shaders from working, although DDraw will work just fine otherwise.
 
@@ -41,7 +37,7 @@ $ WINEPREFIX=~/.wine_d2plugy winecfg
 - Modify your Terminal alias:
 ```bash
 $ vim .bashrc
-> alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii/mod\ plugy && WINEPREFIX=~/.wine_d2plugy wine plugy.exe -direct -txt"
+> alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii && WINEPREFIX=~/.wine_d2plugy wine game.exe -direct -txt"
 ```
 - Reload your Terminal and play the game:
 ```bash
@@ -79,7 +75,7 @@ $ WINEPREFIX=~/.wine_d2plugy wine glide-init.exe
 - Modify your Terminal alias:
 ```bash
 $ vim .bashrc
-> alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii/mod\ plugy && WINEPREFIX=~/.wine_d2plugy wine plugy.exe -w -3dfx -nofixaspect -direct -txt"
+> alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii && WINEPREFIX=~/.wine_d2plugy wine game.exe -w -3dfx -nofixaspect -direct -txt"
 ```
 - Reload your Terminal and play the game:
 ```bash
