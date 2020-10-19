@@ -74,7 +74,7 @@ If you're having errors and the install process didn't work for you, it's probab
 
 If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes):
 
-- Delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
+- Delete the ``C:/Games/Diablo II/Data/Global/`` folder.
 
 ### How To Install On Mac OSX
 
