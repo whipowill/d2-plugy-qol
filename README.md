@@ -9,7 +9,6 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [PlugY](http://plugy.free.fr/en/index.html) - adds shared stash, infinite respec, all runewords.
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup.
 - [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492) - removes diminishing returns on magic find.
-- [MercEquip](https://d2mods.info/forum/viewtopic.php?t=65492) - adds all equipment slots to mercenaries.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
@@ -57,8 +56,8 @@ Backup your save files if you're upgrading an existing setup!
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Make a ``Game.exe`` shortcut on your desktop w/ modifications:
-	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -direct -txt``.
-	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Mod PlugY/PlugY.exe" -w -3dfx -nofixaspect -direct -txt``.
+	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Game.exe" -direct -txt``.
+	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Game.exe" -w -3dfx -nofixaspect -direct -txt``.
 	- Run as Administrator and Windows XP SP3.
 - Launch the game by running the shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
@@ -76,7 +75,6 @@ If you're having errors and the install process didn't work for you, it's probab
 If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes):
 
 - Delete the ``C:/Games/Diablo II/Mod PlugY/Data/Global/`` folder.
-- Turn ``MercEquip`` off in the ``BaseMod.ini`` file.
 
 ### How To Install On Mac OSX
 
@@ -126,7 +124,6 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
 - [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
-- [MercEquip](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
