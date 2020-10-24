@@ -16,7 +16,7 @@ The D2QOL modpack comes with both libraries preinstalled, so you won't need to r
 	- Change the ``Render`` value to zero.
 - Modify your game shortcut target to include ``-direct -txt`` (do not use ``-w -3dfx -nofixaspect``).
 
-The shaders and upscaling of graphics only works on Windows and Linux.  It seems like there is a problem with OpenGL on Mac that prevents the shaders from working, although DDraw will work just fine otherwise.
+The shaders that upscale the graphics will work on Windows, Linux, and now even Mac.  For Mac, you may have to manually edit the ``GLSL`` file to have ``#version 150`` at the top of the file.
 
 ### Wine
 
