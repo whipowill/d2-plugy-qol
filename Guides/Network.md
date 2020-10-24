@@ -28,7 +28,7 @@ To facilitate this, I've created a ZeroTier network for D2 players that allows u
 
 - Players must be Softcore or Hardcore to match the host.
 - Players must have access to the difficulty level of the host's game (Normal, Nightmare, Hell).
-- Players must be running the same mods.
+- Players must be running the same mods, specifically the ``data/`` folder.
 
 ## Issues
 
