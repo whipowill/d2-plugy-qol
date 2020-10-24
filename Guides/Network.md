@@ -1,8 +1,8 @@
 # D2QOL | Network
 
-PlugY disables Battle.net options in the game as a protective measure against getting your CD keys banned.
+PlugY disables Battle.net options in the game as a protective measure against getting your CD keys banned.  The only remaining networking option for PlugY players is to host and join our own ``TCP/IP`` games.
 
-The only remaining networking option for PlugY players is to host and join our own ``TCP/IP`` games.  To facilitate this, I've created a ZeroTier network that allows us to share a local network and easily join each others games.
+To facilitate this, I've created a ZeroTier network for D2 players that allows us to share a local network and easily join each others games.  This method avoids the pitfalls of port forwarding and the other networking problems that often plague ``TCP/IP`` games.  All you have to do is install and connect to the ZeroTier network and everything will work, regardless of our router configuration.
 
 ## Setup
 
@@ -21,15 +21,15 @@ The only remaining networking option for PlugY players is to host and join our o
 	- Create your game and wait for others to join.
 - If you are joining:
 	- Get the last set of digits from the host's IP address: ``192.168.192.xxx``
-	- Connect the host's IP address.
+	- Connect to the host's IP address.
 	- Play the game and have fun!
 
-## Issues
+## Requirements
 
 - Players must be Softcore or Hardcore to match the host.
 - Players must have access to the difficulty level of the host's game (Normal, Nightmare, Hell).
 - Players must be running the same mods.
 
-## Tips
+## Issues
 
-You can inspect other players using MapHack by hovering your mouse over the player and hitting ``0``, but at the moment this is causing an error.  I will update this guide when I figure out what the problem is.
+You can inspect other players using MapHack by hovering your mouse over the player and hitting ``0``, but at the moment this is causing an fatal error.  I will update this guide when I figure out what the problem is.
