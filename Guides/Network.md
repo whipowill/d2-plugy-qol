@@ -2,7 +2,7 @@
 
 PlugY disables Battle.net options in the game as a protective measure against getting your CD keys banned.  The only remaining networking option for PlugY players is to host and join our own ``TCP/IP`` games.
 
-To facilitate this, I've created a ZeroTier network for D2 players that allows us to share a local network and easily join each others games.  This method avoids the pitfalls of port forwarding and the other networking problems that often plague ``TCP/IP`` games.  All you have to do is install and connect to the ZeroTier network and everything will work, regardless of our router configuration.
+To facilitate this, I've created a ZeroTier network for D2 players that allows us to share a local network and easily join each others games.  This method avoids the pitfalls of port forwarding and the other networking problems that often plague ``TCP/IP`` games.  All you have to do is install and connect to the ZeroTier network and everything will work, regardless of your router configuration.
 
 ## Setup
 
@@ -32,4 +32,4 @@ To facilitate this, I've created a ZeroTier network for D2 players that allows u
 
 ## Issues
 
-You can inspect other players using MapHack by hovering your mouse over the player and hitting ``0``, but at the moment this is causing an fatal error.  I will update this guide when I figure out what the problem is.
+- You can inspect other players using MapHack by hovering your mouse over the player and hitting ``0``, but at the moment this is causing an fatal error.  I will update this guide when I figure out what the problem is.
