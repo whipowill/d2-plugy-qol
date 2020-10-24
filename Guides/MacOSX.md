@@ -15,7 +15,7 @@ In this guide you'll end up with:
 $ brew install wine
 ```
 
-- If using Mac OSX Catalina then use this brew tap instead:
+- If using Mac OSX Catalina or later then use this brew tap instead:
 
 ```bash
 $ sudo spctl --master-disable // to disable gatekeeper and prevent annoying security popups
