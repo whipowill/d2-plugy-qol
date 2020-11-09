@@ -54,6 +54,7 @@ Backup your save files if you're upgrading an existing setup!
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
+- Download this [file](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/Diablo%20II/PlugY/LocalizedStrings.ini) and save it to ``C:/Games/Diablo II/PlugY/LocalizedStrings.ini``.
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Make a ``Game.exe`` shortcut on your desktop w/ modifications:
 	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Game.exe" -direct -txt``.
@@ -72,9 +73,7 @@ If you're having errors and the install process didn't work for you, it's probab
 
 ### How To Install w/out Game Changes
 
-If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes):
-
-- Delete the ``C:/Games/Diablo II/Data/Global/`` folder.
+If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes) then delete the ``C:/Games/Diablo II/Data/Global/`` folder.
 
 ### How To Install On Mac OSX
 
