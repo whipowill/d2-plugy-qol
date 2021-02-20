@@ -49,15 +49,15 @@ $ WINEPREFIX=~/.wine_d2 wine /your/path/to/patch.exe
 ```
 
 - Install a graphics library (``Glide`` or ``DDraw``) by following this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md).
-- Make an alias to run the game from Terminal w/ a simple command:
+- Make an alias to run the game from Terminal with a command:
 
 ```bash
 $ vim .bashrc
 
-// if using glide
+# if using glide
 > alias d2="cd ~/.wine_d2/drive_c/games/diablo\ ii && WINEPREFIX=~/.wine_d2 wine game.exe -w -3dfx -nofixaspect"
 
-// if using ddraw
+# if using ddraw
 > alias d2="cd ~/.wine_d2/drive_c/games/diablo\ ii && WINEPREFIX=~/.wine_d2 wine game.exe -nofixaspect"
 ```
 
@@ -83,15 +83,15 @@ $ open .
 $ WINEPREFIX=~/.wine_d2plugy wine /your/path/to/plugy.exe
 ```
 
-- Make an alias to run the game from Terminal w/ a simple command:
+- Make an alias to run the game from Terminal with a command:
 
 ```bash
 $ vim .bashrc
 
-// if using glide
+# if using glide
 > alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii/mod\ plugy && WINEPREFIX=~/.wine_d2plugy wine plugy.exe -w -3dfx -nofixaspect -direct -txt"
 
-// if using ddraw
+# if using ddraw
 > alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii/mod\ plugy && WINEPREFIX=~/.wine_d2plugy wine plugy.exe -direct -txt"
 ```
 
