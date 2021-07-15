@@ -1,0 +1,526 @@
+Liesmich zum GLIDE3-zu-OpenGL-Wrapper Version 1.4e (c) 2010 by Sven Labusch
+
+Aufbau:
+1. Vorwort
+2. "Lieferumfang"
+3. Anforderungen
+4. Installation/Deinstallation
+5. Dateibeschreibungen
+6. Hinweise/technische Aspekte
+7. Versions-Änderungen
+8. Häufig gestellte Fragen
+9. Sonstiges
+
+
+                              1. Vorwort
+
+
+Erstmal hallo allerseits!
+um es kurz zu fassen: mich hat die Leistung, die Diablo2 unter Direct3D an den Tag legt genervt.
+Da Diablo2 mit der Glide-Schnittstelle eine bessere Figur macht, war es für mich naheliegend, irgendwie zu versuchen, dass das Spiel auch auf meinem Rechner mit Glide laufen kann. Dabei gab es zwei Probleme:
+1. Glide-Treiber gibt es nur für Voodoo-Karten. Diablo2 braucht Voodoo-Karten ab dem Typ Voodoo-Rush, dummerweise hat mein Rechner aber 'ne Geforce2MX.
+2. Glide-Wrapper gibt es viele, aber leider habe ich keinen finden können, der für mich zufriedenstellend mit Diablo2 läuft.
+Nachdem auch der Patch 1.10 keine Besserung mit sich brachte, beschloss ich mich selbst daran zu setzen. Das Ergebnis ist dieser Wrapper, bei dem ich nochmal extra betonen möchte:
+Dieser Glide-Wrapper ist explizit für das Spiel Diablo2 programmiert, es ist davon auszugehen, dass er mit anderen Programmen NICHT läuft, oder zumindest keine korrekte Anzeige liefert.
+
+Nachtrag:
+Dies ist die Version 1.4e von dem Wrapper.
+Und ein Dankeschön an "Seltsamuel", "Shabazza", "Luzi", "mindphlux", "UnserenToten", "ChaosEnergy", "acesulfam", "Seltsamuel" und dem Staff aus dem inDiablo.de-Forum, welche mir geholfen haben.
+
+
+                              2. "Lieferumfang"
+
+
+4 Dateien:
+
+glide-liesmich.txt  34366 Byte
+glide-readme.txt    29535 Byte
+glide-init.exe      134144 Byte
+glide3x.dll         138752 Byte
+
+
+
+                              3. Anforderungen
+
+
+Benötigt (="damit er überhaupt funktioniert"):
+- OpenGL-konforme Grafikkarte
+- ansonsten gleiche Anforderungen wie das Spiel selbst
+Empfohlen (="damit man auch was von hat"):
+- OpenGL1.3-konforme Grafikkarte
+- Grafikkarte ab dem Kaliber einer Geforce256 mit 32MB Grafikspeicher
+- mind. 256MB Hauptspeicher
+NICHT empfohlen (=weil's damit u.U. schlechter läuft als vorher):
+- jedwede Art von Grafikkarte mit shared-memory-Architektur
+kann man natürlich trotzdem versuchen, aber eine Verbesserung halte ich für unwahrscheinlich
+
+
+                              4. Installation/Deinstallation
+
+
+Es gibt 2 Möglichkeiten zur Installation:
+1. Die Datei "glide3x.dll" in das Windows-Systemverzeichnis (z.B. "c:\windows\system") kopieren
+2. Die Datei "glide3x.dll" in das Spiele-Verzeichnis (z.B. "c:\spiele\diablo2") kopieren
+
+Da Dieser Wrapper ausschliesslich für Diablo2 programmiert ist, empfehle ich den 2.Weg
+Sind die Dateien kopiert, muss im Anschluss noch der Vid-Test von Diablo2 ausgeführt und Glide ausgewählt werden.
+
+
+Für die Deinstallation empfehle ich folgende Vorgehensweise:
+1. Die glide-init.exe starten und dort unter "Std/Export" den Punkt "+Registry-Einträge löschen" anwählen.
+2. Die Wrapper-Dateien löschen
+3. Im Vid-Test von Diablo2 den Grafikmodus wechseln.
+
+
+                              5.Dateibeschreibungen
+
+
+   glide-liesmich.txt:
+Das ist die Datei die sie gerade lesen.
+
+   glide-readme.txt:
+Wie die glide-liesmich.txt, nur auf englisch.
+
+   glide3x.dll:
+Das ist der eigentliche Wrapper.
+Sollte der Wrapper von sich aus einen Fehler bemerken, so wird eine Datei Namens "gl32ogl.err" erstellt, in welcher der Fehler beschrieben wird.
+
+   glide-init.exe:
+Hiermit können einige Einstellungen am Wrapper verändert werden. Das Programm ist dabei in mehrere Bereiche aufgeteilt:
+Links ist das Hauptmenu,
+in der Mitte können die eigentlichen Parameter eingestellt werden,
+Rechts ist ein Info-Screen, der evtl. Hilfen zu den Parameter-Einstellungen geben kann
+und Unten wird der Inhalt der glide-liesmich.txt(bzw. glide-readme.txt) angezeigt.
+Änderungen an den Einstellungen werden in der Registry gespeichert.
+
+Im Hauptmenu gibt es folgende Wahlmöglichkeiten:
+
+OpenGL-Infos
+Einstellungen
+Renderer
+Wrapper-Anzeige
+Extensions
+Std/Export
+Test
+Deutsch/English
+Beenden
+
+Die Parameter-Einstellungsmöglichkeiten sind abhängig davon, welches Menu man im Hauptmenu gewählt hat:
+
+    OpenGL-Infos:
+
+Hier kann nichts direkt eingestellt werden. Dieses Menu dient dazu, vom OpenGL-Treiber Informationen einzuholen, wieviel Grafikspeicher installiert ist, wie groß die Texturen maximal sein dürfen und welche Extensions überhaupt unterstützt werden,...
+Diese Informationen müssen bei Bedarf manuell eingeholt werden, indem man auf "OpenGL-Infos einholen" klickt.
+Es ist möglich, dass nach Einholen der Infos der OpenGL-Treiber auf dem Rechner evtl. nachfolgende Testläufe nicht richtig durchführt, in dem Fall bitte das Programm erst beenden, bevor ein erneuter Testlauf gestartet wird.
+
+    Einstellungen:
+
+Hier können generelle Haupteinstellungen vorgenommen werden:
+
+Fenstermodus:
+ Wenn aktiviert wird das Spiel im Fenstermodus dargestellt ansonsten im Vollbildmodus (unabhängig davon, ob bei der Spiel-Verknüpfung der Parameter "-w" vorhanden ist, oder nicht). Nichts desto trotz: ich empfehle den Start-Parameter "-w" bei der Spiel-Verknüpfung anzufügen, wenn man im Fenstermodus spielen will, um ein Umherspringen des Mauszeigers bei Inventar-Öffnen/Schliessen zu vermeiden.
+
+Maus begrenzen:
+ Es wird verhindert, dass die Maus das Spiel-Fenster verlässt.
+
+festes Seitenverhältnis:
+ Wenn aktiviert, wird bei skaliertem Fenster bzw. bei Desktopauflösung das Bild 4/3-Seitenverhältnis gerendert. Eventuell zusätzlicher Platz im Fenster/auf dem Bildschirm wird mit schwarzen Balken aufgefüllt.
+
+vertikale Synchronisation(VSYNC):
+ Wenn aktiviert, wird der Bildwechsel vom Spiel mit dem Bildwechsel vom Monitor gleichgeschaltet. Die Framerate von dem Spiel kann dann dadurch nicht höher werden, als die Bildwiederholfrequenz vom Monitor, was auch vernünftig ist:
+wenn der Monitor z.B. nur 100 Bilder pro Sekunde darstellen kann, warum sollte das Spiel dann z.B. 150 Bilder pro Sekunde berechnen? 50 davon landen dann doch ungesehen im "Müll".
+Naja, man könnte sehen, wieviel Reserven der Computer noch hat, aber ansonsten.....
+
+FPS-Limit:
+ Hier kann angegeben werden, welche Framerate der Wrapper maximal liefern soll. Ist eigentlich nur nötig, wenn VSYNC nicht funktioniert, man aber trotzdem Grafikkarte und Prozessor schonen möchte.
+
+feste Größe:
+ Hier kann angegeben werden, ob das Spiele-Fenster auf eine ganz bestimmte Größe gezogen werden soll. Wenn hier eine bestimmte Größe angegeben ist und der Fesntermodus deaktivert ist, wird der Rest des Bildschirms schwarz dargestellt.
+
+Fenster extras:
+ Wenn aktiviert, wird das Spiel-Fenster um die Möglichkeit erweitert, in der Größe geändert zu werden. Der Fensterinhalt wird dann dementsprechend vergrößert oder verkleinert, was allerdings die Grafikqualität nicht wirklich verbessert.
+
+Zentriert: (nur im Fenstermodus)
+ Wenn aktiviert und im Fenstermodus gerendert wird, wird das Fenster automatisch auf dem Bildschirm zentriert.
+
+Position merken: (nur im Fenstermodus)
+ Wenn aktiviert, merkt sich der wrapper die Position des fensters, sodass es nach Programm-Neustart wieder dort erscheint, wo es vorher war.
+
+Bildwiederholfrequenz: (nur im Vollbildmodus)
+ Wenn das Spiel im Vollbildmodus gerendert wird, kann hier eingestellt werden, mit welcher Bildwiederholrate der Monitor betrieben werden soll. Welche Einstell-Möglichkeiten zur Verfügung stehen hängt dabei ganz vom Betriebssystem, Grafikkarte, Monitor usw. ab.
+
+Desktopauflösung: (nur im Vollbildmodus)
+ Wenn aktiviert und das Spiel im Vollbildmodus Dargestellt wird, wird an der Bildschirm auflösung nichts verändert: das Spiel rendert also in der Desktopauflösung. Eingefügt habe ich diese Funktion, da mir schon einige TFT-Bildschirme vor die Nase gekommen sind, welche die Auflösung 800x600 nicht zufriedenstellend darstellen konnten. Wie auch für "Fenster extras" gilt: die Bildqualität wird dadurch im Normalfall nicht verbessert.
+
+    Renderer:
+
+Hier werden Einstellungen vorgenommen, die die Render-Engine vom Wrapper selbst betreffen:
+
+Textur-Speicher:
+ Hier kann eingestellt werden, wieviel zur Verfügung stehender Textur-Speicher an das Spiel gemeldet werden soll. Es ist zu beachten, keinen zu großen Wert einzustellen, da sonst der Grafikkarten-Treiber mit dem unnötigen Auslagern von texturen Beschäftigt wird. Einige Treiber kommen damit sogar überhaupt nicht klar, und es kommt zu Textur-Fehlern (z.B. schwarze Bereiche in der Landschaft).
+Welcher Wert jetzt nun aber der Optimale Wert ist, ist ganz von dem Rechner, den Einstellungen und auch den Treibern abhängig. Wurden OpenGL-Infos eingeholt wird unter Parameter-Infos eine Schätzung abgegeben, welcher Wert wohl gut sein könnte, allerdings ist dieser Wert großzügig nach Unten hin abgeschätzt, sodass ein testweises höhersetzen durchaus noch eine Verbesserung der Leistung bewirken kann.
+
+Puffer-Textur-Größe:
+ Hier wird eingestellt, wie Groß die Puffer-Texturen des Wrappers sein sollen. Je kleiner die Puffer-Texturen, desto mehr Spiel-Texturen passen auf die Grafikkarte,
+allerdings: je größer die Puffer-Texturen, desto mehr Spiel-Texturen passen gleichzeitig in eine Puffer-Textur.
+welches der Beste Wert ist, hängt von der größe des Textur-Speichers auf der Grafikkarte ab. Aber pauschal würde ich mal sagen, das 1024x1024 ein brauchbarere Wert ist.
+
+32 Bit Rendern:
+ Wenn aktiviert und im Vollbildmodus gerendert wird, wird der Monitor auf 32 Bit Farbtiefe gestellt und der Wrapper rendert mit 32 Bit genauigkeit statt der Ansonsten 16 Bit.
+Ob nun 16 oder 32 Bit besser sind, hängt von der Grafikkarte ab, neuere Grafikkarten kommen besser mit 32 Bit zurecht, ältere mit 16.
+
+Textur für Videos:
+ Wenn aktiviert, werden Videos nicht direkt auf dem Bildschirm dargestellt, sondern über eine Textur. Bei einigen Grafikkarten-Treibern funktioniert das auch tatsächlich schneller.
+
+Bilinearer Filter:
+ Wenn aktiviert , rendert der Wrapper erst in eine Textur und von dort dann auf den Bildschirm. Dieser Zwischenschritt reduziert zwar die Framerate, sorgt bei Desktop-Auflösung aber für eine bessere Grafik.
+
+Supersampling:
+ Wenn aktiviert und "WGL_ARB_render_texture" ebenfalls aktiviert, wird das Bild erst in vierfacher Auflösung gerendert und danach auf die richtige Größe gestutzt. Reduziert die Framerate zwar noch einmal, gibt dem Bild aber ein wenig mehr an Schärfe.
+
+Shader-Gamma:
+ Wenn aktiviert , wird die Gamma/Kontrast-Einstellung von dem Spiel über Shader realisiert. Reduziert wiederrum die Framerate, hat aber auch Vorteile: Screenshots sind gammakorrekt und im Fenstermodus wirkt sich die Gamma-Einstellung nur auf das Fenster aus.
+
+kein Gamma:
+ Wenn aktiviert, lässt der Wrapper die Gamma-Einstellung in Ruhe.
+
+Desktopgestaltung erhalten:
+ Wenn aktiviert, lässt der Wrapper die Einstellung der Desktopgestaltung so wie sie ist. Ansonsten wird sie deaktiviert, solange das Spiel läuft.
+
+    Wrapper-Anzeige:
+
+Hier können Einstellungen vorgenommen werden, die die Darstellung von Statusinformationen im Spiel betreffen:
+
+Infos anzeigen:
+ Hier wird ausgewählt in welcher Ecke des Bildschirms die Informationen gezeigt werden sollen.
+
+Framerate:
+ Wenn aktiviert, zeigt der Wrapper die Framerate mit an, welche sekündlich aktualisiert wird. Da der Wrapper die Framerate unabhängig vom Spiel ermittelt ist eine eventuelle Abweichung von der Frameraten-Anzeige des Spiels selbst nicht ungewöhnlich.
+
+Uhr:
+ Wenn ausgewählt, wird die Uhrzeit mit angegeben (im entsprechenden Stil). Die Uhrzeit-Angabe entspricht dabei dem Wert, der sonst auch in der Taskleiste angezeigt wird.
+
+Texturmasse:
+ Wenn aktiviert, gibt der Wrapper auch an, wieviel Textur-Speicher für die Puffer-Texturen gerade benötigt werden. Dieser Wert sollte stets unterhalb dessen bleiben, was die Grafikkarte auch wirklich an Textur-Speicher besitzt. Wandert der Wert doch mal zu hoch, so empfehle ich, den simulierten Textur-Speicher zu verringern.
+
+Reihenfolge:
+ Ein Klick auf diesen Button verändert die Reihenfolge, in der die Daten auf dem Bildschitm dargestellt werden (was ist Unten, was Oben,...). Rechts bei den Parameter-Infos wird angezeigt, wie das dann in etwa später aussieht. Wenn nur zwei Werte dargestellt werden sollen, muss man evtl. mehrfach klicken.
+
+    Extensions:
+
+Hier kann eingestellt werden, welche Extensions vom Wrapper benutzt werden sollen. Normalerweise braucht man hier nichts deaktivieren, es sei denn der OpenGL-Treiber macht Probleme, oder man will explizit was austesten....
+
+GL_EXT_vertex_array:
+ Wenn aktiviert und unterstützt, werden Vertex-Daten nicht umständlich Stück für Stück an den OpenGL-Treiber übergeben, sondern zuerst "gesammelt" und dann in einem Rutsch übertragen.
+
+GL_ATI_fragment_shader:
+GL_ARB_fragment_program:
+GL_EXT_paletted_texture:
+ Wenn eine dieser Extensions aktiviert ist und vom OpenGL-Treiber unterstützt wird, kann der Wrapper die 8-Bit-Texturen vom Spiel direkt verwenden. Ansonsten müssen sie in 16-Bit-Texturen konvertiert werden, was Zeit und Platz braucht.
+Wenn mehrere dieser Extensions aktiviert sind, bekommt die EXT-Variante eine höhere Gewichtung, als die ARB-Variante, welche wiederrum höher gewichtet wird als die ATI-Variante.
+
+GL_EXT_shared_texture_palette:
+ Wenn der Wrapper die 8-Bit-Texturen des Spiels mittels GL_EXT_paletted_texture realisiert, kann hiermit eingestellt werden, ob alle Puffertexturen eine gemeinsame Palette benutzen sollen, oder ob jede ihre eigene bekommt (welche am Ende dann doch immer denselben Inhalt haben).
+
+GL_EXT_packed_pixels:
+ Wenn der Wrapper die 8-Bit-Texturen des Spiels über 16-Bit-Texturen simulieren muss, kann mit dieser Extension das Nachladen von Texturen beschleunigt werden.
+
+GL_EXT_texture_env_combine:
+ Wenn der Wrapper die 8-Bit-Texturen des Spiels nicht mit Shadern realisiert, kann hiermit eine korrekte Berechnung einiger Transparenz-Effekte erzielt werden. Allerdings ist die sonstige Abweichung nur minimal.
+
+WGL_EXT_swap_control:
+ Wenn aktiviert und vom Treiber unterstützt, kann hier das manuelle Einstellen von der vertikalen Synchronisation ermöglicht werden.
+
+WGL_ARB_render_texture:
+ Wenn aktiviert und von OpenGL unterstützt, rendert der Wrapper erst in eine Textur und von dort dann auf den Bildschirm. Dieser Zwischenschritt reduziert zwar die Framerate, sorgt bei Desktop-Auflösung bzw. vergößertem oder verkleinertem Fenster für eine bessere Grafik.
+
+    Std/Export:
+
+In diesem Menu können die Standardwere wiederhergestellt werden. Außerdem können die Einstellungen in eine TXT-Datei exportiert werden.
+
+Standardwerte wiederherstellen:
+ Stellt einfach nur alle Werte wieder auf Standard.
+
++Registry-Einträge entfernen:
+ Zusätzlich werden die Einträge, die für den Wrapper in der Registry vorgenommen wurden, gelöscht.
+
+Exportiere Einstellungen:
+ Öffnet ein Dialogfenster zum speichern in eine Datei. Die Einstellungen werden dann in eine TXT-Datei exportiert.
+
+    Test:
+
+Dies ist eigentlich kein Menu, sondern es startet einen Testlauf, mit dem der Wrapper auf funktionalität geprüft werden kann, ohne dass man gleich das Spiel starten muss. Der Test sollte nach Möglichkeit eine Framerate über 50 FPS erzielen, was aber auch nicht so schwer sein dürfte....
+
+    Deutsch/English
+
+Hier kann ausgewählt werden, in welcher Sprache der Wrapper (bzw. das Frontend) laufen sollen.
+
+    Beenden:
+
+Beendet das Programm
+
+
+                              6.Hinweise/technische Aspekte
+
+
+hmm ja, wo soll ich anfangen? ja genau, ich fange mal damit an, was den Wrapper vom Direct3D-Modus von Diablo2 unterscheidet:
+
+1. Der Direct3D-Modus von Diablo2 erstellt wesentlich weniger Puffer-Texturen, als der Glide-Modus, wodurch häufiger nachgeladen werden muss.
+
+2. Der Wrapper benutzt OpenGL, der Direct3D-Modus DirectX6
+ Das Manko ist hierbei, dass DirectX6 keine 8-Bit-Paletten-Texturen unterstützt und Diablo2 daher 16-Bit-Texturen benutzen muss.
+
+3. Desweiteren ist bei DirectX die Textur-Verwaltung anders als bei OpenGL und Glide:
+Der Verwaltungsoverhead bei DirectX ist immens im Vergleich zu OpenGL oder Glide.
+OpenGL und Glide haben also bei dynamisch zu ladenden Texturen einen Vorteil, und hier liegt der Hund begraben: bei den Texturmassen, die Diablo2 hat, müssen fast alle Texturen dynamisch verwaltet werden. Und an dieser Stelle versagt Direct3D: das dynamische Laden von Texturen dauert eine ganze Ewigkeit (bei OpenGL nur 'ne Halbe)
+
+Um diese Probleme zu umgehen muss der Wrapper u.A. mehr Texturen erstellen, als in Glide gerade benötigt werden: bei 16Mb simuliertem Textur-Speicher kann der Wrapper durchaus 24MB Texturen in OpenGL erstellen, hängt aber auch von den Einstellungen ab.
+
+Fairerweise möchte ich aber erwähnen, dass man den Programmierern bei Blizzard keine voreiligen Vorwürfe machen darf:
+dreht man einfach mal die Zeit zurück und schaut sich den Stand der Technik an, wie er war, als das Spiel programmiert wurde, so war man vor das Problem gestellt, dass man mit den wenigen Ressourcen, die die damalige Hardware bereitstellte, haushalten musste. So gesehen holt die Direct3D-Engine von Diablo2 tatsächlich nahezu fast alles aus DirectX6 raus, was rauszuholen ist. Nur ist das halt nicht viel, bzw. die Technik hat sich soweit weiterentwickelt, dass man doch wieder mehr draus machen könnte. Nur müsste man die Direct3D-Engine neu schreiben.....oder auf OpenGL wechseln........ oder die Grafikkarten-Hersteller liefern echte Glide-Treiber für ihre Grafikkarten (DAS wäre optimal, dann könnte man auch auf den Wrapper verzichten, aber ob sie sich jemals diese Mühe machen werden?)
+
+Aber zurück zum Wrapper
+selbiger nutzt wie schon erwähnt OpenGL und stellt hier auch Ansprüche:
+Es werden folgende Extensions für die korrekte Darstellung benötigt:
+GL_EXT_texture_env_combine
+GL_EXT_bgra
+folgende Extensions sind vorteilhaft:
+GL_EXT_vertex_array
+GL_ATI_fragment_shader
+GL_ARB_fragment_program
+GL_EXT_paletted_texture
+GL_EXT_shared_texture_palette
+GL_EXT_packed_pixels
+WGL_ARB_render_texture
+
+Darum sollte der OpenGL-Treiber der Grafikkarte mindestens die OpenGL1.3-Spezifikation erfüllen.
+
+werden obendrein noch die Extensions GL_EXT_paletted_texture, GL_ATI_fragment_shader und/oder GL_ARB_fragment_program unterstützt, so werden (wenn aktiviert) 8Bit-Texturen verwendet, was das Nachladen von Texturen signifikant beschleunigt.
+
+Da der Wrapper OpenGL benutzt, existiert hier auch der 60Hz-Bug, wenn als Betriebssystem Windows2000 oder WindowsXP installiert ist und die Bildwiederholfrequenz nicht manuell eingestellt wurde. Lösungen zu diesem Bug gibt es im Internet zuhauf: einfach in eine Suchmaschine eintippen oder mal bei den Internet-Seiten einiger PC-Zeitschriften reinsehen,
+oder eben im Einrichtungsfrontend von dem Wrapper eine bestimmte Bildwiederholfrequenz vorgeben.
+
+
+                              7.Versionsänderungen:
+
+
+Version 1.4e:
+in der glide3x.dll
+kleinere Bugs bzgl. Mausbegrenzen und Taskwechsel behoben
+Berücksichtigung eingebaut, dass D2 das Fenster u.U. nicht mehr minimiert, wenn das Spiel nicht mehr im Vordergrund läuft.
+feste Größe von 1280x1024 auf 1280x960 korrigiert
+in der glide-init.exe
+die Einstellungen können nun in eine TXT-Datei exportiert werden
+
+Version 1.4d:
+in der glide3x.dll:
+Frameraten-Begrenzung eingebaut.
+Feste Fenster-Größe eingebaut.
+der Wrapper merkt sich bei Bedarf die Fenster-Position.
+32-Bit ist nun standard
+GL_EXT_vertex_array ist nun per Standard deaktiviert.
+32MB  simulierter Grafikspeicher ist nun standard
+in der glide-init.exe:
+der Grafikkarten-Texturspeicher-Durchsatz wird nun auch in einem Diagramm dargestellt. Anhand dieses Diagramms kann der Wrapper darauf eingestellt werden, von einem bestimmten Grafikkarten-Speicher auszugehen.
+
+Version 1.4c:
+in der glide3x.dll:
+Bug behoben, GL_EXT_vertex_array betreffend. Diese Extension sollte nun auch mit neueren Grafikkarten-Treibern funktionieren.
+Breitbild-Anpassung separat einstellbar gemacht.
+kleinere Bugs bzgl. der Status-Anzeige behoben.
+Workaround für den "Gidbinn-Bug" eingefügt
+in der glide-init.exe:
+der Grafikkarten-Textur-Speicher wird nun mittels OpenGL ermittelt
+die Angabe für den Textur-Speicher wird auf maximal 256MB begrenzt
+der Testlauf wurde dahingehend gefixt, dass er nun auch auf echten 3dfx-Karten läuft
+
+Version 1.4b
+in der glide3x.dll:
+Bug behoben, der auftrat, wenn Maus begrenzen aktiviert war und man ingame via ALT-ENTER von Fenstermodus auf Desktopauflösung gewechselt hatte
+render to texture aufgesplittet in WGL_ARB_render_texture und bilinearer Filter
+in der glide-init.exe:
+Fehler berichtigt
+
+Version 1.4a
+in der glide3x.dll:
+bei Desktopauflösung wird das Seitenverhältnis in der Auflösung berücksichtigt.
+bei den Shader-Texturen die Paletten-Textur modifiziert.
+kleinere Fehler berichtigt.
+in der glide-init.exe:
+Fehler berichtigt
+
+Version 1.4
+in der glide3x.dll:
+die Textur-Verwaltung komplett neu geschrieben: Die Texturen werden jetzt effizienter verwaltet.
+8-Bit-Texturen können jetzt auch mit Shadern realisiert werden. Das Nachladen geht dadurch schneller vonstatten, als wenn auf 16-Bit-Texturen zurückgegriffen werden müsste.
+VSYNC kann jetzt vom Wrapper manuell eingestellt werden.
+"DirectX für Videos" entfernt.
+in der glide-init.exe:
+Fsaa/Multisampling entfernt : nutzlos bei D2
+feste Gama-Tabelle entfernt
+Render to texture hinzugefügt
+Supersampling hinzugefügt
+Shader-Gamma hinzugefügt
+kein Gamma hinzugefügt
+das Frontend komplett neu geschrieben.
+Einstellungen werden jetzt in der Registry gespeichert.
+OpenGL-Informationen können eingeholt werden, worauf auch kleinere Hilfestellungen gegeben werden können.
+Das Frontend kann den Inhalt der Readme-Dateien darstellen.
+Ferner wurde auch ein Testlauf eingefügt, mit dem der Wrapper auf Funktionalität geprüft werden kann, ohne dass man das Spiel starten muss.
+desweiteren: Dateinamen geringfügig geändert
+
+Version 1.3c
+in der glide3x.dll:
+der Wrapper rendert jetzt immer in ein eigenes Fenster, welches direkt über dem von dem Spiel dargestellt wird. Dadurch ist es überhaupt erst möglich, Multisampling/FSAA zu verwenden, bzw. die Fenstergröße anpassbar zu machen. Als kleinen Vorteil erhält der Wrapper auch die Möglichkeit direkt zu erkennen, ob sich das Spiel minimiert hat, wodurch der Parameter "weicher Auflösungswechsel" nicht mehr nötig ist.
+DirectX wird jetzt nur noch für Videos verwendet, wenn überhaupt.
+An der Render-Engine selbst hat sich aber nichts verändert.
+in der gl32oglinit.exe:
+"weicher Auflösungswechsel" entfernt
+"DirectX zum Einrichten" umbenannt in "DirectX für Videos"
+"Textur für Videos" hinzugefügt
+Einstellmöglichkeit für die Bildwiederholfrequenz hinzugefügt
+"Fenster extras" hinzugefügt
+"Desktopauflösung" hinzugefügt
+Einstellmöglichkeit für Multisampling/FSAA hinzugefügt
+in den "readme"s:
+faq hinzugefügt
+desweiteren: Dateinamen geringfügig geändert
+
+Version 1.3b
+in der glide3x.dll
+Änderungen an den Combiner-Modi vorgenommen. Das Problem mit den Textur-Umrandungen ist damit erledigt. Auch wird jetzt schneller zwischen den Combiner-Modi gewechselt.
+Wenn GL_EXT_vertex_array vom Grafikkarten-Treiber nicht unterstützt wird, greift der Wrapper auf eigene Konstrukte zurück. Der Wrapper läuft dann auch auf diesen Rechnern, wenn auch nicht ganz so schnell. Ferner sind auch die Extensions GL_EXT_texture_env_combine und GL_EXT_bgra nicht mehr zwingend notwendig, allerdings wird es zu Grafikfehlern kommen, wenn diese nicht vom Grafikkarten-Treiber zur Verfügung gestellt werden.
+Änderungen an den Wrapper-Einstellungen werden jetzt auch on-the-fly übernommen: das Spiel minimieren, Änderungen vornehmen, Spiel wieder in den Vordergrund bringen, fertig.
+in der gl32oglinit.exe:
+Frontend verändert
+Schalter für Info-Anzeige Reihenfolge hinzugefügt
+Schalter für Sprachen-Wechsel hinzugefügt
+desweiteren gibt es jetzt eine deutsche "liesmich.txt" und eine englische "readme.txt"
+
+Version 1.3a
+in der glide3x.dll
+kleine Änderungen an den Combiner-Modi vorgenommen. Kompatibilitätsprobleme sollten jetzt seltener auftreten.
+in der gl32oglinit.exe
+Schalter hinzugefügt:
+Uhr
+zentriert
+DirectX zum Einrichten
+feste Gamma-Tabelle
+Maus begrenzen
+
+Version 1.3
+in der glide3x.dll
+Vertex-Arrays werden verwendet und auch vorrausgesetzt. Der Prozessor wird dadurch beim Rendern der Bodentexturen weniger stark belastet. Der Wrapper kann angewiesen werden, beim Auflösungswechsel nicht vorher auf die Desktop-Auflösung zu wechseln. Der wechsel selbst geht dadurch schneller von statten, dafür wird beim Wechsel der Anwendung allerdings die Auflösung auch nicht zurückgesetzt.
+in der gl32oglinit.exe:
+Schalter für weichen Auflösungswechsel hinzugefügt.
+Schreibfehler berichtigt.
+
+Version 1.2
+in der glide3x.dll :
+Wrapperinterne Texturverwaltung modifiziert. Der Prozessor wird dadurch weniger stark beansprucht, dafür werden aber noch mehr Texturen erstellt.
+Neben der Framerate kann aber auch angezeigt werden, wieviel an Texturen durch den Wrapper tatsächlich erstellt werden.
+in der gl32oglinit.exe:
+Schalter für zusätzliche Stats hinzugefügt.
+Den Bereich für den Textur-Speicher auf 8-108MB heraufgesetzt.
+
+Version 1.1
+in der glide3x.dll :
+Die an Diablo2 gemeldete Textur-Speicher-Konfiguration geändert. Das Spiel verwaltet die Texturen dadurch effizienter.
+Das Aktualisieren von 16-Bit-Texturen geändert.
+in der gl32oglinit.exe:
+den Schalter 8-Bit-Texturen in die drei Schalter GL_EXT_palettized_textures, GL_EXT_shared_texture_palette und GL_EXT_packed_pixels aufgespalten.
+Den Standard-Wert für den simulierten Textur-Speicher auf 16MB angehoben.
+Den Bereich für den Textur-Speicher auf 8-64MB gesetzt.
+
+
+                              8.Häufig gestellte Fragen
+
+
+Seit Erscheinen des Wrappers wurde schon die eine oder andere Frage an mich herangetragen. An dieser Stelle möchte ich die wichtigsten schonmal im Vorraus abhandeln.
+
+1. Wenn ich den Wrapper unter Diablo2 benutze ist die Framerate miserabel (irgendwo bei 1FPS) und evtl. sogar in Fehlfarben.
+
+Der Wrapper benutzt OpenGL und ist daher darauf angewiesen, dass der Computer auch mit korrekt laufenden OpenGL-Treibern eingerichtet ist. Warum jetzt kein korrekter OpenGL-Treiber vorliegt kann von Fall zu Fall unterschiedlich sein.
+Mir sind bisher nur folgende Lösungsmöglichkeiten bekannt:
+- Grafikkarten-Treiber neu installieren
+- bei vorhandensein mehrerer Grafikkarten oder Monitore: Sekundär-Anschlüsse deaktivieren
+
+Ferner gibt es für einige ältere Grafikkarten überhaupt keine OpenGL-Treiber, in dem Fall hilft dann nur der komplette Austausch der Grafikkarte.
+
+2. der Wrapper läuft, D2 liefert auch ein korrektes Bild, aber die Framerate ist nicht besser, als vorher.
+
+generell steht der Wrapper vor einem Problem: aus Sicht des Gesamt-Systems (also des kompletten Rechners an sich) stellt der Wrapper nur eine zusätzliche Belastung dar. Um jetzt die Framerate nicht schlechter zu machen, als sie vorher war, bewirkt der Wrapper (im übertragenen Sinn) , dass die Last stärker von der Grafikkarte, als vom Prozessor abgearbeitet wird. Wenn jetzt aber nun in einem Rechner gerade die Grafikkarte der Grund für die schlechte Framerate ist (z.B. ein 3GHz-System mit ner Riva128), dann ist das nicht verwunderlich, dass die Framerate MIT dem Wrapper schlechter ist, als ohne. In solch einem Fall ist da der Vergleich mit dem DDraw-Mode von D2 eher angebracht.
+Lösungsmöglichkeit:
+Hardware-Ebene:
+- Herausfinden, welches das schwächste Bauteil im Rechner ist, und um/aufrüsten: ein 3GHz Prozessor und GF FX5900 sind nutzlos, wenn in dem Rechner nur 64MB Ram eingebaut sind (nur so als Beispiel).
+Software-Ebene:
+- neue/andere Treiber installieren. Für mehrere Bauteile (zum Beispiel die Grafikkarte) gibt es mehr als nur einen Treiber, und nicht immer ist der Neueste auch der Beste....
+- Hintergrund-Programme können ebenso die Leistung des Rechners reduzieren, von Viren,Würmern,Trojanern usw. mal ganz zu schweigen.
+- wenn das Spiel über den "-w"-Parameter im Fenstermodus betrieben wird muss auch der "-3dfx"-Parameter in der Verknüpfung eingetragen sein: D2 benutzt sonst weder Glide noch Direct3D
+
+3. ich spiele im SP und die Framerate will partout nicht über 25FPS gehen, egal welcher Grafikmodus!
+
+Das ist im SP normal, und von Blizzard auch beabsichtigt.
+Wenn man seine lokalen Helden auch mit maximalen FPS spielen können will, muss man wohl oder übel ein Multiplayer-Game erstellen, wobei es dann allerdings egal ist, ob es ein TCP/IP oder open/closed bnet-game ist.
+
+4. ich spiele im Multiplayer, aber mit dem Wrapper geht die Framerate nicht über 60FPS.
+
+Aller wahrscheinlichkeit nach ist der Monitor auf 60Hz gestellt. Entweder kann der Monitor tatsächlich nicht mehr, oder es handelt sich hier um den "60Hz-Bug", welcher unter Windows NT/2K/XP vorkommt.
+Einige Grafikkarten-Treiber liefern von sich aus eine Möglichkeit, den Bug zu umgehen, in anderen Fällen kommt man aber nicht umhin, einen "Refreshrate-fix" zu installieren.
+
+5. die Framerate ist zwar nicht bei 60FPS aber dafür konstant bei (z.B.) 90FPS. Bei Anderen läuft das Spiel aber auf wesentlich schlechteren Rechnern mit wesentlich besserer Framerate (z.B.200FPS).
+
+normalerweise wird die Framerate durch den Grafikkarten-Treiber bei der Monitorfrequenz gecapt. Was auch nicht unlogisch ist: wenn der Monitor nur 90 Bilder pro Sekunde darstellen kann, warum sollte der Rechner dann 200 pro Sekunde berechnen (110 davon wandern doch ungesehen in den Müll)? Außer zum Angeben hat das den Vorteil, dass man an dieser hohen Framerate sehen kann, wieviel "Luft" der Rechner noch hat, also wieviel zusätzliche Belastung der Rechner noch aushält, bevor es sichtbare Einbußen (=Ruckeln) gibt.
+dieses Begrenzen der Framerate kann man meistens in den Grafik-Optionen der Grafikkarte ein-/ausstellen und trägt den Namen "VSYNC" (Abkürzung für "Vertikale SYNChronisation").
+
+6. manchmal ist die Grafik so dunkel.
+
+Der Wrapper hat es nicht geschafft, die Gamma-Einstellung vorzunehmen.
+mir bisher bekannte Lösungsmöglichkeiten:
+- im Spiel Gamma und Kontrast nachstellen
+- feststellen, ob ein Hintergrund-Programm gelegentlich auf den Bildschirm zugreift (oder zumindest zugreifen möchte) und diese/s deaktivieren.
+- evtl. Grafikkarten-Treiber neu installieren
+- im Grafikarten-Treiber nachschauen, ob dort eine Helligkeits-Steuerung vorgegeben werden kann.
+- wenn vom Treiber unterstützt: shader-gamma im Frontend aktivieren
+
+7. ich habe auch einige Mods zu dem Game installiert, läuft der Wrapper auch damit?
+
+Primär habe ich den Wrapper für die Original-Fassung von dem Spiel programmiert. Ferner habe ich auch nicht die Zeit und Muße alle Mods zu dem Spiel auf Vertäglichkeit hin zu testen. Das muss man dann schon selbst ausprobieren. Generell kann ich dazu nur sagen:
+eigentlich sollte der Wrapper mit jedem Mod klarkommen, oder anders ausgedrückt: die Mods sollten mit Wrapper nicht mehr Probleme machen, als ohne.
+Bisher habe ich den Wrapper nur in Kombination mit dem ChaosEmpire-Mod und Snej getestet, und konnte da bisher keine Fehler feststellen, auch wurde mir bisher noch kein Problem mit der Verträglichkeit von "offizieller Seite" berichtet.
+ich habe zwar auch den D2-Accelerator angetestet (und hier ebenfalls keine Fehler feststellen können), allerdings wurde schon mehrfach von Problemen mit dem Mod an sich berichtet.
+
+8. ich habe den Wrapper jetzt installiert, läuft auch gut, aber kann man da nicht noch mehr rausholen?
+
+besser geht's eigentlich immer, irgendwie;-)
+wenn der Wrapper noch auf der Standard-Einstellung läuft, kann man auf jeden Fall noch was mit dem "Textur-Speicher" rausholen.
+welche Einstellung hier jetzt nun optimal ist, wird wohl von Rechner zu Rechner unterschiedlich sein, ich sehe hier folgende Faustformel als gute Näherung an:
+Bei Grafikkarten, die die 8-Bit-Texturen unterstützen können (z.B. alle Geforces und Radeons ab 8500):
+Textur-Speicher = echter Grafikkarten-Speicher / 4 * 3
+bei allen anderen Grafikkarten:
+Textur-Speicher = echter Grafikkarten-Speicher / 8 * 3
+
+9. Ich spiele mit dem Wrapper im Fenstermodus, aber jedes mal, wenn ich das Inventar öffne springt die Maus an die falsche Stelle.
+
+Das Problem basiert darauf, dass die Glide-Engine von dem Spiel eigentlich gar nicht für den Fensterbetrieb vorgesehen ist.
+Das Problem kann aber glücklicherweise umgangen werden, indem man in der Spiel-Verknüpfung die Start-Parameter -w und -3dfx anfügt. so dass da z.B.
+"c:\spiele\Diablo II\Diablo II.exe" -w -3dfx
+steht.
+
+10. Vista, Wenn ich den Wrapper starte kommt nur ein schwarzes Bild/Fenster und oben Links vom Monitor werden nur Zeichen langsam durchlaufen.
+
+Bitte erstmal vergewissern, ob bei Vista die Aero-Glass-Oberfläche aktiv ist. Wenn ja, dann bitte testweise deaktivieren.
+Der Wrapper nutzt die OpenGL-Schnittstelle. Unter Vista steht die echte OpenGL-Schnittstelle nicht zur Verfügung, wenn Aero-Glass aktiviert ist.
+In der Start-Verknüpfung von Diablo2 lässt sich aber einstellen, dass bei Programmstart Aero-Glass automatisch deaktiviert, und bei Verlassen des Programms auch wieder automatisch aktiviert wird: dazu bitte in den Eigenschaften der D2-Startverknüpfung im Karteireiter 'Kompatibilität' bei dem Kästchen 'Desktopgestaltung deaktivieren' den Haken setzen.
+Der Wrapper kann auch selber Aero-glass temporär deaktivieren. Dafür unter renderer den Haken bei "Desktopgestaltung erhalten" entfernen.
+
+
+                              9.Sonstiges
+
+
+Dieser Wrapper ist Freeware und darf somit frei kopiert und weitergegeben werden, solange die Dateien selbst unverändert und beieinander bleiben.
+Bei der Programmierung habe ich mein höchstes Augenmerk auf die Stabilität gerichtet, nichtsdestotrotz kann ich keinerlei Garantie dafür geben, dass der Wrapper auf jedem System einwandfrei läuft. Zu umfangreich sind die Möglichkeiten, die dafür sorgen können, dass der Wrapper denn doch Ärger auslöst.
+
+Aber immerhin, auf den Rechnern, auf denen ich den Wrapper bisher eingesetzt habe, ist der Performance-Gewinn gegenüber dem Direct3D-Mode doch recht ansehnlich.
+bye
+  Sven Labusch

@@ -1,16 +1,24 @@
 # D2QOL | Video
 
-Custom video libraries are necessary to make Diablo II run properly on modern machines.
+Special video libraries are necessary to make Diablo II run properly on modern machines.  Those video library options are:
 
-Historically, the D2 community has used the ``Glide`` library, but more recently the community has been introduced to the ``DDraw`` library which allows for better framerates and performance.  I recommend installing the ``DDraw`` library which has drastically improved game performance on my machine.
+- [Sven's Glide Library](http://www.svenswrapper.de/english/downloads.html) (older)
+- [FunkyFr3sh's DDraw Library](https://github.com/CnCNet/cnc-ddraw/releases) (newer)
+- [Bolrog's Glide Library](https://github.com/bolrog/d2dx/releases) (newest)
 
-The D2QOL modpack comes with both libraries preinstalled, so you won't need to redownload them.  If using ``DDraw`` you still need to make the necessary registry changes and if using ``Glide`` you still need to make the necessary settings changes as instructed below.
+If you're on Windows then you will want to use Bolrog's Glide Library, no question about it.  If you're on Mac OSX or Linux, then you''ll want to choose between using FunkyFr3sh's DDraw Library or Sven's Glide Library.
 
-## DDraw
+D2QOL comes will all three of these options pre-installed.  See the instructions below on how to activate the proper library for you.
 
-- Download the [v1.3.5](https://github.com/CnCNet/cnc-ddraw/releases) files.
-- Download my updated [config](https://github.com/whipowill/d2-plugy-qol/blob/master/Diablo%20II/ddraw.ini) file customized for D2.
-- Copy the files into your D2 directory.
+## Bolrog's Glide Library
+
+- The necessary files are already included in the D2QOL files you merged into your game directory.
+- Just make sure your game shortcut target includes ``-3dfx -direct -txt``.
+
+## FunkyFr3sh's DDraw Library
+
+- The necessary files are already included in the D2QOL files you merged into your game directory.
+- Edit the ``Plugy.ini`` file to include ``|D2HD.dll`` in the loaded DLLs list (line 25).
 - Open ``regedit`` on your Windows machine:
 	- Navigate to ``HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig``.
 	- Change the ``Render`` value to zero.
@@ -44,10 +52,11 @@ $ vim .bashrc
 $ d2plugy
 ```
 
-## Glide
+## Sven's Glide Library
 
-- Download the [v1.4e](http://www.svenswrapper.de/english/files.html) files.
-- Copy the files into your D2 directory.
+- The necessary files are already included in the D2QOL files you merged into your game directory, but they're in the wrong location.
+- Copy the files in the ``Glide`` folder and paste them into the game directory, overwriting the ``glide3x.dll`` that's already there (Bolrog's).
+- Edit the ``Plugy.ini`` file to include ``|D2HD.dll`` in the loaded DLLs list (line 25).
 - Run the ``glide-init.exe`` file and modify the settings:
 	- Switch to ``English``.
 	- On the ``Settings`` tab:
@@ -61,7 +70,7 @@ $ d2plugy
 		- Turn on ``no gamma``.
 	- On the ``Extensions`` tab:
 		- Turn on ``MGL_EXT_swap_control``.
-- Modify your PlugY shortcut target to include ``-w -3dfx -nofixaspect -direct -txt``.
+- Modify your game shortcut target to include ``-w -3dfx -nofixaspect -direct -txt``.
 
 ### Wine
 

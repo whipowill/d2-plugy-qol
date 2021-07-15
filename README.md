@@ -6,16 +6,15 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## What's Included
 
-- [PlugY](http://plugy.free.fr/en/index.html) - adds shared stash, infinite respec, all runewords.
-- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - removes singleplayer FPS cap, adds auto gold pickup.
+- [PlugY](http://plugy.free.fr/en/index.html) - adds shared stash, infinite respec, all runewords (v14.02).
+- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - adds auto gold pickup, bug fixes, and much much more (v1.13.7).
 - [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492) - removes diminishing returns on magic find.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
 - [MapHack](https://github.com/youbetterdont/bhconfig/wiki/User-Guide) - shows the entire map w/ monsters and chests.
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filters items and get notified about drops.
-- [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) - adds widescreen resolutions to the game.
-- [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - improves video framerate, upscales graphics.
+- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
 
 ### Custom Changes
 
@@ -54,12 +53,10 @@ Backup your save files if you're upgrading an existing setup!
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
-- Download this [file](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/Diablo%20II/PlugY/LocalizedStrings.ini) and save it to ``C:/Games/Diablo II/PlugY/LocalizedStrings.ini``.
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Make a ``Game.exe`` shortcut on your desktop w/ modifications:
 	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Game.exe" -direct -txt``.
-	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Game.exe" -w -3dfx -nofixaspect -direct -txt``.
-	- Run as Administrator and Windows XP SP3.
+	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Game.exe" -3dfx -direct -txt``.
 - Launch the game by running the shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
@@ -75,7 +72,7 @@ If you're having errors and the install process didn't work for you, it's probab
 
 If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes) then delete the ``C:/Games/Diablo II/Data/Global/`` folder.
 
-### How To Install On Mac OSX
+### How To Install On Mac OSX or Linux
 
 You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written a [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/MacOSX.md) on how to do this.
 
@@ -85,7 +82,6 @@ Delete all the files you merged through this install process and copy the files 
 
 ## Advanced Notes
 
-- When you first select a widescreen resolution the game will crash, but only the first time.
 - You can ``control-leftclick`` items between inventory and stash (HT ubeogesh).
 
 ### How To Use The Loot Filter
@@ -113,14 +109,15 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
-- [D1RU's Skill Calculator](http://www.diablo1.ru/poleznoe/calculator.php) - Plan your skill allocations.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - Fan website w/ helpful information about the game.
+- [D2 Planner](https://d2planner.github.io/skills/?eyJ2IjoxLCJwIjoiMS4xNEQiLCJjIjoiYW1hem9uIiwicyI6e30sImIiOnt9LCJ0IjoxfQ==) - Plan your skill allocations.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
 
 ## Credits
 
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
+- [UberMod](https://github.com/Snapchip/D2UberMod) by snapchip.
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
 - [LinearMF](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
@@ -130,3 +127,4 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) by SlashDiablo.
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
 - [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - by CnCNet.
+- [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
