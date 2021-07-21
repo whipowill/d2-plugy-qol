@@ -53,6 +53,7 @@ Backup your save files if you're upgrading an existing setup!
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
+- Manually save this [LocalizedStrings.ini](https://raw.githubusercontent.com/whipowill/d2-plugy-qol/master/Diablo%20II/PlugY/LocalizedStrings.ini) file into ``C:/Games/Diablo II/PlugY/`` (it's in the zipfile, but for some reason the line endings are wrong).
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Make a ``Game.exe`` shortcut on your desktop w/ modifications:
 	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Game.exe" -direct -txt``.
