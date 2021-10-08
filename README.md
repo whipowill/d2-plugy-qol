@@ -15,25 +15,13 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [MapHack](https://github.com/youbetterdont/bhconfig/wiki/User-Guide) - shows the entire map w/ monsters and chests.
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filters items and get notified about drops.
 - [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
+- [3DSound](https://www.indirectsound.com/downloads.html) - enables 3d sound option in sound settings.
 
 ### Custom Changes
-
-- Stacks
-	- Keys stack to 24
-	- Scrolls stack to 48
-	- Quivers stack to 480
 
 - Druid
 	- Shapeshifting duration increased
 	- Can summon all beasts at same time
-
-- Quivers
-	- Magic and rare quivers are possible
-	- Arrows and bolts are infinite
-
-- Corruption
-	- Orb of Corruption - add sockets to a unique or set item
-	- Orb of Transmutation - reforge a unique item to/from being Ethereal
 
 - Mercenaries
 	- Act 1 - Blessed Aim
@@ -42,12 +30,9 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 - Misc
 	- Countess always drops 3 runes
-	- Rune upgrades no longer require gems
 	- Deckard Cain relocated in Act 5 town
 
-## How To Install
-
-Backup your save files if you're upgrading an existing setup!
+## Install
 
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
@@ -60,48 +45,36 @@ Backup your save files if you're upgrading an existing setup!
 - Launch the game by running the shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
-If you're having errors and the install process didn't work for you, it's probably:
-
-- You aren't using ``v1.13d``.
-- You tried to downgrade from ``v1.14``, which you can't do.
-- You didn't make the necessary [video](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) settings changes.
-- You're missing the ``StormLib.dll`` file.
-- You didn't merge the files properly.
-
-### How To Install w/out Game Changes
+### Game Changes
 
 If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes) then delete the ``C:/Games/Diablo II/Data/Global/`` folder.
 
-### How To Install On Mac OSX or Linux
+### Mac / Linux
 
-You can successfully install the game on Mac but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written a [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/MacOSX.md) on how to do this.
+You can successfully install the game on Mac and Linux but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written a [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Unix.md) on how to do this.
 
-### How To Uninstall
+### Uninstall
 
 Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:/Games/Diablo II/`` folder.
 
-## Advanced Notes
+## Advanced
 
-- You can ``control-leftclick`` items between inventory and stash (HT ubeogesh).
+- You can ``control-leftclick`` items between inventory and stash.
 
-### How To Use The Loot Filter
+### Loot Filter
 
 I wanted to keep the loot filter as simple as possible, and using the ingame panel you can set the ping to ``Tier 6`` and set the filter to your desired level:
 
 - ``Off``
-- ``Minimal`` - filters white items (lesser potions + most whites).
-- ``Moderate`` - filters white and blue items (lesser potions + most whites/blues).
-- ``Aggressive`` - filters white, blue, and rare items (lesser potions + most whites/blues/rares).
+- ``Minimal`` - filters white items.
+- ``Moderate`` - filters white and magic items.
+- ``Aggressive`` - filters white, magic, and rare items.
 
-No matter what setting you use: runes, charms, jewels, gems, set items, unique items, special rare items, craftable magic items, and eligable white items are never filtered out.
+No matter what setting you use: runes, charms, jewels, gems, rings, ammulets, set items, unique items, and eligable socketable items are never filtered out.
 
-You can inspect the ``BH.cfg`` config file to see exactly what is filtered out by searching the string ``FILTLVL``.  If I screwed up anything in this loot filter just open a ticket and let me know where I went wrong.
+### Keyboard Macros
 
-### How To Use The Keyboard Macros
-
-This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.
-
-To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack (for PC and Mac).  This makes melee characters a lot easier to play.
+This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
 
 ## Helpful Links
 
@@ -128,3 +101,4 @@ To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoat
 - [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
 - [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - by CnCNet.
 - [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
+- [3DSound](https://www.indirectsound.com/downloads.html) - by IndirectSound.
