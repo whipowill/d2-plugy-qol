@@ -6,16 +6,18 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## What's Included
 
+- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
 - [PlugY](http://plugy.free.fr/en/index.html) - adds shared stash, infinite respec, all runewords (v14.02).
 - [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.8).
-- [AutoPickup](https://www.moddb.com/mods/basemod) - auto pickup gold, scrolls, keys, arrows, and more.
+- [AutoPickup](https://www.moddb.com/mods/basemod) - auto pickup gold, scrolls, keys, and arrows.
+- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once.
+- [UberEvents](https://www.moddb.com/mods/basemod) - take down Diablo Clone and the Uber bosses in singleplayer.
 - [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find (as it was before LOD v1.10).
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
 - [MapHack](https://github.com/youbetterdont/bhconfig/wiki/User-Guide) - shows the entire map w/ monsters and chests.
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filters items and get notified about drops.
-- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
 - [3DSound](https://www.indirectsound.com/downloads.html) - enables 3D sound option in sound settings.
 
 ### Game Changes
@@ -93,7 +95,6 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome by p
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
 - [UberMod](https://github.com/Snapchip/D2UberMod) by snapchip.
 - [BaseMod](https://www.moddb.com/mods/basemod) by devurandom.
-- [LinearMF](https://www.moddb.com/mods/basemod) by devurandom.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
