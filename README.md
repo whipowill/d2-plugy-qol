@@ -60,24 +60,38 @@ You can successfully install the game on Mac and Linux but you will have to use 
 
 Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:/Games/Diablo II/`` folder.
 
-## Advanced
+## Loot Filter
 
-- You can ``control-leftclick`` items between inventory and stash.
+I wanted to keep the loot filter as simple as possible, clicking the ``BH`` button in game will bring up the menu of options.
 
-### Loot Filter
+### Filter Level
 
-I wanted to keep the loot filter as simple as possible, and using the ingame panel you can set the ping to ``Tier 6`` and set the filter to your desired level:
+This controls what items even show up on the ground as drops.
 
-- ``Off``
+- ``Off`` - No filters.
 - ``Minimal`` - filters white items.
-- ``Moderate`` - filters white and magic items.
-- ``Aggressive`` - filters white, magic, and rare items.
+- ``Moderate`` - filters white and blue items.
+- ``Aggressive`` - filters white, blue, and yellow items.
 
-No matter what setting you use: runes, charms, jewels, gems, rings, ammulets, set items, unique items, and eligable socketable items are never filtered out.
+No matter what filter level you choose runes, charms, jewels, gems, rings, amulets, set items, unique items, and eligable socketable items are never filtered out.
 
-### Keyboard Macros
+#### Ping Level
 
-This game is very clicky and you can quickly develop carpal tunnel syndrome by playing it.  To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
+This controls what items are printed into the chat as an alert.
+
+- ``0`` - No alerts.
+- ``1`` - Alert all unique and set items.
+- ``2`` - Alert all the above, plus eligable base items.
+- ``3`` - Alert all the above, plus charms.
+- ``4`` - Alert all the above, plus rings + ammys.
+- ``5`` - Alert all the above, plus jewels.
+- ``6`` - Alert all the above, plus gems.
+
+This feature is super handy bc it means you can slaughter demons in the game without having to check the floor every 2 seconds to see what dropped.
+
+## Keyboard Macros
+
+This game is very clicky and you can quickly develop carpal tunnel syndrome.  To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
 
 ## Helpful Links
 
