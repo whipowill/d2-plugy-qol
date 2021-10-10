@@ -62,16 +62,16 @@ Delete all the files you merged through this install process and copy the files 
 
 ## Loot Filter
 
-I wanted to keep the loot filter as simple as possible, clicking the ``BH`` button in game will bring up the menu of options.
+Clicking the ``BH`` button in game will bring up the menu of options.
 
 ### Filter Level
 
 This controls what items even show up on the ground as drops.
 
 - ``Off`` - No filters.
-- ``Minimal`` - filters white items.
-- ``Moderate`` - filters white and blue items.
-- ``Aggressive`` - filters white, blue, and yellow items.
+- ``Minimal`` - Filters white items.
+- ``Moderate`` - Filters white and blue items.
+- ``Aggressive`` - Filters white, blue, and yellow items.
 
 No matter what filter level you choose runes, charms, jewels, gems, rings, amulets, set items, unique items, and eligable socketable items are never filtered out.
 
