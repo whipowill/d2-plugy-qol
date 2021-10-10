@@ -75,7 +75,7 @@ This controls what items even show up on the ground as drops.
 
 No matter what filter level you choose runes, charms, jewels, gems, rings, amulets, set items, unique items, and eligable socketable items are never filtered out.
 
-#### Ping Level
+### Ping Level
 
 This controls what items are printed into the chat as an alert.
 
