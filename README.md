@@ -99,4 +99,3 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - by CnCNet.
 - [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
 - [3DSound](https://www.indirectsound.com/downloads.html) - by IndirectSound.
-- [Shitfest](https://d2mods.info/forum/viewtopic.php?t=66548) - by Lady Isabelle.
