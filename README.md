@@ -20,21 +20,6 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filter items and get notified about important drops.
 - [3DSound](https://www.indirectsound.com/downloads.html) - enables 3D sound option in sound settings.
 
-### Game Changes
-
-- Druid
-	- Shapeshifting duration increased
-	- Can summon all beasts at same time
-
-- Mercenaries
-	- Act 1 - Blessed Aim
-	- Act 3 - Meditation
-	- Act 5 - Might
-
-- Misc
-	- Countess always drops 3 runes
-	- Deckard Cain relocated in Act 5 town
-
 ## Install
 
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
@@ -43,22 +28,18 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
 - Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
 - Make a ``Game.exe`` shortcut on your desktop w/ modifications:
-	- If using ``DDraw`` set target to ``"C:/Games/Diablo II/Game.exe" -direct -txt``.
-	- If using ``Glide`` set target to ``"C:/Games/Diablo II/Game.exe" -3dfx -direct -txt``.
+	- If using ``DDraw`` set target to ``"C:\Games\Diablo II\Game.exe" -direct -txt``.
+	- If using ``Glide`` set target to ``"C:\Games\Diablo II\Game.exe" -3dfx -direct -txt``.
 - Launch the game by running the shortcut you made.
 - Modify the loot filter settings by clicking the ``BH`` button ingame.
 
-### Game Changes
-
-If you want to install these mods but you don't want any changes to the actual gameplay (none of the custom game changes) then delete the ``C:/Games/Diablo II/Data/Global/`` folder.
-
-### Mac / Linux
+### Mac/Linux
 
 You can successfully install the game on Mac and Linux but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written a [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Unix.md) on how to do this.
 
 ### Uninstall
 
-Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:/Games/Diablo II/`` folder.
+Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:\Games\Diablo II\`` folder.
 
 ## Loot Filter
 
@@ -118,3 +99,4 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - by CnCNet.
 - [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
 - [3DSound](https://www.indirectsound.com/downloads.html) - by IndirectSound.
+- [Shitfest](https://d2mods.info/forum/viewtopic.php?t=66548) - by Lady Isabelle.
