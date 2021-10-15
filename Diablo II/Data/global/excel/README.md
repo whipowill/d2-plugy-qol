@@ -1,6 +1,6 @@
 # D2QOL | Soft Mods
 
-Included in this folder are several "soft" mods that are popular in the D2 community.  While these days I prefer a purist D2 experience, these mods can be pretty fun and I've played them all.
+Included in this folder are several "soft mods" that are popular in the D2 community.  While these days I prefer a purist D2 experience, these mods can be pretty fun and I've played them all.
 
 These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this QOL modpack, you have to turn them on yourself.
 
