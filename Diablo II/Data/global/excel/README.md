@@ -12,7 +12,7 @@ To install any of these, just copy and paste the contents of the folder into the
 - ``COUNTESSDROPS`` - Countess always drops 3 runes (w/ drop table improved).
 - ``COUNTESSDROPS+NODROP0`` - Similar to ``/players 8`` where every mob drops something.
 - ``CUBERUNESWOUTGEMS`` - Upgrade runes without the gem requirements.
-- ``CUBESOCKETALLITEMS+CUBERUNESWOUTGEMS`` - Cube recipes for adding sockets work on magic, rare, unique, and set items too.
+- ``CUBERUNESWOUTGEMS+CUBESOCKETALLITEMS`` - Cube recipes for adding sockets work on magic, rare, unique, and set items too.
 - ``DRUIDSKILLS`` - Shapeshift lasts longer and can summon all beasts at the same time.
 - ``INFINITEQUIVERS+DRUIDSKILLS`` - Magic and rare quivers are possible and arrows are infinite.
 - ``MERCSKILLS`` - All mercs get an aura: A1=Blesssed Aim, A3=Meditation, A5=Might.
