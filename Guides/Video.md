@@ -6,7 +6,7 @@ Special video libraries are necessary to make Diablo II run properly on modern m
 - [FunkyFr3sh's DDraw Library](https://github.com/CnCNet/cnc-ddraw/releases) (newer)
 - [Bolrog's Glide Library](https://github.com/bolrog/d2dx/releases) (newest)
 
-If you're on Windows then you will want to use Bolrog's Glide Library, no question about it.  If you're on Mac OSX or Linux, then you'll want to choose between using FunkyFr3sh's DDraw Library or Sven's Glide Library.
+The best performing library, by far, is Balrog's Glide Library.  If you're on Mac OSX or Linux, or if you're on an older version of Windows, then you may not be able to get Balrog's Glide Library to work and you may resort to the other options.
 
 D2QOL comes will all three of these options pre-installed.  See the instructions below on how to activate the proper library for you.
 

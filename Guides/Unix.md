@@ -1,6 +1,6 @@
-# D2QOL | Mac OSX
+# D2QOL | Unix
 
-These are the instructions for using Terminal to install the Windows version of the game onto your machine.  You can then easily copy the game multiple times for different mods you might want to play.
+These are the instructions for using Terminal to install the Windows version of the game onto your Mac or Linux machine.  You can then easily copy the game multiple times for different mods you might want to play.
 
 In this guide you'll end up with:
 
@@ -8,6 +8,10 @@ In this guide you'll end up with:
 - A single-player install w/ [PlugY](http://plugy.free.fr/en/index.html)
 
 ## Install Wine
+
+Installing Wine is a little different on Mac and Linux.
+
+### On Mac
 
 - Use [Homebrew](https://brew.sh/) to install Wine:
 
@@ -23,12 +27,44 @@ $ brew tap gcenx/wine
 $ brew cask install --no-quarantine wine-crossover
 ```
 
+- Install Winetricks:
+
+```bash
+$ brew install winetricks
+```
+
+### On Linux
+
+- Install latest version of Wine (default version is too old):
+
+```bash
+// these instructions are for Ubuntu!
+$ wget -nc https://dl.winehq.org/wine-builds/winehq.key
+$ sudo gpg -o /etc/apt/trusted.gpg.d/winehq.key.gpg --dearmor winehq.key
+$ sudo apt-add-repository "deb http://dl.winehq.org/wine-builds/ubuntu/ $(lsb_release -cs) main"
+$ sudo apt update
+$ sudo apt install --install-recommends winehq-stable
+$ wine --version
+```
+
+- Install Winetricks:
+
+```bash
+$ sudo apt install winetricks
+```
+
 ## Install Diablo II
 
-- Create a fresh Wine directory and choose WinXP:
+- Create a fresh Wine directory with 32bit architecture and choose Windows 7:
 
 ```bash
 $ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winecfg
+```
+
+- Use Winetricks to install DXVK (this will allow you to use [D2DX](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md)):
+
+```bash
+$ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winetricks dxvk
 ```
 
 - Download [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) and the [v1.13c](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113c.exe) or [v1.13d](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) patch, and move them into the Wine directory:
@@ -72,7 +108,7 @@ $ d2
 - Copy your base D2 install:
 
 ```bash
-$ ditto ~/.wine_d2 ~/.wine_d2plugy
+$ cp -r ~/.wine_d2 ~/.wine_d2plugy
 ```
 
 - Download [PlugY](http://plugy.free.fr/en/index.html) and run the install:

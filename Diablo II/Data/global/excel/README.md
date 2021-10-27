@@ -8,23 +8,16 @@ To install any of these, just copy and paste the contents of the folder into the
 
 ## Summary
 
-- Druid
-	- Shapeshifting duration increased
-	- Can summon all beasts at same time
+- ``BIGGERSTACKS`` - Increase stack sizes on keys, scrolls, and quivers.
+- ``COUNTESSDROPS`` - Countess always drops 3 runes (w/ drop table improved).
+- ``COUNTESSDROPS+NODROP0`` - Similar to ``/players 8`` where every mob drops something.
+- ``CUBERUNESWOUTGEMS`` - Upgrade runes without the gem requirements.
+- ``CUBESOCKETALLITEMS+CUBERUNESWOUTGEMS`` - Cube recipes for adding sockets work on magic, rare, unique, and set items too.
+- ``DRUIDSKILLS`` - Shapeshift lasts longer and can summon all beasts at the same time.
+- ``INFINITEQUIVERS+DRUIDSKILLS`` - Magic and rare quivers are possible and arrows are infinite.
+- ``MERCSKILLS`` - All mercs get an aura: A1=Blesssed Aim, A3=Meditation, A5=Might.
+- ``SHITFEST`` - Radically increases mob density in the game.
 
-- Amazon
-	- Infinite arrows
-	- Magic and rare quivers
+## Credits
 
-- Mercenaries
-	- Act 1 - Blessed Aim
-	- Act 3 - Meditation
-	- Act 5 - Might
-
-- Horadric Cube
-	- Rune upgrades no longer require gems
-	- Socket recipes work on magic, rare, unique, and set items
-
-- Miscellaneous
-	- Keys, scrolls, quiver stacks increased
-	- Countess always drops 3 runes (w/ drop table improved)
+- [Shitfest](https://d2mods.info/forum/viewtopic.php?t=66548) - by Lady Isabelle
