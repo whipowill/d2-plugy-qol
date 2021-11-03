@@ -838,7 +838,7 @@ ROP (N)			1	1024					Diablo (N)	4	Annihilus	1																				0
 ROP (H)			1	1024					Annihilus	1																						0
 Countess Rune			3						Runes 10	15																						0
 Countess Rune (N)			3						Runes 13	15																						0
-Countess Rune (H)			3						Runes 16	67	pk1	1																				0
+Countess Rune (H)			3						Runes 16	36	pk1	1																				0
 Countess Item			5						gld,mul=1280	11	Act 1 Equip C	19	Act 2 Junk	15	Act 2 Good	3																0
 Countess Item (N)			5						gld,mul=1536	11	Act 1 (N) Equip C	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
 Countess Item (H)			5						gld,mul=2048	11	Act 1 (H) Equip C	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	pk1	1														0
