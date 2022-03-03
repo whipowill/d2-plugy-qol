@@ -237,15 +237,15 @@ Bronze		100	1	1	1		1				4	110	att		2	4											scha														0
 Bronze		100	1	1	21		15				4	110	att		6	12											scha														0
 Iron		100	1	1	39		31				4	110	att		13	24											scha														0
 Steel		100	1		57		49				4	110	att		25	36											scha														0
-Bronze		1	1	1	1		1				8	110	att		10	20											weap	ring	glov	amul	circ			staf	wand	orb					0
-Iron		1	1	1	4		3				8	110	att		21	40											weap	ring	circ					staf	wand	orb					0
-Steel		1	1	1	8		6				7	110	att		41	60											weap	ring	circ					staf	wand	orb					0
-Silver		1	1	1	12		9				7	110	att		61	80											weap	ring	circ					staf	wand	orb					0
-Gold		1	1	1	17		12				6	110	att		81	100									1	lgld	weap	ring	circ					staf	wand	orb					0
-Platinum		1	1	1	22		16				6	110	att		101	120									1	lgld	weap	ring	circ					staf	wand	orb					0
-Meteoric		1	1	1	27		20				5	110	att		121	150									1	lgld	weap							staf	wand	orb					0
-Strange		100	1	1	32		24				5	110	att		151	300									1	lgld	weap							staf	wand	orb					0
-Weird		100	1		37		27				4	110	att		301	450									1	lgld	weap							staf	wand	orb					0
+Bronze		1	1	1	1		1				8	110	att		10	20											weap	ring	glov	amul	circ	bowq	xboq	staf	wand	orb					0
+Iron		1	1	1	4		3				8	110	att		21	40											weap	ring	circ	bowq	xboq			staf	wand	orb					0
+Steel		1	1	1	8		6				7	110	att		41	60											weap	ring	circ	bowq	xboq			staf	wand	orb					0
+Silver		1	1	1	12		9				7	110	att		61	80											weap	ring	circ	bowq	xboq			staf	wand	orb					0
+Gold		1	1	1	17		12				6	110	att		81	100									1	lgld	weap	ring	circ	bowq	xboq			staf	wand	orb					0
+Platinum		1	1	1	22		16				6	110	att		101	120									1	lgld	weap	ring	circ	bowq	xboq			staf	wand	orb					0
+Meteoric		1	1	1	27		20				5	110	att		121	150									1	lgld	weap	bowq	xboq					staf	wand	orb					0
+Strange		100	1	1	32		24				5	110	att		151	300									1	lgld	weap	bowq	xboq					staf	wand	orb					0
+Weird		100	1		37		27				4	110	att		301	450									1	lgld	weap	bowq	xboq					staf	wand	orb					0
 Nickel		100	1	1	1		1				4	110	att		10	20											jewl														0
 Tin		100	1	1	8		6				4	110	att		21	40											jewl														0
 Silver		100	1	1	25		18				4	110	att		41	60											jewl														0
@@ -327,11 +327,11 @@ Rainbow		100	1	1	18		13				5	116	res-all		8	11									1	lpur	shld													1
 Scintillating		100	1	1	28		21				5	116	res-all		12	15									1	lpur	shld													1280	4000
 Prismatic		1	1	1	39		31				4	116	res-all		16	20									1	lpur	shld													1280	8000
 Chromatic		100	1		50		42				4	116	res-all		21	30									1	lpur	shld													1280	16000
-Shimmering		100	1	1	8		6				5	116	res-all		3	7									1	lpur	amul	circ												1280	3000
-Rainbow		100	1	1	21		15				5	116	res-all		8	11									1	lpur	amul	circ												1280	6000
-Scintillating		100	1	1	34		25				5	116	res-all		12	15									1	lpur	amul	circ												1280	12000
-Prismatic		1	1	1	42		31				4	116	res-all		16	20									1	lpur	amul	circ												1280	24000
-Chromatic		100	1		55		41				3	116	res-all		21	30									1	lpur	amul	circ												1280	32000
+Shimmering		100	1	1	8		6				5	116	res-all		3	7									1	lpur	amul	circ	bowq	xboq										1280	3000
+Rainbow		100	1	1	21		15				5	116	res-all		8	11									1	lpur	amul	circ	bowq	xboq										1280	6000
+Scintillating		100	1	1	34		25				5	116	res-all		12	15									1	lpur	amul	circ	bowq	xboq										1280	12000
+Prismatic		1	1	1	42		31				4	116	res-all		16	20									1	lpur	amul	circ	bowq	xboq										1280	24000
+Chromatic		100	1		55		41				3	116	res-all		21	30									1	lpur	amul	circ	bowq	xboq										1280	32000
 Shimmering		100	1	1	45		37				3	116	res-all		3	7									1	lpur	ring													1280	4000
 Rainbow		100	1	1	56		48				2	116	res-all		8	11									1	lpur	ring													1280	8000
 Scintillating		100	1		67		59				2	116	res-all		12	15									1	lpur	ring													1280	16000
@@ -341,10 +341,10 @@ Azure		100	1	1	1		1				2	117	res-cold		7	15											lcha														0
 Lapis		100	1	1	10		7				2	117	res-cold		16	20											lcha														0
 Cobalt		100	1	1	20		15				2	117	res-cold		21	25									1	lblu	lcha														0
 Sapphire		100	1		30		22				2	117	res-cold		26	30									1	lblu	lcha														0
-Azure		100	1	1	1		1				2	117	res-cold		4	7											mcha														0
-Lapis		100	1	1	16		12				2	117	res-cold		8	10											mcha														0
-Cobalt		100	1	1	25		18				2	117	res-cold		11	12									1	lblu	mcha														0
-Sapphire		100	1		35		27				2	117	res-cold		13	15									1	lblu	mcha														0
+Azure		100	1	1	1		1				2	117	res-cold		4	7											mcha	bowq	xboq												0
+Lapis		100	1	1	16		12				2	117	res-cold		8	10											mcha	bowq	xboq												0
+Cobalt		100	1	1	25		18				2	117	res-cold		11	12									1	lblu	mcha	bowq	xboq												0
+Sapphire		100	1		35		27				2	117	res-cold		13	15									1	lblu	mcha	bowq	xboq												0
 Azure		100	1	1	1		1				2	117	res-cold		3	5											scha														0
 Lapis		100	1	1	14		10				2	117	res-cold		6	7											scha														0
 Cobalt		100	1	1	27		20				2	117	res-cold		8	9									1	lblu	scha														0
@@ -361,10 +361,10 @@ Crimson		100	1	1	1		1				2	118	res-fire		7	15											lcha														0
 Russet		100	1	1	10		7				2	118	res-fire		16	20											lcha														0
 Garnet		100	1	1	20		15				2	118	res-fire		21	25									1	lred	lcha														0
 Ruby		100	1		30		22				2	118	res-fire		26	30									1	lred	lcha														0
-Crimson		100	1	1	1		1				2	118	res-fire		4	7											mcha														0
-Russet		100	1	1	16		12				2	118	res-fire		8	10											mcha														0
-Garnet		100	1	1	25		18				2	118	res-fire		11	12									1	lred	mcha														0
-Ruby		100	1		35		27				2	118	res-fire		13	15									1	lred	mcha														0
+Crimson		100	1	1	1		1				2	118	res-fire		4	7											mcha	bowq	xboq												0
+Russet		100	1	1	16		12				2	118	res-fire		8	10											mcha	bowq	xboq												0
+Garnet		100	1	1	25		18				2	118	res-fire		11	12									1	lred	mcha	bowq	xboq												0
+Ruby		100	1		35		27				2	118	res-fire		13	15									1	lred	mcha	bowq	xboq												0
 Crimson		100	1	1	1		1				2	118	res-fire		3	5											scha														0
 Russet		100	1	1	14		10				2	118	res-fire		6	7									1	lred	scha														0
 Garnet		100	1		27		20				2	118	res-fire		8	9									1	lred	scha														0
@@ -380,10 +380,10 @@ Tangerine		100	1	1	1		1				2	119	res-ltng		7	15											lcha														0
 Ocher		100	1	1	10		7				2	119	res-ltng		16	20											lcha														0
 Coral		100	1	1	20		15				2	119	res-ltng		21	25									1	lyel	lcha														0
 Amber		100	1		30		22				2	119	res-ltng		26	30									1	lyel	lcha														0
-Tangerine		100	1	1	1		1				2	119	res-ltng		4	7											mcha														0
-Ocher		100	1	1	16		12				2	119	res-ltng		8	10											mcha														0
-Coral		100	1	1	25		18				2	119	res-ltng		11	12									1	lyel	mcha														0
-Amber		100	1		35		27				2	119	res-ltng		13	15									1	lyel	mcha														0
+Tangerine		100	1	1	1		1				2	119	res-ltng		4	7											mcha	bowq	xboq												0
+Ocher		100	1	1	16		12				2	119	res-ltng		8	10											mcha	bowq	xboq												0
+Coral		100	1	1	25		18				2	119	res-ltng		11	12									1	lyel	mcha	bowq	xboq												0
+Amber		100	1		35		27				2	119	res-ltng		13	15									1	lyel	mcha	bowq	xboq												0
 Tangerine		100	1	1	1		1				2	119	res-ltng		3	5											scha														0
 Ocher		100	1	1	14		10				2	119	res-ltng		6	7											scha														0
 Coral		100	1	1	27		20				2	119	res-ltng		8	9									1	lyel	scha														0
@@ -400,10 +400,10 @@ Beryl		100	1	1	1		1				2	120	res-pois		7	15											lcha														0
 Viridian		100	1	1	10		7				2	120	res-pois		16	20											lcha														0
 Jade		100	1	1	20		15				2	120	res-pois		21	25									1	cgrn	lcha														0
 Emerald		100	1		30		22				2	120	res-pois		26	30									1	cgrn	lcha														0
-Beryl		100	1	1	1		1				2	120	res-pois		4	7											mcha														0
-Viridian		100	1	1	16		12				2	120	res-pois		8	10											mcha														0
-Jade		100	1	1	25		18				2	120	res-pois		11	12									1	cgrn	mcha														0
-Emerald		100	1		35		27				2	120	res-pois		13	15									1	cgrn	mcha														0
+Beryl		100	1	1	1		1				2	120	res-pois		4	7											mcha	bowq	xboq												0
+Viridian		100	1	1	16		12				2	120	res-pois		8	10											mcha	bowq	xboq												0
+Jade		100	1	1	25		18				2	120	res-pois		11	12									1	cgrn	mcha	bowq	xboq												0
+Emerald		100	1		35		27				2	120	res-pois		13	15									1	cgrn	mcha	bowq	xboq												0
 Beryl		100	1	1	1		1				2	120	res-pois		3	5											scha														0
 Viridian		100	1	1	14		10				2	120	res-pois		6	7											scha														0
 Jade		100	1	1	27		20				2	120	res-pois		8	9									1	cgrn	scha														0
@@ -416,8 +416,8 @@ Jade		1	1	1	55		41				1	120	res-pois		21	30											weap							orb							0
 Emerald		1	1	1	25		18				3	120	res-pois		31	40									1	cgrn	rod	boot	amul	orb	circ										0
 Beryl		100	1	1	2		1				4	117	res-pois		5	15									1	cgrn	jewl														0
 Jade		100	1	1	19		14				4	117	res-pois		16	30									1	cgrn	jewl														0
-Triumphant		1	1	1	3		2				4	121	mana-kill		1	1											weap	ring	circ												0
-Victorious		100	1	1	17		12				4	121	mana-kill		2	5											weap	circ													0
+Triumphant		1	1	1	3		2				4	121	mana-kill		1	1											weap	ring	circ	bowq	xboq										0
+Victorious		100	1	1	17		12				4	121	mana-kill		2	5											weap	circ	bowq	xboq											0
 Aureolin		100	1	1	22		16				4	121	mana-kill		1	3											jewl														0
 Mechanist's		100	1	1	10		7				3	122	sock		1	2											weap	shld	helm	tors	circ			thro							0
 Artificer's		100	1		33		25				2	122	sock	3													weap	shld	helm	tors				thro							0
@@ -432,9 +432,9 @@ Diamond		100	1	1	26		19				1	123	att-demon		25	50	dmg-demon		25	40							jewl			
 Fletcher's		100	1		50		42	ama			1	125	skilltab	0	1	1											lcha														0
 Acrobat's		100	1		50		42	ama			1	125	skilltab	1	1	1											lcha														0
 Harpoonist's		100	1		50		42	ama			1	125	skilltab	2	1	1											lcha														0
-Fletcher's		100	1	1	20		15	ama			1	125	skilltab	0	1	1											miss	glov													0
-Bowyer's		100	1	1	40		30	ama			1	125	skilltab	0	2	2									1	lgld	miss	glov													0
-Archer's		100	1		60		45	ama			1	125	skilltab	0	3	3									1	lgld	miss	glov													0
+Fletcher's		100	1	1	20		15	ama			1	125	skilltab	0	1	1											miss	glov	bowq	xboq											0
+Bowyer's		100	1	1	40		30	ama			1	125	skilltab	0	2	2									1	lgld	miss	glov	bowq	xboq											0
+Archer's		100	1		60		45	ama			1	125	skilltab	0	3	3									1	lgld	miss	glov	bowq	xboq											0
 Acrobat's		100	1	1	20		15	ama			1	125	skilltab	1	1	1											glov	amul	circ												0
 Gymnast's		100	1	1	40		30	ama			1	125	skilltab	1	2	2									1	lgld	glov	amul	circ												0
 Athlete's		100	1		60		45	ama			1	125	skilltab	1	3	3									1	lgld	glov	amul	circ												0
@@ -526,41 +526,41 @@ Jack's		100		1	10		7				1	111	dmg/lvl	2			att/lvl	15							1	whit	weap							sta
 Jester's		100		1	20		15				1	111	dmg/lvl	3			att/lvl	22							1	whit	weap							staf	wand	orb					0
 Joker's		100		1	35		26				1	111	dmg/lvl	4			att/lvl	33							1	whit	weap							staf	wand	orb					0
 Trump		100	1	1	50		37				7	111	dmg/lvl	4			att/lvl	33							1	whit	weap							staf	wand	orb					0
-Loud		100			1		1				1	105	dmg/lvl	2											1	whit	weap							staf	wand	orb					0
-Calling		100		1	10		7				1	105	dmg/lvl	3											1	whit	weap							staf	wand	orb					0
-Yelling		100		1	20		15				1	105	dmg/lvl	4											1	whit	weap							staf	wand	orb					0
-Shouting		100		1	35		26				1	105	dmg/lvl	5											1	whit	weap							staf	wand	orb					0
-Gritty		100	1	1	50		37				7	105	dmg/lvl	6											1	whit	weap							staf	wand	orb					0
+Loud		100			1		1				1	105	dmg/lvl	2											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Calling		100		1	10		7				1	105	dmg/lvl	3											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Yelling		100		1	20		15				1	105	dmg/lvl	4											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Shouting		100		1	35		26				1	105	dmg/lvl	5											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Gritty		100	1	1	50		37				7	105	dmg/lvl	6											1	whit	weap	bowq	xboq					staf	wand	orb					0
 Paradox		100		1	25		18				1	101	ac%/lvl	12											1	whit	tors														0
 Paradox		100		1	25		18				1	105	dmg%/lvl	12											1	whit	weap							staf	wand	orb					0
-Robineye		100			1		1				1	111	att/lvl	4											1	whit	weap							staf	wand	orb					0
-Sparroweye		100			10		7				1	111	att/lvl	6											1	whit	weap							staf	wand	orb					0
-Falconeye		100			20		15				1	111	att/lvl	8											1	whit	weap							staf	wand	orb					0
-Hawkeye		100	1		35		26				7	111	att/lvl	12											1	whit	weap							staf	wand	orb					0
-Eagleeye		100			50		37				1	111	att/lvl	16											1	whit	weap							staf	wand	orb					0
+Robineye		100			1		1				1	111	att/lvl	4											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Sparroweye		100			10		7				1	111	att/lvl	6											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Falconeye		100			20		15				1	111	att/lvl	8											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Hawkeye		100	1		35		26				7	111	att/lvl	12											1	whit	weap	bowq	xboq					staf	wand	orb					0
+Eagleeye		100			50		37				1	111	att/lvl	16											1	whit	weap	bowq	xboq					staf	wand	orb					0
 Visionary		100	1	1	25		18				1	111	att%/lvl	2											1	whit	helm	miss													0
 Mnemonic		100	1	1	25		18				1	115	mana/lvl	6											1	cblu	helm														0
-Snowflake		100	1	1	25		18				3	137	cold-len		25	25	cold-min		6	9	cold-max		19	30	1	lblu	weap	circ													0
-Shivering		100	1	1	35		26				2	137	cold-len		50	50	cold-min		10	15	cold-max		31	45	1	lblu	weap														0
-Boreal		100	1	1	50		40				1	137	cold-len		75	75	cold-min		16	23	cold-max		46	90	1	lblu	weap														0
-Hibernal		100	1	1	70		60				1	137	cold-len		100	100	cold-min		24	45	cold-max		91	140	1	lblu	weap														0
-Ember		100	1	1	25		18				3	138	fire-min		16	25	fire-max		31	60					1	dred	weap	circ													0
-Smoldering		100	1	1	35		26				2	138	fire-min		26	50	fire-max		61	90					1	dred	weap														0
-Smoking		100	1	1	47		37				1	138	fire-min		51	80	fire-max		91	130					1	dred	weap														0
-Flaming		100	1	1	61		51				1	138	fire-min		81	120	fire-max		131	180					1	dred	weap														0
-Scorching		100	1	1	77		67				1	138	fire-min		121	170	fire-max		181	240					1	dred	weap														0
-Static		100	1	1	25		18				3	139	ltng-min		1	1	ltng-max		49	120					1	lyel	weap	circ													0
-Glowing		100	1	1	34		25				2	139	ltng-min		1	1	ltng-max		121	180					1	lyel	weap														0
-Buzzing		100	1	1	46		36				1	139	ltng-min		1	1	ltng-max		181	260					1	lyel	weap														0
-Arcing		100	1	1	60		50				1	139	ltng-min		1	1	ltng-max		261	360					1	lyel	weap														0
-Shocking		100	1	1	76		66				1	139	ltng-min		1	1	ltng-max		361	480					1	lyel	weap														0
-Septic		100	1	1	1		1				3	140	dmg-pois	50	31	31									1	dgrn	weap	circ													0
-Envenomed		100	1	1	10		7				2	140	dmg-pois	75	41	41									1	dgrn	weap														0
-Corosive		100	1	1	20		15				1	140	dmg-pois	100	205	205									1	dgrn	weap														0
-Toxic		100	1	1	35		26				1	140	dmg-pois	125	308	308									1	dgrn	weap														0
-Pestilent		100	1		50		37				1	140	dmg-pois	150	470	470									1	dgrn	weap														0
-Maiden's		1	1	1	36		27	ama			4	125	ama		1	1											amul	circ													0
-Valkyrie's		1	1	1	90		67	ama			2	125	ama		2	2									1	cgrn	amul	circ													0
+Snowflake		100	1	1	25		18				3	137	cold-len		25	25	cold-min		6	9	cold-max		19	30	1	lblu	weap	circ	bowq	xboq											0
+Shivering		100	1	1	35		26				2	137	cold-len		50	50	cold-min		10	15	cold-max		31	45	1	lblu	weap	bowq	xboq												0
+Boreal		100	1	1	50		40				1	137	cold-len		75	75	cold-min		16	23	cold-max		46	90	1	lblu	weap	bowq	xboq												0
+Hibernal		100	1	1	70		60				1	137	cold-len		100	100	cold-min		24	45	cold-max		91	140	1	lblu	weap	bowq	xboq												0
+Ember		100	1	1	25		18				3	138	fire-min		16	25	fire-max		31	60					1	dred	weap	circ	bowq	xboq											0
+Smoldering		100	1	1	35		26				2	138	fire-min		26	50	fire-max		61	90					1	dred	weap	bowq	xboq												0
+Smoking		100	1	1	47		37				1	138	fire-min		51	80	fire-max		91	130					1	dred	weap	bowq	xboq												0
+Flaming		100	1	1	61		51				1	138	fire-min		81	120	fire-max		131	180					1	dred	weap	bowq	xboq												0
+Scorching		100	1	1	77		67				1	138	fire-min		121	170	fire-max		181	240					1	dred	weap	bowq	xboq												0
+Static		100	1	1	25		18				3	139	ltng-min		1	1	ltng-max		49	120					1	lyel	weap	circ	bowq	xboq											0
+Glowing		100	1	1	34		25				2	139	ltng-min		1	1	ltng-max		121	180					1	lyel	weap	bowq	xboq												0
+Buzzing		100	1	1	46		36				1	139	ltng-min		1	1	ltng-max		181	260					1	lyel	weap	bowq	xboq												0
+Arcing		100	1	1	60		50				1	139	ltng-min		1	1	ltng-max		261	360					1	lyel	weap	bowq	xboq												0
+Shocking		100	1	1	76		66				1	139	ltng-min		1	1	ltng-max		361	480					1	lyel	weap	bowq	xboq												0
+Septic		100	1	1	1		1				3	140	dmg-pois	50	31	31									1	dgrn	weap	circ	bowq	xboq											0
+Envenomed		100	1	1	10		7				2	140	dmg-pois	75	41	41									1	dgrn	weap	bowq	xboq												0
+Corosive		100	1	1	20		15				1	140	dmg-pois	100	205	205									1	dgrn	weap	bowq	xboq												0
+Toxic		100	1	1	35		26				1	140	dmg-pois	125	308	308									1	dgrn	weap	bowq	xboq												0
+Pestilent		100	1		50		37				1	140	dmg-pois	150	470	470									1	dgrn	weap	bowq	xboq												0
+Maiden's		1	1	1	36		27	ama			4	125	ama		1	1											amul	circ	bowq	xboq											0
+Valkyrie's		1	1	1	90		67	ama			2	125	ama		2	2									1	cgrn	amul	circ	bowq	xboq											0
 Maiden's		1	1	1	30		22	ama			4	125	ama		1	1											miss	spea													0
 Valkyrie's		1	1	1	50		42	ama			2	125	ama		2	2									1	cgrn	miss	spea													0
 Monk's		1	1	1	36		27	pal			4	125	pal		1	1											amul	circ													0
