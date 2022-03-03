@@ -19,7 +19,7 @@ To install any of these, just copy and paste the contents into ``C:\Games\Diablo
 Credit to [fearedbliss](https://github.com/whipowill/Diablo-II--Vanilla-Frosting) for this code.
 
 ### CUBEMOD
-- Upgrade runes w/ only 2 runes, no gem requirements
+- Upgrade runes w/ 2 of any rune -> 1 higher level rune, no gem requirements
 - Cube recipes for sockets work on magic, rare, unique, and set items too
 - Unsocket any item in the cube w/ a key and get the runes back
 

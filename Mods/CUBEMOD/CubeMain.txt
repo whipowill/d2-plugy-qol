@@ -50,15 +50,15 @@ Khalim Flail + Khalim Heart + Khalim Eye + Khalim Brain -> Super Khalim Flail	1	
 3 flawed skulls -> standard skull	1			0					3	skf,qty=3							sku																																																																																							0
 3 standard skulls -> flawless skull	1			0					3	sku,qty=3							skl																																																																																							0
 3 flawless skulls -> perfect skull	1			0					3	skl,qty=3							skz																																																																																							0
-3 rune 01 -> rune 02	1			100					3	r01,qty=3							r02																																																																																							0
-3 rune 02 -> rune 03	1			100					3	r02,qty=3							r03																																																																																							0
-3 rune 03 -> rune 04	1			100					3	r03,qty=3							r04																																																																																							0
-3 rune 04 -> rune 05	1			100					3	r04,qty=3							r05																																																																																							0
-3 rune 05 -> rune 06	1			100					3	r05,qty=3							r06																																																																																							0
-3 rune 06 -> rune 07	1			100					3	r06,qty=3							r07																																																																																							0
-3 rune 07 -> rune 08	1			100					3	r07,qty=3							r08																																																																																							0
-3 rune 08 -> rune 09	1			100					3	r08,qty=3							r09																																																																																							0
-3 rune 09 -> rune 10	1			100					3	r09,qty=3							r10																																																																																							0
+3 rune 01 -> rune 02	1			100					2	r01,qty=2							r02																																																																																							0
+3 rune 02 -> rune 03	1			100					2	r02,qty=2							r03																																																																																							0
+3 rune 03 -> rune 04	1			100					2	r03,qty=2							r04																																																																																							0
+3 rune 04 -> rune 05	1			100					2	r04,qty=2							r05																																																																																							0
+3 rune 05 -> rune 06	1			100					2	r05,qty=2							r06																																																																																							0
+3 rune 06 -> rune 07	1			100					2	r06,qty=2							r07																																																																																							0
+3 rune 07 -> rune 08	1			100					2	r07,qty=2							r08																																																																																							0
+3 rune 08 -> rune 09	1			100					2	r08,qty=2							r09																																																																																							0
+3 rune 09 -> rune 10	1			100					2	r09,qty=2							r10																																																																																							0
 3 perfect gems + 1 magic item -> magic item	1			100					4	any,mag	gem4,qty=3						usetype,mag			100																																																																																				0
 6 perfect skulls + 1 rare item -> 1 low level rare item	1			0					7	any,rar	skz,qty=6						usetype,rar		40	40																																																																																				0
 1 perfect skull + 1 rare item + soj -> 1 high level rare item	1			0					3	any,rar	skz	The Stone of Jordan					usetype,rar		66	66																																																																																				0
@@ -99,17 +99,17 @@ magic breastplate + jewel + rune 05 + perfect emerald -> safety body	1			100				
 magic amulet + jewel + rune 10 + perfect emerald -> safety amulet	1			100					4	amul,mag	jew	r10	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	block			1	10																																																																					0
 magic ring + jewel + rune 11 + perfect emerald -> safety ring	1			100					4	ring,mag	jew	r11	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	vit			1	5																																																																					0
 magic spear + jewel + rune 12 + perfect emerald -> safety weapon	1			100					4	spea,mag	jew	r12	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	ac%			5	10																																																																					0
-3 rune 10 + 1 chipped topaz -> rune 11	1			100					3	r10,qty=3							r11																																																																																							0
-3 rune 11 + 1 chipped amethyst -> rune 12	1			100					3	r11,qty=3							r12																																																																																							0
-3 rune 12 + 1 chipped sapphire -> rune 13	1			100					3	r12,qty=3							r13																																																																																							0
-3 rune 13 + 1 chipped ruby -> rune 14	1			100					3	r13,qty=3							r14																																																																																							0
-3 rune 14 + 1 chipped emerald -> rune 15	1			100					3	r14,qty=3							r15																																																																																							0
-3 rune 15 + 1 chipped diamond -> rune 16	1			100					3	r15,qty=3							r16																																																																																							0
-3 rune 16 + 1 flawed topaz -> rune 17	1			100					3	r16,qty=3							r17																																																																																							0
-3 rune 17 + 1 flawed amethyst -> rune 18	1			100					3	r17,qty=3							r18																																																																																							0
-3 rune 18 + 1 flawed sapphire -> rune 19	1			100					3	r18,qty=3							r19																																																																																							0
-3 rune 19 + 1 flawed ruby -> rune 20	1			100					3	r19,qty=3							r20																																																																																							0
-3 rune 20 + 1 flawed emerald -> rune 21	1			100					3	r20,qty=3							r21																																																																																							0
+3 rune 10 + 1 chipped topaz -> rune 11	1			100					2	r10,qty=2							r11																																																																																							0
+3 rune 11 + 1 chipped amethyst -> rune 12	1			100					2	r11,qty=2							r12																																																																																							0
+3 rune 12 + 1 chipped sapphire -> rune 13	1			100					2	r12,qty=2							r13																																																																																							0
+3 rune 13 + 1 chipped ruby -> rune 14	1			100					2	r13,qty=2							r14																																																																																							0
+3 rune 14 + 1 chipped emerald -> rune 15	1			100					2	r14,qty=2							r15																																																																																							0
+3 rune 15 + 1 chipped diamond -> rune 16	1			100					2	r15,qty=2							r16																																																																																							0
+3 rune 16 + 1 flawed topaz -> rune 17	1			100					2	r16,qty=2							r17																																																																																							0
+3 rune 17 + 1 flawed amethyst -> rune 18	1			100					2	r17,qty=2							r18																																																																																							0
+3 rune 18 + 1 flawed sapphire -> rune 19	1			100					2	r18,qty=2							r19																																																																																							0
+3 rune 19 + 1 flawed ruby -> rune 20	1			100					2	r19,qty=2							r20																																																																																							0
+3 rune 20 + 1 flawed emerald -> rune 21	1			100					2	r20,qty=2							r21																																																																																							0
 2 rune 21 + 1 flawed diamond -> rune 22	1			100					2	r21,qty=2							r22																																																																																							0
 2 rune 22 + 1 standard topaz -> rune 23	1			100					2	r22,qty=2							r23																																																																																							0
 2 rune 23 + 1 standard amethyst -> rune 24	1			100					2	r23,qty=2							r24																																																																																							0

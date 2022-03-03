@@ -47,7 +47,7 @@ Included in this [folder](https://github.com/whipowill/d2-plugy-qol/tree/master/
 
 These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this QOL modpack, you have to turn them on yourself.
 
-To install any of these, just copy and paste the contents of the folder into the parent directory.  So the ``TXT`` files are going to end up in ``C:\Games\Diablo II\Data\Global\Excel\``.
+To install any of these, just copy and paste the contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
 
 ## Loot Filter
 
