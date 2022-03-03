@@ -122,10 +122,10 @@ magic spear + jewel + rune 12 + perfect emerald -> safety weapon	1			100					4	s
 2 rune 30 + 1 flawless sapphire -> rune 31	1			100					2	r30,qty=2							r31																																																																																							0
 2 rune 31 + 1 flawless ruby -> rune 32	1			100					2	r31,qty=2							r32																																																																																							0
 2 rune 32 + 1 flawless emerald -> rune 33	1			100					2	r32,qty=2							r33																																																																																							0
-r07 + r10 + 1 perfect topaz + normal torso -> socketed torso	1			100					4	tors,nor,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
-r08 + r11 + 1 perfect amethyst + normal weapon -> socketed weapon	1			100					4	weap,nor,nos	r08	r11	gpv				useitem				sock			1	6																																																																															0
-r08 + r10 + 1 perfect sapphire + normal helm -> socketed helm	1			100					4	helm,nor,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
-r07 + r11 + 1 perfect ruby + normal shield -> socketed shield	1			100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
+r07 + r10 + 1 perfect topaz + normal torso -> socketed torso	1			100					4	tors,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
+r08 + r11 + 1 perfect amethyst + normal weapon -> socketed weapon	1			100					4	weap,nos	r08	r11	gpv				useitem				sock			1	6																																																																															0
+r08 + r10 + 1 perfect sapphire + normal helm -> socketed helm	1			100					4	helm,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
+r07 + r11 + 1 perfect ruby + normal shield -> socketed shield	1			100					4	shld,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
 r02 + 1 chipped gem + low weapon -> normal weapon	1			100					3	weap,low	r02	gem0					usetype,nor																																																																																							0
 r01 + 1 chipped gem + low armor -> normal armor	1			100					3	armo,low	r01	gem0					usetype,nor																																																																																							0
 r08 + r12 + perfect emerald + basic unique weapon -> exceptional unique weapon	1			100					4	weap,bas,uni	r08	r12	gpg				useitem,mod,exc				levelreq			5	5																																																																															0
@@ -150,3 +150,4 @@ r01 + gcv + tempered weapon -> +30-50 ar				100					3	weap,tmp	r01	gcv					useit
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
 Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
+SafeUnsocket	1			100					2	any,sock	key,qty=1						useitem,rem																																																																																							0

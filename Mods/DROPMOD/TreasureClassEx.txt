@@ -8,7 +8,7 @@ Flawed Gem			1						gfv	3	gfy	3	gfb	3	gfg	3	gfr	3	gfw	3	skf	2										0
 Normal Gem			1						gsv	3	gsy	3	gsb	3	gsg	3	gsr	3	gsw	3	sku	2										0
 Flawless Gem			1						gzv	3	gly	3	glb	3	glg	3	glr	3	glw	3	skl	2										0
 Perfect Gem			1						gpv	3	gpy	3	gpb	3	gpg	3	gpr	3	gpw	3	skz	2										0
-Ammo			1						aqv	1	cqv	1																				0
+Ammo			1						aqv	4	cqv	1																				0
 Misc 0			1						key	3	tsc	3	isc	3	opl	2	gpl	2														0
 Misc 1			1						key	3	tsc	3	isc	3	opm	2	gpm	2														0
 Misc 2			1						key	3	tsc	3	isc	3	ops	2	gps	2														0
@@ -668,15 +668,15 @@ Swarm 1 (N)	17	40	1						Potion 6	12	Misc 2	6	Act 2 (N) Good	1	Act 2 (N) Magic A
 Swarm 2 (N)	17	46	1						Potion 6	12	Misc 2	6	Act 3 (N) Good	1	Act 3 (N) Magic A	6																0
 Swarm 1 (H)	17	68	1						Potion 6	12	Misc 2	6	Act 2 (H) Good	1	Act 2 (H) Magic A	6																0
 Swarm 2 (H)	17	74	1						Potion 6	12	Misc 2	6	Act 3 (H) Good	1	Act 3 (H) Magic A	6																0
-Andariel			7	983	983	983	1024		gld,mul=1280	11	Act 2 Equip A	19	Act 2 Junk	15	Act 2 Good	3																0
-Andariel (N)			7	983	983	983	1024		gld,mul=1536	11	Act 2 (N) Equip A	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
-Andariel (H)			7	983	983	983	1024		gld,mul=2048	11	Act 2 (H) Equip A	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	tes	1														0
+Andariel			7	995	995	1024	1024		Act 2 Equip A	19	Act 2 Good	3																				0
+Andariel (N)			7	995	995	1024	1024		Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
+Andariel (H)			7	995	995	1024	1024		Act 2 (H) Equip A	19	Act 2 (H) Good	3	tes	1																		0
 Andarielq			7	995	995	1024	1024		Act 2 Equip A	19	Act 2 Good	3																				0
 Andarielq (N)			7	995	995	1024	1024		Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
 Andarielq (H)			7	995	995	1024	1024		Act 2 (H) Equip A	19	Act 2 (H) Good	3	tes	1																		0
-Duriel - Base			7	983	983	983	1024		gld,mul=1280	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																0
-Duriel (N) - Base			7	983	983	983	1024		gld,mul=1536	11	Act 3 (N) Equip A	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
-Duriel (H) - Base			7	983	983	983	1024		gld,mul=2048	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	tes	2														0
+Duriel - Base			7	993	993	1024	1024		Act 3 Equip A	19	Act 3 Good	3																				0
+Duriel (N) - Base			7	993	993	1024	1024		Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
+Duriel (H) - Base			7	993	993	1024	1024		Act 3 (H) Equip A	19	Act 3 (H) Good	3	tes	2																		0
 Durielq - Base			7	993	993	1024	1024		Act 3 Equip A	19	Act 3 Good	3																				0
 Durielq (N) - Base			7	993	993	1024	1024		Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
 Durielq (H) - Base			7	993	993	1024	1024		Act 3 (H) Equip A	19	Act 3 (H) Good	3	tes	2																		0
@@ -686,15 +686,15 @@ Radament (H)			5	900	900	900	1024		gld,mul=2048	11	Act 3 (H) Equip C	19	Act 3 (H
 Flying Scimitar			1						Act 2 Good	3	scm	57																				0
 Flying Scimitar (N)			1						Act 2 (N) Good	3	scm	25	9sm	32																		0
 Flying Scimitar (H)			1						Act 2 (H) Good	3	scm	7	9sm	18	7sm	32																0
-Mephisto			7	983	983	983	1024		gld,mul=1280	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																0
-Mephisto (N)			7	983	983	983	1024		gld,mul=1536	5	Act 4 (N) Equip A	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
-Mephisto (H)			7	983	983	983	1024		gld,mul=2048	5	Act 4 (H) Equip A	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	ceh	1														0
+Mephisto			7	993	993	1024	1024		Act 4 Equip A	52	Act 4 Good	3																				0
+Mephisto (N)			7	993	993	1024	1024		Act 4 (N) Equip A	52	Act 4 (N) Good	3																				0
+Mephisto (H)			7	993	993	1024	1024		Act 4 (H) Equip A	52	Act 4 (H) Good	3	ceh	1																		0
 Mephistoq			7	993	993	1024	1024		Act 4 Equip A	52	Act 4 Good	3																				0
 Mephistoq (N)			7	993	993	1024	1024		Act 4 (N) Equip A	52	Act 4 (N) Good	3																				0
 Mephistoq (H)			7	993	993	1024	1024		Act 4 (H) Equip A	52	Act 4 (H) Good	3	ceh	1																		0
-Diablo			7	983	983	983	1024		gld,mul=1280	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																0
-Diablo (N)			7	983	983	983	1024		gld,mul=1536	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
-Diablo (H)			7	983	983	983	1024		gld,mul=2048	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1														0
+Diablo			7	993	993	1024	1024		Act 5 Equip A	52	Act 5 Good	3																				0
+Diablo (N)			7	993	993	1024	1024		Act 5 (N) Equip A	52	Act 5 (N) Good	3																				0
+Diablo (H)			7	993	993	1024	1024		Act 5 (H) Equip A	52	Act 5 (H) Good	3	bet	1																		0
 Diabloq			7	993	993	1024	1024		Act 5 Equip A	52	Act 5 Good	3																				0
 Diabloq (N)			7	993	993	1024	1024		Act 5 (N) Equip A	52	Act 5 (N) Good	3																				0
 Diabloq (H)			7	993	993	1024	1024		Act 5 (H) Equip A	52	Act 5 (H) Good	3	bet	1																		0
@@ -719,9 +719,9 @@ Haphesto (H)			5	800	800	900	1024		gld,mul=2048	14	Act 5 (H) Equip A	19	Act 5 (H
 Nihlathak			5	900	900	900	1024		gld,mul=1280	14	Act 5 Equip B	19	Act 5 Junk	5	Act 5 Good	3																0
 Nihlathak (N)			5	900	900	900	1024		gld,mul=1536	14	Act 5 (N) Equip B	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
 Nihlathak (H)			5	900	900	900	1024		gld,mul=2048	14	Act 5 (H) Equip B	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	pk3	1														0
-Baal			7	983	983	983	1024		gld,mul=1280	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
-Baal (N)			7	983	983	983	1024		gld,mul=1536	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
-Baal (H)			7	983	983	983	1024		gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	fed	1														0
+Baal			7	993	993	1024	1024		Act 1 (N) Equip A	52	Act 1 (N) Good	3																				0
+Baal (N)			7	993	993	1024	1024		Act 1 (H) Equip A	52	Act 1 (H) Good	3																				0
+Baal (H)			7	993	993	1024	1024		Act 5 (H) Equip B	52	Act 5 (H) Good	3	fed	1																		0
 Baalq			7	993	993	1024	1024		Act 1 (N) Equip A	52	Act 1 (N) Good	3																				0
 Baalq (N)			7	993	993	1024	1024		Act 1 (H) Equip A	52	Act 1 (H) Good	3																				0
 Baalq (H)			7	993	993	1024	1024		Act 5 (H) Equip B	52	Act 5 (H) Good	3	fed	1																		0
