@@ -7,14 +7,16 @@ These mods are separated into individual folders so you can pick and choose what
 To install any of these, just copy and paste the contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
 
 ### CLASSICMOD
-- Whirlwind skill no longer depends on attack speed (Classic)
-- Shield block chance is equal to what is stated on the shield (Classic)
+~~- Whirlwind skill no longer depends on attack speed (Classic)~~
+~~- Shield block chance is equal to what is stated on the shield (Classic)~~
 - All party XP is shared, regardless of screen distance (Classic)
 - XP rate will not diminish after level 70 (Classic)
 - All map sizes are the same size on all difficulties (Classic)
 - Monster resistances are capped at 100, immunities can be broken (Classic)
 
 Credit to [fearedbliss](https://github.com/whipowill/Diablo-II--Vanilla-Frosting) for this code.
+
+Parts of this mod aren't working as intended ATM and I hope to update once I've figured out why.
 
 ### CUBEMOD
 - Upgrade runes w/ 2 of any rune -> 1 higher level rune, no gem requirements
