@@ -66,7 +66,7 @@ $ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winecfg
 $ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winetricks dxvk
 ```
 
-- Use Winetricks to nstall AutoHotKey (this will allow you to use [AutoAttack](https://github.com/whipowill/ahk-autoattack)):
+- Use Winetricks to install AutoHotKey (this will allow you to use [AutoAttack](https://github.com/whipowill/ahk-autoattack)):
 
 ```bash
 $ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winetricks ahk
@@ -115,7 +115,7 @@ $ cp -r ~/.wine_d2 ~/.wine_d2qol
 
 ```bash
 $ vim .bashrc
-> alias d2plugy="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii && WINEPREFIX=~/.wine_d2qol wine game.exe -3dfx -direct -txt"
+> alias d2qol="cd ~/.wine_d2plugy/drive_c/games/diablo\ ii && WINEPREFIX=~/.wine_d2qol wine game.exe -3dfx -direct -txt"
 ```
 
 - Reload your Terminal and play the game:
