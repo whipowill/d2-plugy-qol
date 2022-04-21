@@ -13,8 +13,7 @@ To install any of these, just copy and paste the contents into ``C:\Games\Diablo
 - XP rate will not diminish after level 70 (Classic)
 - All map sizes are the same size on all difficulties (Classic)
 - Monster resistances are capped at 100, immunities can be broken (Classic)
-
-Credit to [fearedbliss](https://github.com/whipowill/Diablo-II--Vanilla-Frosting) for this code.
+- Credit to [fearedbliss](https://github.com/whipowill/Diablo-II--Vanilla-Frosting) for this code
 
 NOTE: Parts of this mod aren't working as intended ATM and I hope to update once I've figured out why.
 
@@ -25,8 +24,7 @@ NOTE: Parts of this mod aren't working as intended ATM and I hope to update once
 
 ### DENSITYMOD
 - Choose a density multiplier for mobs
-
-Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code.
+- Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code
 
 ### DROPMOD
 - Countess always drops 3 runes
@@ -67,11 +65,8 @@ Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code.
 - Adds jewels w/ melee splash damage to the game
 - Uses new magic prefix "Brute's" and suffix "of the Brawler"
 - Can be used on any item slot, not just weapons, to get the effect
-- Seems to effect minions as well as the player (so say POD players)
-
-If you use this mod, paste in these files before you paste in other mods.  None of the other mods in this repo will mess up your save files except for SPLASHMOD.  If you have a splash damage jewel on your character or in your inventory and you remove this mod, your save files will break.
-
-Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code.
+- Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code
+- THIS MOD WILL BREAK YOUR SAVE FILES IF YOU REMOVE IT
 
 ### STACKMOD
 - Increase stack sizes on keys, scrolls, and quivers

@@ -22,16 +22,16 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## Install
 
+### Windows
+
 - Purchase keys from [Blizzard](https://us.shop.battle.net/en-us/family/diablo-ii).
 - Install [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) - ``v1.12``
 - Install [Patch](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) - ``v1.13d``
 - Download this [zipfile](https://github.com/whipowill/d2-plugy-qol/archive/master.zip) and merge the files into your D2 install directory.
-- Consult this [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Video.md) to configure your video settings.
-- Make a ``Game.exe`` shortcut on your desktop w/ modifications:
-	- If using ``DDraw`` set target to ``"C:\Games\Diablo II\Game.exe" -direct -txt``.
-	- If using ``Glide`` set target to ``"C:\Games\Diablo II\Game.exe" -3dfx -direct -txt``.
+- Make a ``Game.exe`` shortcut w/ target ``"C:\Games\Diablo II\Game.exe" -3dfx -direct -txt``.
 - Launch the game by running the shortcut you made.
-- Modify the loot filter settings by clicking the ``BH`` button ingame.
+- Hold ``SHIFT`` and drag the ``BH`` icon to the bottom left corner.
+- Hold ``CONTROL`` and click the ``BH`` button to bring up the maphack settings.
 
 ### Mac/Linux
 
@@ -51,7 +51,7 @@ To install any of these, just copy and paste the contents into ``C:\Games\Diablo
 
 ## Loot Filter
 
-Clicking the ``BH`` button in game will bring up the menu of options.
+You can edit the ``BH.cfg`` file to make your own loot filter rules, but here is how I have mine set up.
 
 ### Filter Level
 
@@ -95,6 +95,7 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 
 ## Credits
 
+- [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
 - [UberMod](https://github.com/Snapchip/D2UberMod) by snapchip.
 - [BaseMod](https://www.moddb.com/mods/basemod) by devurandom.
@@ -103,7 +104,4 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
 - [MapHack](https://github.com/youbetterdont/slashdiablo-maphack) by SlashDiablo.
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) by SlashDiablo.
-- [MultiRes](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo.
-- [DDraw](https://github.com/CnCNet/cnc-ddraw/releases) - by CnCNet.
-- [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
 - [3DSound](https://www.indirectsound.com/downloads.html) - by IndirectSound.
