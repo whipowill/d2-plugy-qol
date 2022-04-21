@@ -35,7 +35,7 @@ $ brew install winetricks
 
 ### On Linux
 
-- Install latest version of Wine (I'm using Debain-based Linux):
+- Install latest version of Wine (I'm using Debian-based Linux):
 
 ```bash
 $ wget -nc https://dl.winehq.org/wine-builds/winehq.key
@@ -72,15 +72,7 @@ $ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winetricks dxvk
 $ WINEARCH=win32 WINEPREFIX=~/.wine_d2 winetricks ahk
 ```
 
-- Download [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) and the [v1.13c](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113c.exe) or [v1.13d](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) patch, and move them into the Wine directory:
-
-```bash
-$ cd ~/.wine_d2/drive_c
-$ mkdir games
-$ cd games
-$ open .
-```
-
+- Download [Diablo II](https://mega.nz/#!e9thyD6A!ExGJuZUtvRJ2c8DrxSL0ihCouh-ARbdVxODXIqVt3dc) and the [v1.13c](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113c.exe) or [v1.13d](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_113d.exe) patch.
 - Run the EXE files to install the game:
 
 ```bash
