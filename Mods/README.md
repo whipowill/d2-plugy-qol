@@ -83,7 +83,7 @@ Code by [whipowill](https://github.com/whipowill).
 
 ### SPLASHMOD
 
-- Code by [tlentz](https://github.com/tlentz/d2modmaker).
+Code by [tlentz](https://github.com/tlentz/d2modmaker).
 
 - Adds jewels w/ melee splash damage to the game
 - Uses new magic prefix "Brute's" and suffix "of the Brawler"

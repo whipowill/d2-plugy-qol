@@ -12,7 +12,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows, credit __devurandom__.
 - [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once, credit __devurandom__.
 - [UberMod](https://www.moddb.com/mods/basemod) - take down Diablo Clone and the Uber bosses in singleplayer, credit __devurandom__.
-- [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find (as it was before LOD v1.10), credit __devurandom__.
+- [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find, credit __devurandom__.
 - [NoPenaltyXP](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - remove XP penalty on level differences, credit __devurandom__.
 - [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s, credit __SnakeByteStudios__.
 - [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game, credit __SnakeByteStudios__.
