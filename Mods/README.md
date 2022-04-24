@@ -7,34 +7,50 @@ These mods are separated into individual folders so you can pick and choose what
 To install any of these, just copy and paste the contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
 
 ### CLASSICMOD
+
+Code by [fearedbliss](https://github.com/Grogger/Diablo-II--Vanilla-Frosting).
+
 - ~~Whirlwind skill no longer depends on attack speed (Classic)~~
 - ~~Shield block chance is equal to what is stated on the shield (Classic)~~
 - ~~All party XP is shared, regardless of screen distance (Classic)~~
 - XP rate will not diminish after level 70 (Classic)
 - All map sizes are the same size on all difficulties (Classic)
 - Monster resistances are capped at 100, immunities can be broken (Classic)
-- Credit to [fearedbliss](https://github.com/whipowill/Diablo-II--Vanilla-Frosting) for this code
 
 NOTE: Parts of this mod aren't working as intended ATM and I hope to update once I've figured out why.
 
 ### CUBEMOD
-- Upgrade runes w/ 2 of any rune -> 1 higher level rune, no gem requirements
-- Cube recipes for sockets work on magic, rare, unique, and set items too
+
+Code by [whipowill](https://github.com/whipowill).
+
+- Upgrade any 2 runes -> 1 higher rank rune
+- Downgrade any rune -> 2 lower rank rune
+- Upgrade any 3 gems -> 1 higher rank gem
+- Downgrade any gem -> 3 lower rank gem
 - Unsocket any item in the cube w/ a key and get the runes back
+- Cube recipes for sockets work on magic, rare, unique, and set items too
 
 ### DENSITYMOD
+
+Code by [tlentz](https://github.com/tlentz/d2modmaker).
+
 - Choose a density multiplier for mobs
-- Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code
 
 ### DROPMOD
+
+Code by [whipowill](https://github.com/whipowill).
+
 - Countess always drops 3 runes
-	- Normal <= Lem
-	- Nightmare <= Vex
-	- Hell <= Cham
+	- Normal up to Lem
+	- Nightmare up to Vex
+	- Hell up to Cham
 - Mobs always drop loot w/ ``nodrop0``, as if you were playing ``/players 8``
 - Bosses always drop quest loot
 
 ### MERCMOD
+
+Code by [whipowill](https://github.com/whipowill).
+
 - Act 1
 	- Blessed Aim
 	- Fire (Fire Arrow / Exploding Arrow)
@@ -48,6 +64,9 @@ NOTE: Parts of this mod aren't working as intended ATM and I hope to update once
 	- Might / Bash / Stun
 
 ### SKILLMOD
+
+Code by [whipowill](https://github.com/whipowill).
+
 - Druid
 	- Shapeshift lasts longer
 	- All beasts can be summoned at the same time
@@ -55,6 +74,7 @@ NOTE: Parts of this mod aren't working as intended ATM and I hope to update once
 - Amazon
 	- Magic and rare quivers are possible and are replenishing
 	- All magic skills that use stacks (bows/javs) will not consume quantity
+	- Dodge, Avoid, Evade bug fixed (per technique by [Nagahaku](https://d2mods.info/forum/viewtopic.php?p=500423&sid=923afb1f8828e76713d3c8a1f9f78ff1#p500423))
 - Sorceress
 	- Teleport is allowed in town and makes less irritating sound
 	- All skill [cooldowns](https://diablo.fandom.com/wiki/Casting_Delay) are removed
@@ -62,11 +82,10 @@ NOTE: Parts of this mod aren't working as intended ATM and I hope to update once
 	- Leap, Shout, Battle Orders, Battle Command are allowed in town
 
 ### SPLASHMOD
+
+- Code by [tlentz](https://github.com/tlentz/d2modmaker).
+
 - Adds jewels w/ melee splash damage to the game
 - Uses new magic prefix "Brute's" and suffix "of the Brawler"
 - Can be used on any item slot, not just weapons, to get the effect
-- Credit to [tlentz](https://github.com/tlentz/d2modmaker) for this code
 - THIS MOD WILL BREAK YOUR SAVE FILES IF YOU REMOVE IT
-
-### STACKMOD
-- Increase stack sizes on keys, scrolls, and quivers

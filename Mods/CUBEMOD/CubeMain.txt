@@ -151,3 +151,63 @@ Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal														
 Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
 SafeUnsocket	1			100					2	any,sock	key,qty=1						useitem,rem																																																																																							0
+1 Rune → 2 Lower Runes	1			100					1	r02,qty=1							r01																													r01																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r03,qty=1							r02																													r02																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r04,qty=1							r03																													r03																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r05,qty=1							r04																													r04																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r06,qty=1							r05																													r05																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r07,qty=1							r06																													r06																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r08,qty=1							r07																													r07																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r09,qty=1							r08																													r08																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r10,qty=1							r09																													r09																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r11,qty=1							r10																													r10																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r12,qty=1							r11																													r11																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r13,qty=1							r12																													r12																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r14,qty=1							r13																													r13																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r15,qty=1							r14																													r14																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r16,qty=1							r15																													r15																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r17,qty=1							r16																													r16																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r18,qty=1							r17																													r17																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r19,qty=1							r18																													r18																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r20,qty=1							r19																													r19																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r21,qty=1							r20																													r20																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r22,qty=1							r21																													r21																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r23,qty=1							r22																													r22																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r24,qty=1							r23																													r23																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r25,qty=1							r24																													r24																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r26,qty=1							r25																													r25																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r27,qty=1							r26																													r26																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r28,qty=1							r27																													r27																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r29,qty=1							r28																													r28																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r30,qty=1							r29																													r29																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r31,qty=1							r30																													r30																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r32,qty=1							r31																													r31																																																										0
+1 Rune → 2 Lower Runes	1			100					1	r33,qty=1							r32																													r32																																																										0
+flawed amethyst → 3 chipped amethysts	1			0					1	gfv							gcv																													gcv																													gcv																													0
+standard amethyst → 3 flawed amethysts	1			0					1	gsv							gfv																													gfv																													gfv																													0
+flawless amethyst → 3 standard amethysts	1			0					1	gzv							gsv																													gsv																													gsv																													0
+perfect amethyst → 3 flawless amethysts	1			0					1	gpv							gzv																													gzv																													gzv																													0
+flawed ruby → 3 chipped rubies	1			0					1	gfr							gcr																													gcr																													gcr																													0
+standard ruby → 3 flawed rubies	1			0					1	gsr							gfr																													gfr																													gfr																													0
+flawless ruby → 3 standard rubies	1			0					1	glr							gsr																													gsr																													gsr																													0
+perfect ruby → 3 flawless rubies	1			0					1	gpr							glr																													glr																													glr																													0
+flawed sapphire → 3 chipped sapphires	1			0					1	gfb							gcb																													gcb																													gcb																													0
+standard sapphire → 3 flawed sapphires	1			0					1	gsb							gfb																													gfb																													gfb																													0
+flawless sapphire → 3 standard sapphires	1			0					1	glb							gsb																													gsb																													gsb																													0
+perfect sapphire → 3 flawless sapphires	1			0					1	gpb							glb																													glb																													glb																													0
+flawed topaz → 3 chipped topazes	1			0					1	gfy							gcy																													gcy																													gcy																													0
+standard topaz → 3 flawed topazes	1			0					1	gsy							gfy																													gfy																													gfy																													0
+flawless topaz → 3 standard topazes	1			0					1	gly							gsy																													gsy																													gsy																													0
+perfect topaz → 3 flawless topazes	1			0					1	gpy							gly																													gly																													gly																													0
+flawed emerald → 3 chipped emeralds	1			0					1	gfg							gcg																													gcg																													gcg																													0
+standard emerald → 3 flawed emeralds	1			0					1	gsg							gfg																													gfg																													gfg																													0
+flawless emerald → 3 standard emeralds	1			0					1	glg							gsg																													gsg																													gsg																													0
+perfect emerald → 3 flawless emeralds	1			0					1	gpg							glg																													glg																													glg																													0
+flawed diamond → 3 chipped diamonds	1			0					1	gfw							gcw																													gcw																													gcw																													0
+standard diamond → 3 flawed diamonds	1			0					1	gsw							gfw																													gfw																													gfw																													0
+flawless diamond → 3 standard diamonds	1			0					1	glw							gsw																													gsw																													gsw																													0
+perfect diamond → 3 flawless diamonds	1			0					1	gpw							glw																													glw																													glw																													0
+flawed skull → 3 chipped skulls	1			0					1	skf							skc																													skc																													skc																													0
+standard skull → 3 flawed skulls	1			0					1	sku							skf																													skf																													skf																													0
+flawless skull → 3 standard skulls	1			0					1	skl							sku																													sku																													sku																													0
+perfect skull → 3 flawless skulls	1			0					1	skz							skl																													skl																													skl																													0

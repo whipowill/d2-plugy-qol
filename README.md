@@ -6,19 +6,20 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## What's Included
 
-- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
-- [PlugY](http://plugy.free.fr/en/index.html) - adds infinite stash, shared stash, infinite respec, all runewords (v14.02).
-- [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.8).
-- [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows.
-- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once.
-- [UberMod](http://plugy.free.fr/en/index.html) - take down Diablo Clone and the Uber bosses in singleplayer.
-- [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find (as it was before LOD v1.10).
-- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
-- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
-- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
-- [MapHack](https://github.com/youbetterdont/bhconfig/wiki/User-Guide) - shows the entire map w/ monsters and chests.
-- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filter items and get notified about important drops.
-- [3DSound](https://www.indirectsound.com/downloads.html) - enables 3D sound option in sound settings.
+- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529), credit __Balrog__.
+- [PlugY](http://plugy.free.fr/en/index.html) - adds infinite stash, shared stash, infinite respec, all runewords (v14.02), credit __Yohann Nicolas__.
+- [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.8), credit __devurandom__.
+- [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows, credit __devurandom__.
+- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once, credit __devurandom__.
+- [UberMod](https://www.moddb.com/mods/basemod) - take down Diablo Clone and the Uber bosses in singleplayer, credit __devurandom__.
+- [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find (as it was before LOD v1.10), credit __devurandom__.
+- [NoPenaltyXP](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - remove XP penalty on level differences, credit __devurandom__.
+- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s, credit __SnakeByteStudios__.
+- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game, credit __SnakeByteStudios__.
+- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die, credit __SnakeByteStudios__.
+- [MapHack](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - shows the entire map w/ monsters and chests, credit __SlashDiablo__.
+- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filter items and get notified about important drops, credit __SlashDiablo__.
+- [3DSound](https://www.indirectsound.com/downloads.html) - enables 3D sound option in sound settings, credit __IndirectSound__.
 
 ## Install
 
@@ -92,16 +93,3 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [D2 Planner](https://d2planner.github.io/skills/?eyJ2IjoxLCJwIjoiMS4xNEQiLCJjIjoiYW1hem9uIiwicyI6e30sImIiOnt9LCJ0IjoxfQ==) - Plan your skill allocations.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
-
-## Credits
-
-- [D2DX](https://github.com/bolrog/d2dx/releases) - by Bolrog.
-- [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas.
-- [UberMod](https://github.com/Snapchip/D2UberMod) by snapchip.
-- [BaseMod](https://www.moddb.com/mods/basemod) by devurandom.
-- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios.
-- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios.
-- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) by SnakeByteStudios.
-- [MapHack](https://github.com/youbetterdont/slashdiablo-maphack) by SlashDiablo.
-- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) by SlashDiablo.
-- [3DSound](https://www.indirectsound.com/downloads.html) - by IndirectSound.
