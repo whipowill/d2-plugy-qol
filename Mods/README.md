@@ -77,7 +77,6 @@ Code by [whipowill](https://github.com/whipowill).
 	- Dodge, Avoid, Evade bug fixed (per technique by [Nagahaku](https://d2mods.info/forum/viewtopic.php?p=500423&sid=923afb1f8828e76713d3c8a1f9f78ff1#p500423))
 - Sorceress
 	- Teleport is allowed in town and makes less irritating sound
-	- All skill [cooldowns](https://diablo.fandom.com/wiki/Casting_Delay) are removed
 - Barbarian
 	- Leap, Shout, Battle Orders, Battle Command are allowed in town
 
