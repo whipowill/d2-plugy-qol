@@ -10,25 +10,20 @@ To install any of these, just copy and paste the contents into ``C:\Games\Diablo
 
 Code by [fearedbliss](https://github.com/Grogger/Diablo-II--Vanilla-Frosting).
 
-- ~~Whirlwind skill no longer depends on attack speed (Classic)~~
-- ~~Shield block chance is equal to what is stated on the shield (Classic)~~
-- ~~All party XP is shared, regardless of screen distance (Classic)~~
 - XP rate will not diminish after level 70 (Classic)
 - All map sizes are the same size on all difficulties (Classic)
 - Monster resistances are capped at 100, immunities can be broken (Classic)
-
-NOTE: Parts of this mod aren't working as intended ATM and I hope to update once I've figured out why.
 
 ### CUBEMOD
 
 Code by [whipowill](https://github.com/whipowill).
 
-- Upgrade any 2 runes -> 1 higher rank rune
-- Downgrade any rune -> 2 lower rank rune
-- Upgrade any 3 gems -> 1 higher rank gem
-- Downgrade any gem -> 3 lower rank gem
-- Unsocket any item in the cube w/ a key and get the runes back
-- Cube recipes for sockets work on magic, rare, unique, and set items too
+- Upgrade 2 runes -> 1 higher rank rune
+- Downgrade rune -> 2 lower rank rune
+- Upgrade 3 gems -> 1 higher rank gem
+- Downgrade gem -> 3 lower rank gem
+- Unsocket any item w/ a key and get the runes back
+- Socket recipes work on white, magic, rare, unique, and set items
 
 ### DENSITYMOD
 
@@ -44,7 +39,7 @@ Code by [whipowill](https://github.com/whipowill).
 	- Normal up to Lem
 	- Nightmare up to Vex
 	- Hell up to Cham
-- Mobs always drop loot w/ ``nodrop0``, as if you were playing ``/players 8``
+- Mobs always drop maximum amount of loot
 - Bosses always drop quest loot
 
 ### MERCMOD
@@ -53,22 +48,25 @@ Code by [whipowill](https://github.com/whipowill).
 
 - Act 1
 	- Blessed Aim
-	- Fire (Fire Arrow / Exploding Arrow)
-	- Ice (Cold Arrow / Ice Arrow)
+	- Fire - Fire Arrow / Exploding Arrow
+	- Ice - Cold Arrow / Ice Arrow
+- Act 2
+	- Unchanged
 - Act 3
 	- Meditation
-	- Fire (Inferno / Fireball)
-	- Lightning (Charged Bolt / Chain Lightning)
-	- Cold (Ice Blast / Glacial Spike)
+	- Fire - Inferno / Fireball
+	- Lightning - Charged Bolt / Chain Lightning
+	- Cold - Ice Blast / Glacial Spike
 - Act 5
-	- Might / Bash / Stun
+	- Might
+	- All - Bash / Stun
 
 ### MONSTERMOD
 
 Code by [whipowill](https://github.com/whipowill).
 
-- [Tomb Viper](https://www.reddit.com/r/diablo2/comments/r7m6qm/tomb_vipers_a_history/) has been removed from the game
 - [Bone Fetish](http://classic.battle.net/diablo2exp/monsters/act3-bonefetish.shtml) death explosion disabled
+- [Tomb Viper](https://www.reddit.com/r/diablo2/comments/r7m6qm/tomb_vipers_a_history/) removed from the game
 
 ### SKILLMOD
 
@@ -77,14 +75,15 @@ Code by [whipowill](https://github.com/whipowill).
 - Druid
 	- Shapeshift lasts longer
 	- All beasts can be summoned at the same time
-	- Teleport, Shout, Battle Orders, Battle Command are allowed in shapeshift form
+	- Teleport allowed in shapeshift form
 - Amazon
 	- Magic and rare quivers are possible and are replenishing
 	- All magic skills that use stacks (bows/javs) will not consume quantity
 	- Dodge, Avoid, Evade bug fixed (per technique by [Nagahaku](https://d2mods.info/forum/viewtopic.php?p=500423&sid=923afb1f8828e76713d3c8a1f9f78ff1#p500423))
 - Sorceress
-	- Teleport is allowed in town and makes less irritating sound
+	- Teleport allowed in town and makes less irritating sound
 - Barbarian
+	- All magic skills that use stacks (throw) will not consume quantity
 	- Leap, Shout, Battle Orders, Battle Command are allowed in town
 
 ### SPLASHMOD
