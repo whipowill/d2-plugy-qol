@@ -63,6 +63,13 @@ Code by [whipowill](https://github.com/whipowill).
 - Act 5
 	- Might / Bash / Stun
 
+### MONSTERMOD
+
+Code by [whipowill](https://github.com/whipowill).
+
+- [Tomb Viper](https://www.reddit.com/r/diablo2/comments/r7m6qm/tomb_vipers_a_history/) has been removed from the game
+- [Bone Fetish](http://classic.battle.net/diablo2exp/monsters/act3-bonefetish.shtml) death explosion disabled
+
 ### SKILLMOD
 
 Code by [whipowill](https://github.com/whipowill).
