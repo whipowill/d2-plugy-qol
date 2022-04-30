@@ -11,8 +11,7 @@ To install any of these, just copy and paste the contents into ``C:\Games\Diablo
 Code by [fearedbliss](https://github.com/Grogger/Diablo-II--Vanilla-Frosting).
 
 - XP rate will not diminish after level 70 (Classic)
-- All map sizes are the same size on all difficulties (Classic)
-- Monster resistances are capped at 100, immunities can be broken (Classic)
+- Map sizes are the same size on all difficulties (Classic)
 
 ### CUBEMOD
 
@@ -50,8 +49,6 @@ Code by [whipowill](https://github.com/whipowill).
 	- Blessed Aim
 	- Fire - Fire Arrow / Exploding Arrow
 	- Ice - Cold Arrow / Ice Arrow
-- Act 2
-	- Unchanged
 - Act 3
 	- Meditation
 	- Fire - Inferno / Fireball
