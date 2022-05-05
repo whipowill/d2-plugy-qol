@@ -18,10 +18,11 @@ Code by [fearedbliss](https://github.com/Grogger/Diablo-II--Vanilla-Frosting).
 Code by [whipowill](https://github.com/whipowill).
 
 - Upgrade 2 runes -> 1 higher rank rune
-- Downgrade rune -> 2 lower rank rune
+- Downgrade rune -> 2 lower rank runes
 - Upgrade 3 gems -> 1 higher rank gem
-- Downgrade gem -> 3 lower rank gem
-- Unsocket any item w/ a key and get the runes back
+- Downgrade gem -> 3 lower rank gems
+- Use a key w/ a socketed item and get the runes back
+- Use armor/weapon upgrade recipe w/ a key to downgrade item
 - Socket recipes work on white, magic, rare, unique, and set items
 
 ### DENSITYMOD
