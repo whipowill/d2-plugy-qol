@@ -6,13 +6,6 @@ These mods are separated into individual folders so you can pick and choose what
 
 To install any of these, just copy and paste the contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
 
-### CLASSICMOD
-
-Code by [fearedbliss](https://github.com/Grogger/Diablo-II--Vanilla-Frosting).
-
-- XP rate will not diminish after level 70 (Classic)
-- Map sizes are the same size on all difficulties (Classic)
-
 ### CUBEMOD
 
 Code by [whipowill](https://github.com/whipowill).
@@ -79,7 +72,8 @@ Code by [whipowill](https://github.com/whipowill).
 	- All magic skills that use stacks (bows/javs) will not consume quantity
 	- Dodge, Avoid, Evade bug fixed (per technique by [Nagahaku](https://d2mods.info/forum/viewtopic.php?p=500423&sid=923afb1f8828e76713d3c8a1f9f78ff1#p500423))
 - Sorceress
-	- Teleport allowed in town and makes less irritating sound
+	- Teleport allowed in town, and makes less irritating sound
+	- Meteor lands 2/3 faster than vanilla, and makes less irritating sound
 - Barbarian
 	- All magic skills that use stacks (throw) will not consume quantity
 	- Leap, Shout, Battle Orders, Battle Command are allowed in town
