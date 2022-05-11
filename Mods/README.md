@@ -18,12 +18,6 @@ Code by [whipowill](https://github.com/whipowill).
 - Use armor/weapon upgrade recipe w/ a key to downgrade item
 - Socket recipes work on white, magic, rare, unique, and set items
 
-### DENSITYMOD
-
-Code by [tlentz](https://github.com/tlentz/d2modmaker).
-
-- Choose a density multiplier for mobs
-
 ### DROPMOD
 
 Code by [whipowill](https://github.com/whipowill).
@@ -34,6 +28,49 @@ Code by [whipowill](https://github.com/whipowill).
 	- Hell up to Cham
 - Mobs always drop maximum amount of loot
 - Bosses always drop quest loot
+
+### LEVELMOD
+
+Code by [whipowill](https://github.com/whipowill).
+
+- All maze levels are same size, regardless of difficulty
+- New level 85 areas in Hell:
+	- Act 1
+		- Tristram
+		- Crypt
+		- Mausoleum *
+		- Pit *
+		- Cathedral
+		- Catacombs
+	- Act 2
+		- Stony Tomb
+		- Maggot Lair
+		- Ancient Tunnels *
+		- Tal Rasha's Tomb
+	- Act 3
+		- Swampy Pit
+		- Flayer Dungeon
+		- Ruined Temple
+		- Disused Fane
+		- Forgotten Reliquary
+		- Forgotten Temple *
+		- Ruined Fane *
+		- Disused Reliquary *
+		- Durance of Hate
+	- Act 4
+		- City of the Damned
+		- River of Flame *
+		- Chaos Sanctuary *
+	- Act 5
+		- Infernal Pit
+		- Pit of Acheron
+		- Abaddon
+		- Worldstone Keep *
+	- Pandemonium
+		- Sinking Sands
+		- Matron's Den
+		- Furnace of Pain
+		- Uber Tristram
 
 ### MERCMOD
 
