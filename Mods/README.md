@@ -1,10 +1,10 @@
 # D2QOL | Soft Mods
 
-Included in this folder are several "soft mods" that are popular in the D2 community.  While these days I prefer a purist D2 experience, these mods can be pretty fun and I've played them all.
+Included in this folder are several "soft mods" that are popular in the D2 community which include changes to inventory, drops, merenaries, and skills.
 
-These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this QOL modpack, you have to turn them on yourself.
+These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this modpack, you have to turn them on yourself.
 
-To install any of these, just copy and paste the contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
+To install any of these, just copy and paste the individual folder contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
 
 ### CUBEMOD
 
@@ -28,6 +28,14 @@ Code by [whipowill](https://github.com/whipowill).
 	- Hell up to Cham
 - Mobs always drop maximum amount of loot
 - Bosses always drop quest loot
+
+### INVENTORYMOD
+
+Code by [devurandom], modified by [whipowill](https://github.com/whipowill).
+
+- Stash becomes 10x10 (from 6x8)
+- Inventory becomes 10x6 (from 10x4)
+- Cube is unchanged
 
 ### LEVELMOD
 

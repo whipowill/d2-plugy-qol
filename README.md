@@ -6,20 +6,20 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## What's Included
 
-- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529), credit __Balrog__.
-- [PlugY](http://plugy.free.fr/en/index.html) - adds infinite stash, shared stash, infinite respec, all runewords (v14.02), credit __Yohann Nicolas__.
-- [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.8), credit __devurandom__.
-- [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows, credit __devurandom__.
-- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once, credit __devurandom__.
-- [UberMod](https://www.moddb.com/mods/basemod) - take down Diablo Clone and the Uber bosses in singleplayer, credit __devurandom__.
-- [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find, credit __devurandom__.
-- [NoPenaltyXP](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - remove XP penalty on level differences, credit __devurandom__.
-- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s, credit __SnakeByteStudios__.
-- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game, credit __SnakeByteStudios__.
-- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die, credit __SnakeByteStudios__.
-- [MapHack](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - shows the entire map w/ monsters and chests, credit __SlashDiablo__.
-- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filter items and get notified about important drops, credit __SlashDiablo__.
-- [3DSound](https://www.indirectsound.com/downloads.html) - enables 3D sound option in sound settings, credit __IndirectSound__.
+- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
+- [PlugY](http://plugy.free.fr/en/index.html) - adds infinite stash, shared stash, infinite respec, all runewords (v14.02).
+- [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.9).
+- [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows.
+- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once.
+- [UberMod](http://plugy.free.fr/en/index.html) - take down Diablo Clone and the Uber bosses in singleplayer.
+- [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find.
+- [NoPenalty](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - remove XP penalty when you're higher level than monsters.
+- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - makes 5s look like 5s instead of 6s.
+- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - skip the intro videos when you boot the game.
+- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - keep your equipment when you die.
+- [MapHack](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - shows the entire map w/ monsters and chests.
+- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - filter items and get notified about important drops.
+- [3DSound](https://www.indirectsound.com/downloads.html) - enables 3D sound option in sound settings.
 
 ## Install
 
@@ -44,40 +44,15 @@ Delete all the files you merged through this install process and copy the files 
 
 ## Soft Mods
 
-Included in this [folder](https://github.com/whipowill/d2-plugy-qol/tree/master/Mods) are several "soft mods" that are popular in the D2 community.  While these days I prefer a purist D2 experience, these mods can be pretty fun and I've played them all.
+Included in this [folder](https://github.com/whipowill/d2-plugy-qol/tree/master/Mods) are several "soft mods" that are popular in the D2 community which include changes to inventory, drops, merenaries, and skills.
 
-These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this QOL modpack, you have to turn them on yourself.
+These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this modpack, you have to turn them on yourself.
 
-To install any of these, just copy and paste the contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
+To install any of these, just copy and paste the individual folder contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
 
 ## Loot Filter
 
-You can edit the ``BH.cfg`` file to make your own loot filter rules, but here is how I have mine set up.
-
-### Filter Level
-
-This controls what items show up on the ground as drops.
-
-- ``Off`` - No filters.
-- ``Minimal`` - Filters white items.
-- ``Moderate`` - Filters white and blue items.
-- ``Aggressive`` - Filters white, blue, and yellow items.
-
-No matter what filter level you choose runes, charms, jewels, gems, rings, amulets, set items, unique items, and eligable socketable items are never filtered out.
-
-### Ping Level
-
-This controls what items are printed into the chat as an alert.
-
-- ``0`` - No alerts.
-- ``1`` - Alert all unique and set items.
-- ``2`` - Alert all the above, plus eligable base items.
-- ``3`` - Alert all the above, plus charms.
-- ``4`` - Alert all the above, plus rings + ammys.
-- ``5`` - Alert all the above, plus jewels.
-- ``6`` - Alert all the above, plus gems.
-
-This feature is super handy bc it means you can slaughter demons in the game without having to check the floor every 2 seconds to see what dropped.
+You can edit the ``BH.cfg`` file to make your own loot filter rules, but I've included the one that I use.  For a deep dive into the inner-workings of the loot filter, checkout SlashDiablo's [release](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) page.
 
 ## Keyboard Macros
 
@@ -90,6 +65,18 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
 - [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - Fan website w/ helpful information about the game.
-- [D2 Planner](https://d2planner.github.io/skills/?eyJ2IjoxLCJwIjoiMS4xNEQiLCJjIjoiYW1hem9uIiwicyI6e30sImIiOnt9LCJ0IjoxfQ==) - Plan your skill allocations.
+- [D2 Planner](https://d2planner.github.io/skills/) - Plan your skill allocations.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
+- [Phrozen Keep](https://d2mods.info/forum) - The forum of master D2 modders and their ancient discussions.
+- [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files.
+
+## Credits
+
+- D2DX by __Balrog__
+- PlugY by __Yohann Nicolas__
+- UberMod by __SnapChip__
+- BaseMod, AutoPickup, QuestRewards, LinearMF, NoPenalty by __devurandom__
+- FontFix, NoIntro, KeepEquip by __SnakeByteStudios__
+- MapHack, LootFilter by __SlashDiablo__
+- 3DSound by credit __IndirectSound__
