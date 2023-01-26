@@ -79,4 +79,4 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - BaseMod, AutoPickup, QuestRewards, LinearMF, NoPenalty by __devurandom__
 - FontFix, NoIntro, KeepEquip by __SnakeByteStudios__
 - MapHack, LootFilter by __SlashDiablo__
-- 3DSound by credit __IndirectSound__
+- 3DSound by __IndirectSound__
