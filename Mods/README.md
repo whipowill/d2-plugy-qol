@@ -33,6 +33,7 @@ Code by [whipowill](https://github.com/whipowill).
 
 Code by [devurandom](https://www.moddb.com/mods/basemod), modified by [whipowill](https://github.com/whipowill).
 
+- Mercenary can equip all item slots
 - Stash becomes 10x10 (from 6x8)
 - Inventory becomes 10x6 (from 10x4)
 - Cube is unchanged
