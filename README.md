@@ -70,6 +70,8 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
 - [Phrozen Keep](https://d2mods.info/forum) - The forum of master D2 modders and their ancient discussions.
 - [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files.
+- [ProjectDiablo2](projectdiablo2.com/) - These guys are taking the game to a whole new level.
+- [SlashDiablo](slashdiablo.net/) - If you want to play the original game online, this is where you do it.
 
 ## Credits
 
