@@ -83,7 +83,6 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [ProjectDiablo2](projectdiablo2.com/) - These guys are taking the game to a whole new level.
 - [SlashDiablo](slashdiablo.net/) - If you want to play the original game online, this is where you do it.
 - [Loot Filter Rules](https://github.com/planqi/slashdiablo-maphack/wiki/Stats) - A list of the official loot filter coding rules.
-- [PD2 Loot Filter Rules]() - Most the same?
 
 ## Credits
 
