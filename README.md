@@ -46,11 +46,11 @@ Delete all the files you merged through this install process and copy the files 
 
 Out of the box, this modpack includes my settings.  These may not be the settings you prefer, but they are the settings I prefer, and here's why:
 
-- I set 100 pages max in the shared stash.  Having infinite stash allows you to acquire infinite wealth, and infinite wealth strips you of the joy and excitement of finding new items.  Scarcity is a fundamental element of this game.
+- I set 100 pages max in the shared stash.  Having infinite stash allows you to acquire infinite wealth, and infinite wealth strips you of the joy and excitement of finding new items.  Scarcity is a fundamental part of this game.
 
-- I disable stat/skill point unassignment, but I enable Akara to respec you more than once for a fee.  The higher your level, the higher to fee.  This makes the game feel more like a game and less like spreadsheet editing.  It's fun to save up for a big respec.
+- I disable skill point unassignment, but I enable Akara to respec you more than once for a fee.  This makes the game feel more like a game and less like spreadsheet editing.  It's fun to save up for a big respec.
 
-- I make all items drop as identified.  This saves me a ton of time, as I can inspect an item from the ground w/out having to pick it up.  This lets me use the loot filter more aggressively as the items are already identified and I can craft detailed notifications.
+- I make all items drop as identified.  This saves me a ton of time as I can inspect an item from the ground w/out having to pick it up.  This lets me use the loot filter more aggressively.
 
 Feel free to edit ``PlugY.ini`` and ``BaseMod.ini`` to the settings you want to play.
 
