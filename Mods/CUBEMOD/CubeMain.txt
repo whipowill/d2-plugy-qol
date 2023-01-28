@@ -219,3 +219,7 @@ r09 + r11 + perfect sapphire + exceptional rare weapon → normal rare weapon	1	
 r08 + r10 + perfect amethyst + exceptional rare armor → normal rare armor	1			100					5	armo,exc,rar	r08	r10	gpv	key			useitem,mod,bas				levelreq			5	5																																																																															0
 r19 + r22 + perfect sapphire + elite rare weapon → exceptional rare weapon	1			100					5	weap,eli,rar	r19	r22	gpb	key			useitem,mod,exc				levelreq			7	7																																																																															0
 r18 + r21 + perfect amethyst + elite rare armor → exceptional rare armor	1			100					5	armo,eli,rar	r18	r21	gpv	key			useitem,mod,exc				levelreq			7	7																																																																															0
+helrune + normal torso → socketed torso	1			100					2	tors,nos	r15						useitem				sock			1	6																																																																															0
+helrune + normal weapon → socketed weapon	1			100					2	weap,nos	r15						useitem				sock			1	6																																																																															0
+helrune + normal helm → socketed helm	1			100					2	helm,nos	r15						useitem				sock			1	6																																																																															0
+helrune + normal shield → socketed shield	1			100					2	shld,nos	r15						useitem				sock			1	6																																																																															0

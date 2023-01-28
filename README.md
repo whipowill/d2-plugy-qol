@@ -10,7 +10,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 - [PlugY](http://plugy.free.fr/en/index.html) - adds infinite stash, shared stash, infinite respec, all runewords (v14.02).
 - [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.9).
 - [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows.
-- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Charsi and Larzuk to imbue/socket your items more than once.
+- [QuestRewards](https://www.moddb.com/mods/basemod) - pay Akara/Charsi/Larzuk to respec/imbue/socket more than once.
 - [UberMod](http://plugy.free.fr/en/index.html) - take down Diablo Clone and the Uber bosses in singleplayer.
 - [LinearMF](https://www.moddb.com/mods/basemod) - removes diminishing returns on magic find.
 - [NoPenalty](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - remove XP penalty when you're higher level than monsters.
@@ -42,13 +42,25 @@ You can successfully install the game on Mac and Linux but you will have to use 
 
 Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:\Games\Diablo II\`` folder.
 
+## Settings
+
+Out of the box, this modpack includes my settings.  These may not be the settings you prefer, but they are the settings I prefer, and here's why:
+
+- I set 100 pages max in the shared stash.  Having infinite stash allows you to acquire infinite wealth, and infinite wealth strips you of the joy and excitement of finding new items.  Scarcity is a fundamental element of this game.
+
+- I disable stat/skill point unassignment, but I enable Akara to respec you more than once for a fee.  The higher your level, the higher to fee.  This makes the game feel more like a game and less like spreadsheet editing.  It's fun to save up for a big respec.
+
+- I make all items drop as identified.  This saves me a ton of time, as I can inspect an item from the ground w/out having to pick it up.  This lets me use the loot filter more aggressively as the items are already identified and I can craft detailed notifications.
+
+Feel free to edit ``PlugY.ini`` and ``BaseMod.ini`` to the settings you want to play.
+
 ## Soft Mods
 
-Included in this [folder](https://github.com/whipowill/d2-plugy-qol/tree/master/Mods) are several "soft mods" that are popular in the D2 community which include changes to inventory, drops, merenaries, and skills.
+Included in this [folder](https://github.com/whipowill/d2-plugy-qol/tree/master/Mods) are several "soft mods" that are popular in the D2 community which include changes to inventory, drops, mercenaries, skills, and more.
 
 These mods are separated into individual folders so you can pick and choose what you want.  None of these mods are turned on by default in this modpack, you have to turn them on yourself.
 
-To install any of these, just copy and paste the individual folder contents into ``C:\Games\Diablo II\Data\Global\Excel\``.
+To install any of these, just copy and paste the individual folder contents into ``C:\your\path\to\Diablo II\Data\Global\Excel\``.
 
 ## Loot Filter
 
@@ -58,7 +70,7 @@ You can edit the ``BH.cfg`` file to make your own loot filter rules, but I've in
 
 This game is very clicky and you can quickly develop carpal tunnel syndrome.  To avoid this I wrote a [keyboard macro](https://github.com/whipowill/ahk-autoattack) that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
 
-## Helpful Links
+## External Links
 
 - [Discord](https://discord.gg/KjDU67x) - Community and helpdesk for D2QOL players.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
@@ -68,10 +80,10 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [D2 Planner](https://d2planner.github.io/skills/) - Plan your skill allocations.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
-- [Phrozen Keep](https://d2mods.info/forum) - The forum of master D2 modders and their ancient discussions.
-- [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files.
 - [ProjectDiablo2](projectdiablo2.com/) - These guys are taking the game to a whole new level.
 - [SlashDiablo](slashdiablo.net/) - If you want to play the original game online, this is where you do it.
+- [Loot Filter Rules](https://github.com/planqi/slashdiablo-maphack/wiki/Stats) - A list of the official loot filter coding rules.
+- [PD2 Loot Filter Rules]() - Most the same?
 
 ## Credits
 

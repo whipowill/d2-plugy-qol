@@ -1,0 +1,636 @@
+Prop	Par	Min	Max	PropParType	ScoreMin	ScoreMax	ScoreLim	MinLvl	MaxLvl	LvlScale	NoTypeOvr	itype1	itype2	itype3	itype4	itype5	itype6	etype1	etype2	etype3	Group	SynergyGroup	SourceItem	SourceFile	eol
+abs-cold	0	5	25	r=	10	50															3		Snowclash	UniqueItems	0
+abs-cold/lvl	5	0	0	lvl		30															3		Blackoak Shield	UniqueItems	0
+abs-cold%	0	5	30	r=	10	60															3		Raven Frost	UniqueItems	0
+abs-fire	0	5	21	r=	10	42															3		Todesfaelle Flamme	UniqueItems	0
+abs-fire/lvl	6	0	0	lvl		37															3		The Rising Sun	UniqueItems	0
+abs-fire%	0	5	30	r=	10	60															3		Dwarf Star	UniqueItems	0
+abs-ltng	0	5	25	r=	10	50															3		Blackhorn's Face	UniqueItems	0
+abs-ltng%	0	5	30	r=	10	60															3		Lightsabre	UniqueItems	0
+abs-ltng/lvl	5	0	0	lvl		40															3		RandomizeAdd5		0
+abs-mag	0	3	15	r=	3	15															3		Crescent Moon	Runes	0
+abs-mag/lvl	5	0	0	lvl		40															3		RandomizeAdd6		0
+abs-mag%	0	5	30	r=	10	60															3		RandomizeAdd7		0
+ac	0	-10	-1	c	-2	-1						armo	weap								101	ac	Dimoaks Hew	UniqueItems	0
+ac	0	6	350	r=	2	105	10		55			weap						aspe			101	ac	Bladebone	UniqueItems	0
+ac	0	6	600	r=	1	30	7					bow	xbow								101	ac	Bows	Hand Edit	0
+ac	0	6	600	r=	1	30	7					pole	staf	aspe	spea	1ax	bax				101	ac	2handers	Hand Edit	0
+ac	0	6	600	r=	1	30	7					btx	gax	gix	91a	9ba	9bt				101	ac	2handers	Hand Edit	0
+ac	0	6	600	r=	1	30	7					9ga	9gi	71a	7ba	7bt	7ga				101	ac	2handers	Hand Edit	0
+ac	0	6	600	r=	1	30	7					7gi	mau	gma	9m9	7m7	7gm				101	ac	2handers	Hand Edit	0
+ac	0	6	600	r=	2	90	10					fset	armo	amu							101	ac	Bladebone	UniqueItems	0
+ac	0	600	800	r=	60	80	15	50										weap			101	ac	Enigma	Runes	0
+ac-hth	0	40	200	r=	2	10	5														101		Darkglow	UniqueItems	0
+ac-miss	0	10	400	r=	1	20	5														101		Coif of Glory	UniqueItems	0
+ac/lvl	40	0	0	lvl		30	10											weap	amu	rin	101	ac	Swordguard	UniqueItems	0
+ac%	0	10	150	r=	1	80	5					weap	amu	rin							101	ac	Duskdeep	UniqueItems	0
+ac%	0	10	375	r=	1	38	10			Y								weap	amu	rin	101	ac	Duskdeep	UniqueItems	0
+addxp	0	5	10	r=	50	100						cm1	rod								200		Annihilus	UniqueItems	0
+all-stats	0	3	30	r=	36	360															16		Azurewrath	UniqueItems	0
+allskills		1	6	r	100	2100	20											rin			125	skills	Mang Song's Lesson	UniqueItems	0
+allskills		1	6	r	50	1050						rin									125	skills	Mang Song's Lesson	UniqueItems	0
+ama		1	3	r	35	210												ama			125	skills	M'avina's Battle Hymn	Sets	0
+ama		1	3	r	30	150						ama									125	skills	M'avina's Battle Hymn	Sets	0
+ass		1	3	r	35	210												ass			125	skills	Natalya's Odium	Sets	0
+ass		1	3	r	30	150						ass									125	skills	Natalya's Odium	Sets	0
+att	0	10	450	r=	1	45	5														110		Griswold's Legacy	Sets	0
+att	0	450	632	r=	45	63	5					8rx									110		RandomizeAdd8		0
+att-dem/lvl	5	0	0	lvl		4	3														123		Guardian Angel	UniqueItems	0
+att-demon	0	100	300	r=	5	15	3														123		Dark Clan Crusher	UniqueItems	0
+att-skill	47	10	0	s		25															44		Hellslayer	UniqueItems	0
+att-skill	47	10	6	scl		5															44		Todesfaelle Flamme	UniqueItems	0
+att-skill	53	5	0	scl		13															44		Lightsabre	UniqueItems	0
+att-skill	Charged Bolt	20	20	scl		50		65													44		Last Wish	Runes	0
+att-skill	Frozen Orb	16	21	scl		100		53													44		Rift	Runes	0
+att-skill	Glacial Spike	25	18	scl		50		55													44		Death	Runes	0
+att-skill	Nova	15	22	scl		50		65													44		Destruction	Runes	0
+att-und/lvl	20	0	0	lvl		2	15														142		The Vile Husk	UniqueItems	0
+att-undead	0	40	350	r=	1	2	15														142		Bladebone	UniqueItems	0
+att/lvl	24	0	0	lvl		12	15														111		Angelic Halo	SetItems	0
+att%	0	10	300	r=	10	120	15														111		Aldur's Watchtower	Sets	0
+aura	Concentration	1	30	smm	90	900		18				weap	armo								254		Pride	Runes	0
+aura	Conviction	1	30	smm	135	900		30				weap	armo								254		Infinity	Runes	0
+aura	Defiance	1	30	smm	44	228	5	6				weap	armo	pala							254		Exile's Path	Runes	0
+aura	Fanaticism	1	30	smm	75	900		30				weap	armo	miss							254	dmg	The Beast	Runes	0
+aura	fanaticism	1	30	smm	75	900		30				weap	armo	miss							254	dmg	The Beast	Runes	0
+aura	Holy Fire	1	30	smm	16	125		6				weap  	armo								254		Hand of Justice	Runes	0
+aura	Holy Freeze	1	30	smm	15	250		18				weap	armo								254		Ice	Runes	0
+aura	Holy Shock	1	30	smm	41	500		24				weap	armo								254		Dream	Runes	0
+aura	Meditation	1	30	smm	150	400		24				weap	armo								254		Insight	Runes	0
+aura	Might	1	30	smm	40	330						weap	armo								254		Last Wish	Runes	0
+aura	Redemption	1	30	smm	20	75		30				weap	armo								254		Phoenix	Runes	0
+aura	Sanctuary	1	30	smm	12	160		24				weap	armo								254		Lawbringer	Runes	0
+aura	Thorns	1	30	smm	25	141		6				weap	armo								254		Bramble	Runes	0
+aura	Vigor	1	30	smm	13	48		18				weap	armo								254		Harmony	Runes	0
+balance1		10	10	r=	4	4															17	block	Cathan’s Visage	SetItems	0
+balance2	0	10	55	r=	4	22															17	block	Culwens Point	UniqueItems	0
+balance3	0	10	55	r=	4	22															17	block	Aldur's Stony Gaze	SetItems	0
+bar		1	3	r	35	210												bar			125	skills	Immortal King	Sets	0
+bar		1	3	r	30	150						bar									125	skills	Immortal King	Sets	0
+block	0	10	55	r=	1	5	15														7	block	Twitchthroe	UniqueItems	0
+block2	0	10	65	r=	1	7	15														7	block	Pelta Lunata	UniqueItems	0
+block3	0	30	40	r=	3	4	15														255	block	Heaven's Taebaek	SetItems	0
+bloody	0	3	5	r	0	0															202		Swordback Hold	UniqueItems	0
+cast1	0	10	20	r=	10	20															8		Spellsteel	UniqueItems	0
+cast2	0	10	50	r=	10	50															8		Maelstromwrath	UniqueItems	0
+cast3	0	20	50	r=	20	50															8		Irices Shard	UniqueItems	0
+charged	48	80	15	sch		1															44		Baezil's Vortex	UniqueItems	0
+charged	51	20	10	sch		1															44		Todesfaelle Flamme	UniqueItems	0
+charged	52	45	10	sch		5															44		Todesfaelle Flamme	UniqueItems	0
+charged	53	60	7	sch		1															44		Holy Thunder	Runes	0
+charged	54	20	1	sch		5															44		Spellsteel	UniqueItems	0
+charged	54	69	11	sch		6															44		Naj's Puzzler	SetItems	0
+charged	56	60	11	sch		1															44		Moonfall	UniqueItems	0
+charged	62	36	6	sch		1															44		Hexfire	UniqueItems	0
+charged	64	50	9	sch		2															44		Sureshrill Frost	UniqueItems	0
+charged	66	3	8	sch		2															44		The Gavel of Pain	UniqueItems	0
+charged	72	18	6	sch		1															44		Smoke	Runes	0
+charged	74	12	4	sch		1															44		Black	Runes	0
+charged	74	40	5	sch		1															44		Corpsemourn	UniqueItems	0
+charged	83	40	6	sch		0															44		Radimant's Sphere	UniqueItems	0
+charged	83	27	15	sch		1															44		Venom	Runes	0
+charged	87	30	3	sch		6															44		Spellsteel	UniqueItems	0
+charged	92	11	13	sch		2															44		Venom	Runes	0
+charged	101	100	10	sch		0															44		Spellsteel	UniqueItems	0
+charged	101	200	20	sch		0															44		Boneslayer Blade	UniqueItems	0
+charged	150	30	13	sch		1															44		Blackhand Key	UniqueItems	0
+charged	225	60	12	sch		1															44		Spellsteel	UniqueItems	0
+charged	240	127	13	sch		1															44		Wind	Runes	0
+charged	264	30	5	sch		0															44		Darksight Helm	UniqueItems	0
+charged	264	9	13	sch		0															44		Nadir	Runes	0
+charged	278	20	3	sch		5															44		Andariel's Visage	UniqueItems	0
+charged	Attract	60	17	sch		1															44		Delirium	Runes	0
+charged	Blizzard	12	16	sch		1															44		Nord's Tenderizer	UniqueItems	0
+charged	BloodGolem	9	22	sch		3		15													44		Death	Runes	0
+charged	Bone Prison	13	33	sch		0															44		Marrowwalk	UniqueItems	0
+charged	Clay Golem	16	16	sch		4															44		Stone	Runes	0
+charged	Corpse Explosion	30	14	sch		2		20													44		Bonehew	UniqueItems	0
+charged	Cyclone Armor	30	21	sch		5															44		Infinity	Runes	0
+charged	Enchant	20	23	sch		5		20													44		Demonlimb	UniqueItems	0
+charged	Heart of Wolverine	12	3	sch		3															44		Passion	Runes	0
+charged	Heart of Wolverine	13	5	sch		5		15													44		Wisp	UniqueItems	0
+charged	Heart of Wolverine	20	16	sch		8		20													44		Oath	Runes	0
+charged	Hydra	10	30	sch		5		20													44		Hellfire Torch	UniqueItems	0
+charged	Immolation Arrow	150	18	sch		1															44		Hellrack	UniqueItems	0
+charged	Iron Maiden	20	12	sch		2															44		Metalgrid	UniqueItems	0
+charged	Iron Maiden	40	15	sch		2															44		Rift	Runes	0
+charged	IronGolem	11	22	sch		3															44		Metalgrid	UniqueItems	0
+charged	Life Tap	10	12	sch		4															44		Marrowwalk	UniqueItems	0
+charged	Molten Boulder	80	16	sch		1															44		Stone	Runes	0
+charged	Oak Sage	15	2	sch		2															44		Wisp	UniqueItems	0
+charged	Oak Sage	25	4	sch		2															44		Heart of the Oak	Runes	0
+charged	Oak Sage	27	5	sch		2															44		Nature's Peace	UniqueItems	0
+charged	Plague Javelin	60	11	sch		1															44		Gargoyle's Bite	UniqueItems	0
+charged	Plague Poppy	15	21	sch		3															44		Carrion Wind	UniqueItems	0
+charged	Raven	15	8	sch		1															44		Cranebeak	UniqueItems	0
+charged	Raven	60	14	sch		1															44		Heart of the Oak	Runes	0
+charged	Revive	30	5	sch		2															44		Bloodraven's Charge	UniqueItems	0
+charged	Revive	88	8	sch		3															44		Eternity	Runes	0
+charged	Revive	25	20	sch		3															44		Harmony	Runes	0
+charged	Slow Missiles	60	12	sch		1															44		Sanctuary	Runes	0
+charged	Spirit of Barbs	11	7	sch		2															44		Wisp	UniqueItems	0
+charged	Spirit of Barbs	33	13	sch		3															44		Bramble	Runes	0
+charged	Summon Fenris	18	15	sch		2															44		Wolfhowl	UniqueItems	0
+charged	Summon Grizzly	5	13	sch		2		20													44		The Beast	Runes	0
+charged	Summon Spirit Wolf	30	18	sch		2															44		Crescent Moon	Runes	0
+charged	Venom	11	3	sch		5															44		Arachnid Mesh	UniqueItems	0
+charged	Volcano	30	14	sch		1															44		Earthshifter	UniqueItems	0
+cheap	0	10	15	r=	20	30															203		Gheed's Fortune	UniqueItems	0
+cold-len	0	75	250	r=	0	0															137		Gravenspine	UniqueItems	0
+cold-max	0	2	14	r=	1	11.2															204	cold	Gravenspine	UniqueItems	0
+cold-min	0	1	6	r=	2	6															9	cold	Gravenspine	UniqueItems	0
+*coldskill		1	3	smm	12	36															125	skills	Leaf	Runes	0
+*coldskill		-2	-1	c	-120	-50															125	skills	Leaf	Runes	0
+crush	0	5	75	r=	20	150															205	dmg	The Gnasher	UniqueItems	0
+deadly	0	15	100	r=	30	200															206	dmg	Steelgoad	UniqueItems	0
+deadly/lvl	12	0	0	lvl		150															206	dmg	Headstriker	UniqueItems	0
+death-skill	Blizzard	100	37	scl		0															207		Rainbow Facet	UniqueItems	0
+death-skill	Chain Lightning	100	44	scl		0															207		Death	Runes	0
+death-skill	Chain Lightning	100	47	scl		0															207		Rainbow Facet	UniqueItems	0
+death-skill	Meteor	100	31	scl		0															207		Rainbow Facet	UniqueItems	0
+death-skill	Meteor	100	45	scl		0															207		Destruction	Runes	0
+death-skill	Meteor	100	48	scl		0															207		Hand of Justice	Runes	0
+death-skill	Nova	100	44	scl		0															207		Medusa's Gaze	UniqueItems	0
+death-skill	Poison Nova	100	51	scl		0															207		Rainbow Facet	UniqueItems	0
+demon-heal	0	5	20	r=	2	10															208		Dark Clan Crusher	UniqueItems	0
+dex	0	2	35	r=	2	35	5														16		Gravenspine	UniqueItems	0
+dex/lvl	4	0	0	lvl		15	5														42		Blackoak Shield	UniqueItems	0
+dmg	0	10	120	r	30	360															14	dmg	Stone Crusher	UniqueItems	0
+dmg	0	340	400	r	1020	1200		59													14	dmg	Grief runeword (Widowmaker)		0
+dmg-ac	0	-100	-50	r=	4	2															4	dmg	Woestave	UniqueItems	0
+dmg-cold		1	60	r	11	70						weap									10	cold	Rainbow Facet	UniqueItems	0
+dmg-cold		1	60	r	11	70												weap			10	cold	Rainbow Facet	UniqueItems	0
+dmg-cold		60	500	r	70	110		25				weap									10	cold	Rainbow Facet	UniqueItems	0
+dmg-cold		60	500	r	70	110		25										weap			10	cold	Rainbow Facet	UniqueItems	0
+dmg-dem/lvl	15	0	0	lvl		45															209		Widowmaker	Runes	0
+dmg-demon	0	25	380	r=	12	190				Y		weap									209		Dark Clan Crusher	UniqueItems	0
+dmg-demon	0	25	380	r=	12	190												weap			209		Dark Clan Crusher	UniqueItems	0
+dmg-elem	33	5	60	r	15	180															210	ele	Hellrack	UniqueItems	0
+dmg-elem	33	5	60	r	15	180															210	ele	Hellrack	UniqueItems	0
+dmg-elem	33	60	500	r	180	300															210	ele	Famine	Runes	0
+dmg-elem	33	60	500	r	180	300															210	ele	Hellrack	UniqueItems	0
+dmg-fire		1	60	r	1	60						weap									12	fire	Brainhew	UniqueItems	0
+dmg-fire		1	60	r	1	60												weap			12	fire	Brainhew	UniqueItems	0
+dmg-fire		60	500	r	60	125		25				weap									12	fire	Brainhew	UniqueItems	0
+dmg-fire		60	500	r	60	125		25										weap			12	fire	Brainhew	UniqueItems	0
+dmg-ltng		1	60	r	1	60						weap									13	ltng	The Chieftan	UniqueItems	0
+dmg-ltng		1	60	r	1	60												weap			13	ltng	The Chieftan	UniqueItems	0
+dmg-ltng		60	1000	r	60	250		25				weap									13	ltng	The Chieftan	UniqueItems	0
+dmg-ltng		60	1000	r	60	250		25										weap			13	ltng	The Chieftan	UniqueItems	0
+dmg-mag	0	1	50	r	1	60															211	mag	Azurewrath	UniqueItems	0
+dmg-mag	0	50	500	r	60	150		37													211	mag	Ginther's Rift	UniqueItems	0
+dmg-max	0	3	125	r=	6	100															13	dmg	Goreshovel	UniqueItems	0
+dmg-min	0	1	60	r=	2	60															14	dmg	Deathspade	UniqueItems	0
+dmg-norm	0	3	100	r	3	100															212	dmg	Rusthandle	UniqueItems	0
+dmg-pois	50	125	255	rt	20	42		43													16	pois	Rainbow Facet	UniqueItems	0
+dmg-pois	70	30	255	rt	6	54															16	pois	Serpent Lord	UniqueItems	0
+dmg-pois	75	30	200	rt	7	45															16	pois	Serpent Lord	UniqueItems	0
+dmg-pois	80	25	25	rt	6	6															16	pois	Infernal Tools	Sets	0
+dmg-pois	100	100	460	rt	28	128		26													16	pois	The Jade Tan Do	UniqueItems	0
+dmg-pois	150	192	500	rt	70	183															16	pois	Blacktongue	UniqueItems	0
+dmg-pois	175	312	312	rt	125	125		49													16	pois	Venom	Runes	0
+dmg-pois	200	102	500	rt	44	217															16	pois	Wormskull	UniqueItems	0
+dmg-pois	250	256	500	rt	125	244		46													16	pois	Guardian Naga	UniqueItems	0
+dmg-to-mana	0	5	50	r=	2	25															107		Howltusk	UniqueItems	0
+dmg-und/lvl	60	0	0	lvl		120															212		The Vile Husk	UniqueItems	0
+dmg-undead	0	25	250	r=	9	77				Y		weap									212		Bladebone	UniqueItems	0
+dmg-undead	0	25	250	r=	9	77												weap			212		Bladebone	UniqueItems	0
+dmg-undead	0	200	300	r=	67	100		25		Y		weap									212		RandomizeAdd9		0
+dmg-undead	0	200	300	r=	67	100		25										weap			212		RandomizeAdd9		0
+dmg/lvl	25	0	0	lvl		234															111	dmg	Headstriker	UniqueItems	0
+dmg%	0	5	30	r=	5	30						armo						shld			105	dmg	War Bonnet	UniqueItems	0
+dmg%	0	5	80	r=	5	80						shld	glov								105	dmg	Alma Negra	UniqueItems	0
+dmg%	0	5	30	r=	3	15				Y		weap									105	dmg	The Gnasher	UniqueItems	0
+dmg%	0	30	250	r=	30	250				Y		weap									105	dmg	The Gnasher	UniqueItems	0
+dmg%	0	250	430	r=	250	430		29		Y		weap	fset								105	dmg	RandomizeAdd10		0
+dmg%/lvl	24	0	0	lvl		75				Y		weap									105	dmg	Hellslayer	UniqueItems	0
+dru		1	3	r	35	210												dru			125	skills	Aldur's Watchtower	Sets	0
+dru		1	3	r	30	150						dru									125	skills	Aldur's Watchtower	Sets	0
+dur	0	8	250	r=	0	3												thro			213		Steelgoad	UniqueItems	0
+ease	0	-100	-10	r=	5	1	7														30		Steeldriver	UniqueItems	0
+ease	0	10	30	c	-10	-30															30		The Humongous	UniqueItems	0
+enr	0	2	50	r=	1	25															23	mana	Iros Torch	UniqueItems	0
+ethereal		1	1	s	0	0															214	dmg	Ethereal Edge	UniqueItems	0
+explosivearrow		3	15	smm	3	15						miss									215	dmg	Rimeraven	UniqueItems	0
+extra-cold	0	3	50	r	3	125															216	cold	Nightwing's Veil	UniqueItems	0
+extra-fire	0	3	50	r	3	125															217	fire	Dragonscale	UniqueItems	0
+extra-ltng	0	3	50	r	3	125															218	ltng	Griffon's Eye	UniqueItems	0
+extra-pois	0	3	50	r	3	125															219	pois	Rainbow Facet	UniqueItems	0
+fade		1	1	s		0		22				fset									220	ac	Natalya's Odium	Sets	0
+fire-max	0	6	54	r=	6	43.2															221	fire	Bladebone	UniqueItems	0
+fire-min	0	3	23	r=	6	23															11	fire	Bladebone	UniqueItems	0
+fireskill		1	3	smm	12	36															125	skills	Leaf	Runes	0
+fireskill		-2	-1	c	-120	-50															125	skills	Leaf	Runes	0
+freeze	0	1	4	r	10	11															224		Fechmars Axe	UniqueItems	0
+gethit-skill	38	2	0	scl		0		78													44		Stormspire	UniqueItems	0
+gethit-skill	38	25	3	scl		1		49													44		Stormspike	UniqueItems	0
+gethit-skill	38	12	4	scl		0		30													44		Immortal King's Forge	SetItems	0
+gethit-skill	38	15	5	scl		0		49													44		Stormrider	UniqueItems	0
+gethit-skill	42	10	3	scl		2		30													44		Hwanin's Refuge	SetItems	0
+gethit-skill	42	25	5	scl		5		20													44		Cow King's Leathers	Sets	0
+gethit-skill	44	10	5	scl		2		44													44		Coldkill	UniqueItems	0
+gethit-skill	44	5	9	scl		1		46													44		Tiamat's Rebuke	UniqueItems	0
+gethit-skill	46	5	8	scl		0		37													44		Infernostride	UniqueItems	0
+gethit-skill	48	25	3	scl		1		43													44		Spiritual Custodian	SetItems	0
+gethit-skill	48	5	7	scl		0		46													44		Tiamat's Rebuke	UniqueItems	0
+gethit-skill	52	5	5	scl		2		37													44		Immortal King's Soul Cage 	SetItems	0
+gethit-skill	53	5	5	scl		0		78													44		Stormspire	UniqueItems	0
+gethit-skill	53	18	5	scl		1		18													44		Cow King's Hide	SetItems	0
+gethit-skill	53	12	5	scl		1		28													44		Naj's Circlet	SetItems	0
+gethit-skill	54	25	1	scl		0		50													44		The Oculus	UniqueItems	0
+gethit-skill	55	10	3	scl		2		70													44		Mavina’s Embrace	SetItems	0
+gethit-skill	56	2	0	scl		0		73													44		The Rising Sun	UniqueItems	0
+gethit-skill	59	5	0	scl		0		49													44		Snowclash	UniqueItems	0
+gethit-skill	59	4	6	scl		0		43													44		Stormchaser	UniqueItems	0
+gethit-skill	62	3	6	scl		0		46													44		Tiamat's Rebuke	UniqueItems	0
+gethit-skill	71	6	3	scl		0		46													44		Darksight Helm	UniqueItems	0
+gethit-skill	72	4	5	scl		0		67													44		Blackoak Shield	UniqueItems	0
+gethit-skill	76	5	1	scl		0		53													44		The Gavel of Pain	UniqueItems	0
+gethit-skill	76	6	2	scl		0		63													44		Corpsemourn	UniqueItems	0
+gethit-skill	76	10	2	scl		2		55													44		Saracen's Chance	UniqueItems	0
+gethit-skill	88	10	2	scl		0		44													44		Arm of King Leoric	UniqueItems	0
+gethit-skill	92	5	5	scl		0		58													44		Radimant's Sphere	UniqueItems	0
+gethit-skill	92	9	6	scl		0		44													44		Pus Spiter	UniqueItems	0
+gethit-skill	92	15	15	scl		2		85													44		Andariel's Visage	UniqueItems	0
+gethit-skill	93	5	10	scl		0		44													44		Arm of King Leoric	UniqueItems	0
+gethit-skill	101	50	0	scl		0		50													44		Boneslayer Blade	UniqueItems	0
+gethit-skill	121	5	7	scl		0		55													44		Thudergod's Vigor	UniqueItems	0
+gethit-skill	240	7	1	scl		0		21													44		Zephyr	Runes	0
+gethit-skill	245	4	5	scl		0		43													44		Stormchaser	UniqueItems	0
+gethit-skill	Amplify Damage	35	14	scl		15		65													44		Brand	Runes	0
+gethit-skill	Blaze	5	15	scl		0		45													44		Enlightenment	Runes	0
+gethit-skill	Bone Armor	15	10	scl		10		47													44		Bone	Runes	0
+gethit-skill	Chilling Armor	20	15	scl		12		59													44		Fortitude	Runes	0
+gethit-skill	Confuse	10	15	scl		5		65													44		Dream	Runes	0
+gethit-skill	Cyclone Armor	5	15	scl		6		49													44		Rain	Runes	0
+gethit-skill	Delerium Change	1	50	scl		0		51													44		Delirium	Runes	0
+gethit-skill	Dim Vision	15	3	scl		2		47													44		Gloom	Runes	0
+gethit-skill	Fade	5	8	scl		0		76													44		Spirit Ward	UniqueItems	0
+gethit-skill	Fade	6	11	scl		0		65													44		Last Wish	Runes	0
+gethit-skill	Fade	5	15	scl		0		43													44		Treachery	Runes	0
+gethit-skill	Fire Wall	25	17	scl		1		67													44		Pride	Runes	0
+gethit-skill	Howl	3	1	scl		0		33													44		Myth	Runes	0
+gethit-skill	Iron Maiden	8	6	scl		1		74													44		Steel Carapice	UniqueItems	0
+gethit-skill	Lower Resist	10	7	scl		5		84													44		Medusa's Gaze	UniqueItems	0
+gethit-skill	Mind Blast	6	14	scl		0		51													44		Delirium	Runes	0
+gethit-skill	Poison Nova	10	10	scl		1		68													44		Carrion Wind	UniqueItems	0
+gethit-skill	Slow Missiles	4	5	scl		0		29													44		Peace	Runes	0
+gethit-skill	Terror	15	3	scl		0		80													44		Boneflame	UniqueItems	0
+gethit-skill	Terror	14	13	scl		0		51													44		Delirium	Runes	0
+gethit-skill	Venom	20	18	scl		340		61													44		Dragon	Runes	0
+gold%	0	-100	-10	c	-10	-1		13													21		Nadir	Runes	0
+gold%	0	37	250	r=	1	6															21		Cow King's Leathers	Sets	0
+gold%/lvl	25	0	0	lvl		3															21		Ice	Runes	0
+half-freeze		1	1	r	5	5															10		Undead Crown	UniqueItems	0
+heal-kill	0	5	15	r=	5	15															225		Bloodmoon	UniqueItems	0
+hit-skill	38	10	0	scl		2		49													44		Stormrider	UniqueItems	0
+hit-skill	42	20	10	scl		20		83													44		Schaefer's Hammer	UniqueItems	0
+hit-skill	44	10	3	scl		5		68													44		Dangoon's Teaching	SetItems	0
+hit-skill	45	10	3	scl		4		28													44		Hwanin's Justice	SetItems	0
+hit-skill	45	10	10	scl		5		44													44		Coldkill	UniqueItems	0
+hit-skill	48	5	8	scl		1		53													44		Baezil's Vortex	UniqueItems	0
+hit-skill	52	2	10	scl		30		50													44		Lavagout	UniqueItems	0
+hit-skill	53	5	10	scl		11		49													44		Stormrider	UniqueItems	0
+hit-skill	56	2	4	scl		2		55													44		Hellmouth	UniqueItems	0
+hit-skill	56	5	6	scl		5		50													44		Moonfall	UniqueItems	0
+hit-skill	56	2	6	scl		3		36													44		Skystrike	UniqueItems	0
+hit-skill	59	6	5	scl		10		45													44		Zakarum's Hand	UniqueItems	0
+hit-skill	64	5	3	scl		10		51													44		Bing Sz Wang	UniqueItems	0
+hit-skill	66	5	1	scl		25		53													44		The Gavel of Pain	UniqueItems	0
+hit-skill	66	6	1	scl		30		52													44		The Vile Husk	UniqueItems	0
+hit-skill	66	4	1	scl		20		85													44	dmg	The Cranium Basher	UniqueItems	0
+hit-skill	66	5	2	scl		30		60													44		Atma's Scarab	UniqueItems	0
+hit-skill	66	2	5	scl		12		47													44		Whichwild String	UniqueItems	0
+hit-skill	72	8	3	scl		8		75													44		Doombringer	UniqueItems	0
+hit-skill	72	10	3	scl		9		69													44		Ondal's Almighty	SetItems	0
+hit-skill	72	5	5	scl		7		50													44		Blackleach Blade	UniqueItems	0
+hit-skill	81	10	1	scl		9		46													44		The Fetid Sprinkler	UniqueItems	0
+hit-skill	87	5	1	scl		15		46													44		The Fetid Sprinkler	UniqueItems	0
+hit-skill	91	4	1	scl		10		44													44		Pus Spiter	UniqueItems	0
+hit-skill	92	5	4	scl		6		49													44		Plague Bearer	UniqueItems	0
+hit-skill	92	5	8	scl		9		56													44		Guardian Naga	UniqueItems	0
+hit-skill	101	10	3	scl		0		63													44		Laying of Hands	SetItems	0
+hit-skill	121	5	4	scl		10		50													44		Hand of Blessed Light	UniqueItems	0
+hit-skill	121	6	7	scl		16		53													44		Cloudcrack	UniqueItems	0
+hit-skill	121	5	7	scl		14		54													44		Godstrike Arch	UniqueItems	0
+hit-skill	197	5	10	scl		20		110													44		Hellfire Torch	UniqueItems	0
+hit-skill	225	4	12	scl		2		55													44		Hellmouth	UniqueItems	0
+hit-skill	234	5	7	scl		3		51													44		Earthshaker	UniqueItems	0
+hit-skill	244	4	8	scl		2		53													44		Pompe's Wrath	UniqueItems	0
+hit-skill	245	10	9	scl		10		61													44		Wind	Runes	0
+hit-skill	Amplify Damage	33	3	scl		90		76													44	dmg	Lacerator	UniqueItems	0
+hit-skill	Bone Spear	15	10	scl		15		47													44		Bone	Runes	0
+hit-skill	Bone Spear	50	16	scl		80		72													44		Bonehew	UniqueItems	0
+hit-skill	Bone Spear	100	18	scl		185		65													44		Brand	Runes	0
+hit-skill	Bone Spirit	30	20	scl		120		49													44		Oath	Runes	0
+hit-skill	Chain Lightning	10	17	scl		18		47													44		Crescent Moon	Runes	0
+hit-skill	Charged Bolt	11	9	scl		12		57													44		Chaos	Runes	0
+hit-skill	Confuse	11	18	scl		6		51													44		Delirium	Runes	0
+hit-skill	Decrepify	33	1	scl		90		83													44	dmg	The Reaper's Toll	UniqueItems	0
+hit-skill	decrepify	30	1	scl		85		63													44	ac	Wrath	Runes	0
+hit-skill	Decrepify	20	15	scl		70		43													44	ac	Lawbringer	Runes	0
+hit-skill	Eruption	25	14	scl		33		77													44		Earthshifter	UniqueItems	0
+hit-skill	Fire Ball	5	15	scl		8		45													44	fire	Enlightenment	Runes	0
+hit-skill	Firestorm	12	16	scl		10		79													44	fire	Flamebellow	UniqueItems	0
+hit-skill	Firestorm	40	22	scl		48		65													44	fire	Phoenix	Runes	0
+hit-skill	Frost Nova	33	8	scl		16		85													44	cold	Shadowkiller	UniqueItems	0
+hit-skill	Frost Nova	25	22	scl		18		65													44	cold	Ice	Runes	0
+hit-skill	Frozen Orb	9	11	scl		30		57													44	cold	Chaos	Runes	0
+hit-skill	Frozen Orb	15	13	scl		60		43													44	cold	Winter	Runes	0
+hit-skill	Holy Bolt	100	5	scl		1		53													44		Principle	Runes	0
+hit-skill	Hydra	12	15	scl		10		61													44	fire	Dragon	Runes	0
+hit-skill	Ice Blast	18	20	scl		16		43													44	cold	Winter	Runes	0
+hit-skill	Life Tap	15	5	scl		5		57													44	dmg	Exile's Path	Runes	0
+hit-skill	Life Tap	5	10	scl		3		63													44	dmg	Wrath	Runes	0
+hit-skill	Life Tap	10	18	scl		4		65													44	dmg	Last Wish	Runes	0
+hit-skill	Lightning	20	14	scl		18		77													44		Thunderstroke	UniqueItems	0
+hit-skill	Lightning	10	16	scl		10		84													44		Wisp	UniqueItems	0
+hit-skill	Molten Boulder	5	23	scl		15		65													44	fire	Destruction	Runes	0
+hit-skill	Nova	25	9	scl		17		83													44	cold	Warshrike	UniqueItems	0
+hit-skill	Nova	10	15	scl		12		70													44	cold	M'avina's Caster	SetItems	0
+hit-skill	Poison Explosion	15	9	scl		7		79													44	pois	Viperfork	UniqueItems	0
+hit-skill	Static Field	15	10	scl		15		86													44		Stormlash	UniqueItems	0
+hit-skill	Static Field	7	13	scl		7		47													44		Crescent Moon	Runes	0
+hit-skill	Taunt	10	1	scl		1		33													44		Myth	Runes	0
+hit-skill	Tornado	20	15	scl		40		72													44		Horizon's Tornado	UniqueItems	0
+hit-skill	Tornado	20	16	scl		43		53													44		Rift	Runes	0
+hit-skill	Tornado	20	18	scl		52		86													44		Stormlash	UniqueItems	0
+hit-skill	Twister	8	13	scl		3		68													44		Carrion Wind	UniqueItems	0
+hit-skill	Twister	5	15	scl		2		49													44		Rain	Runes	0
+hit-skill	Twister	33	22	scl		27		76													44		Windhammer	UniqueItems	0
+hit-skill	Valkyrie	2	15	scl		10		29													44	ac	Peace	Runes	0
+hit-skill	Venom	25	15	scl		315		43													44	pois	Treachery	Runes	0
+hit-skill	Venom	35	15	scl		315		59													44	pois	Widowmaker	Runes	0
+hit-skill	Volcano	23	12	scl		11		65													44	fire	Destruction	Runes	0
+hit-skill	Volcano	5	18	scl		4		67													44	fire	Doomsayer	Runes	0
+hit-skill	Weaken	8	3	scl		8		82													44	ac	Souldrain	UniqueItems	0
+howl	0	33	96	r	0	0															113	ac	Umes Lament	UniqueItems	0
+hp		-32	-5	c	-160	-25															26	ac		SetItems	0
+hp	0	5	50	r=	5	50	20														26	ac		SetItems	0
+hp	0	25	75	r=	25	75	20					amu									26	ac	The Cat's Eye	SetItems	0
+hp	0	5	100	r=	3	50	20	25													26	ac		SetItems	0
+hp	0	100	200	r=	50	100	20	53				tors	belt								26	ac	Immortal King	Sets	0
+hp		100	150	r=	50	75						fset									26	ac	Immortal King	Sets	0
+hp/lvl	12	0	0	lvl		19															225	ac	Harlequin Crest	UniqueItems	0
+hp%		10	30	r	25	75	30														225	ac	Chromatic Ire	UniqueItems	0
+ignore-ac		1	1	s	60	60															110	dmg	Krintizs Skewer	UniqueItems	0
+ignore-ac	1	1	1	s	60	60															110	dmg	Lightsabre	UniqueItems	0
+indestruct		1	1	s	5	5												rune			39	dmg	Butcher's Pupil	UniqueItems	0
+indestruct		1	1	s		50						rune									39	dmg		Runes	0
+kill-skill	Chain Lightning	50	20	scl		30		63													222	ltng	Infinity	Runes	0
+kill-skill	Decrepify	50	6	scl		40		83													222	ac	Executioner's Justice	UniqueItems	0
+kill-skill	enchant	30	21	scl		80		41													222	fire	Obedience	Runes	0
+kill-skill	Poison Nova	50	20	scl		30		69													222	pois	Breath of the Dying	Runes	0
+knock		1	1	s		0															24		Felloak	UniqueItems	0
+levelup-skill	Blaze	100	29	scl		0															223		Rainbow Facet	UniqueItems	0
+levelup-skill	Blaze	100	36	scl		0															223		Hand of Justice	Runes	0
+levelup-skill	Blaze	100	40	scl		0															223		Phoenix	Runes	0
+levelup-skill	Blizzard	100	40	scl		1															223		Ice	Runes	0
+levelup-skill	Frost Nova	100	43	scl		1															223		Rainbow Facet	UniqueItems	0
+levelup-skill	Nova	100	41	scl		1															223		Rainbow Facet	UniqueItems	0
+levelup-skill	Venom	100	23	scl		5															223		Rainbow Facet	UniqueItems	0
+lifesteal	0	2	20	r	20	200				Y		weap									27	dmg	Hwanin's Majesty	Sets	0
+lifesteal	0	2	20	r	20	200												weap			27	dmg	Hwanin's Majesty	Sets	0
+light	0	1	8	r	0	0															25		Fechmars Axe	UniqueItems	0
+light	0	-4	-1	c	-4	-1															25		Darksight Helm	UniqueItems	0
+light-thorns	0	3	30	r	0	3															226		Coif of Glory	UniqueItems	0
+*lightningskill		1	3	smm	12	36															125	skills	Leaf	Runes	0
+*lightningskill		-2	-1	c	-120	-50															125	skills	Leaf	Runes	0
+ltng-max	0	9	60	r=	5	48															227	ltng	Mindrend	UniqueItems	0
+ltng-min	0	1	1	r	1	1															12	ltng	Mindrend	UniqueItems	0
+mag%	0	10	100	r=	10	100															22	mag	Gull	UniqueItems	0
+mag%/lvl	10	0	0	lvl		300															22	mag	Skullder's Ire	UniqueItems	0
+magicarrow	0	1	20	r	5	50				Y		miss									215		Witherstring	UniqueItems	0
+*magicskill		1	3	smm	12	36															125	skills	Leaf	Runes	0
+*magicskill		-2	-1	c	-120	-50															125	skills	Leaf	Runes	0
+mana	0	5	50	r=	1	20															24		Aldur's Watchtower	Sets	0
+mana	0	5	200	r=	1	20	20	25													24		Aldur's Watchtower	Sets	0
+mana	0	-32	-5	c	-32	-5															24			UniqueItems	0
+mana-kill	0	2	20	r	2	20															121		Deathspade	UniqueItems	0
+mana/lvl	16	0	0	lvl		9															41	mana	Wizardspike	UniqueItems	0
+mana%		5	40	r	3	20															41	mana	Frostburn	UniqueItems	0
+manasteal		2	15	r	10	30				Y		weap									28	dmg	Natalya's Odium	Sets	0
+manasteal		2	100	r	10	50						lst									28	dmg	Natalya's Odium	Sets	0
+manasteal		2	15	r	10	30												weap			28	dmg	Natalya's Odium	Sets	0
+meleesplash	358	100	1	s		30	15											orb	wand	miss	430	dmg			0
+move2		10	20	r=	10	45												boot			35		Isenhart's Armory	Sets	0
+move2		10	30	r=	10	30						amu	jave	rune	tors	miss					35		The Cat's Eye	Sets	0
+move2		10	45	r=	10	45						boot	tors								35		Isenhart's Armory	Sets	0
+move3		20	40	r=	20	40		49													35		Trang-Oul's Scales	SetItems	0
+move3		30	40	r=	30	40						boot	fset								35		Hwanin's Majesty	Sets	0
+nec		1	3	r	35	210												nec			125	skills	Trang-Oul's Avatar	Sets	0
+nec		1	3	r	30	150						nec									125	skills	Trang-Oul's Avatar	Sets	0
+nofreeze	0	1	1	r	50	50															228		The Jade Tan Do	UniqueItems	0
+noheal		1	1	s	50	50				Y											20		Blacktongue	UniqueItems	0
+openwounds		10	100	r=	5	50															229		The Gnasher	UniqueItems	0
+oskill	Arctic Blast	7	14	smm	1	2		78													306	cold	Frostwind	UniqueItems	0
+oskill	Battle Command	2	6	smm	40	95		57													311		Call to Arms	Runes	0
+oskill	Battle Cry	1	4	smm	4	8		57													313		Call to Arms	Runes	0
+oskill	Battle Orders	1	6	smm	27	75		57													312	vit	Call to Arms	Runes	0
+oskill	Berserk	1	1	smm	5	5		43													317	dmg	Passion	Runes	0
+oskill	Critical Strike	1	6	smm	16	46		27													322	dmg	Insight	Runes	0
+oskill	Feral Rage	3	6	smm	1	1		85													305	dmg	Wolfhowl	UniqueItems	0
+oskill	Fire Ball	18	18	smm	120	120		32				fset									307	fire	Trang-Oul's Avatar	Sets	0
+oskill	Fire Mastery	3	3	smm	44	44		32				fset									310	fire	Trang-Oul's Avatar	Sets	0
+oskill	Fire Wall	13	13	smm	80	80		32				fset									308	fire	Trang-Oul's Avatar	Sets	0
+oskill	Guided Arrow	3	5	smm	5	7															300		Widowmaker	UniqueItems	0
+oskill	Hydra	10	10	smm	20	20		40													301	fire	Dragonscale	UniqueItems	0
+oskill	Inferno	12	18	smm	1	2		20													302	fire	Flamebellow	UniqueItems	0
+oskill	Meteor	10	10	smm	100	100		32				fset									309	fire	Trang-Oul's Avatar	Sets	0
+oskill	Shape Shifting	3	6	smm	3	4		63													304		Wolfhowl	UniqueItems	0
+oskill	Teleport	1	1	smm	1000	1000		65													314		Enigma	Runes	0
+oskill	Valkyrie	2	6	smm	10	15		39													320	ac	Harmony	Runes	0
+oskill	Vengeance	1	1	smm	30	30		53													315	dmg	Kingslayer	Runes	0
+oskill	Warmth	1	1	smm	15	15		45													321	mana	Enlightenment	Runes	0
+oskill	Wearbear	3	3	smm	75	75		63													319		The Beast	Runes	0
+oskill	Wearwolf	3	6	smm	300	416		85													303		Wolfhowl	UniqueItems	0
+oskill	Whirlwind	1	1	smm	200	200		57													318	dmg	Chaos	Runes	0
+oskill	Zeal	1	1	smm	15	15		43													316	dmg	Passion	Runes	0
+pal		1	3	r	35	210												pal			125	skills	Griswold's Legacy	Sets	0
+pal		1	3	r	30	150						pal									125	skills	Griswold's Legacy	Sets	0
+pierce	0	25	100	r	25	100					Y	miss	thro	jave	belt	fset					230	dmg	Vidala's Rig	Sets	0
+pierce-cold	0	3	60	r	9	180															231	cold	Wizendraw	UniqueItems	0
+pierce-fire	0	3	60	r	9	180															232	fire	Mang Song's Lesson	UniqueItems	0
+pierce-ltng	0	3	60	r	9	180															233	ltng	Mang Song's Lesson	UniqueItems	0
+pierce-pois	0	3	60	r	9	180															234	pois	Deaths's Web	UniqueItems	0
+pois-len	0	75	150	r	5	10	0														235	pois	Berserker's Garb	Sets	0
+pois-max	0	32	128	r	8	32	0														236	pois	Rakescar	UniqueItems	0
+pois-min	0	16	128	r	8	64	0														15	pois	Rakescar	UniqueItems	0
+*poisonskill		1	3	smm	12	36															125	skills	Leaf	Runes	0
+*poisonskill		-2	-1	c	-120	-50															125	skills	Leaf	Runes	0
+randclassskill		0	6	smm	0	300						cm2									323	skills	Hellfire Torch	UniqueItems	0
+reanimate	1	10	10	s	0	5															237		Tomb Reaver	UniqueItems	0
+red-dmg	0	1	20	r	5	100															1	vit	The Patriarch	UniqueItems	0
+red-dmg%	0	10	35	r=	30	105															238	vit	Natalya's Odium	Sets	0
+red-mag	0	1	20	r	5	100															2		Immortal King	Sets	0
+reduce-ac	0	20	50	r	5	15															239		Razortine	UniqueItems	0
+regen	0	4	25	r	12	74															19		Stormeye	UniqueItems	0
+regen	0	-25	-1	c	-125	-5															19		Malice	Runes	0
+regen-mana	0	5	43	r	5	43															240	mana	Mindrend	UniqueItems	0
+regen-stam	0	10	50	r	0	0															108		Steeldriver	UniqueItems	0
+regen-stam/lvl	2	0	0	lvl		0															108		Natalya's Soul	SetItems	0
+rep-dur	25	0	0	lvl		0		5										amu	rin		37		Warlord's Trust	UniqueItems	0
+rep-quant	40	0	0	lvl		10		5			Y	thro									39	dmg	Wraithflight	UniqueItems	0
+res-all	0	5	75	r=	15	225															116		Heaven's Brethren	Sets	0
+res-all	0	5	85	r=	5	85						pole	staf	spea	aspe						116		2handers	Sets	0
+res-all	0	-20	-1	c	-140	-7															116		RandomizeAdd12		0
+res-all-max	0	5	15	r	30	90		14													241		Darkglow	UniqueItems	0
+res-cold	0	10	80	r=	8	64															117		Fechmars Axe	UniqueItems	0
+res-cold-max	0	5	15	r	10	30		20													242		Hawkmail	UniqueItems	0
+res-fire	0	5	75	r=	5	75															118		Felloak	UniqueItems	0
+res-fire	0	-50	-5	c	-100	-10															118		RandomizeAdd13		0
+res-fire-max	0	5	15	r	10	30		7													243		The Tannr Gorerod	UniqueItems	0
+res-ltng	0	5	75	r=	5	75															119		Maelstromwrath	UniqueItems	0
+res-ltng-max	0	5	15	r	10	30		20													244		Iratha's Finery	Sets	0
+res-ltng/lvl	8	0	0	lvl		50															43		Stormspike	UniqueItems	0
+res-pois	0	5	100	r=	5	40															120		Rakescar	UniqueItems	0
+res-pois-len	0	50	75	r=	5	10															29		Berserker's Garb	Sets	0
+res-pois-max	0	5	20	r	10	40		20													245		The Jade Tan Do	UniqueItems	0
+rip		1	1	s	5	5															246		Nature's Peace	UniqueItems	0
+skill	9	3	3	smm	32	32		39													324		Melody	Runes	0
+skill	13	3	3	smm	15	15		39													325		Melody	Runes	0
+skill	14	3	3	smm	2	2		39													326		The Impaler	UniqueItems	0
+skill	16	2	2	smm	2	2		38													327		Blastbark	UniqueItems	0
+skill	17	3	3	smm	0	0		39													328		Melody	Runes	0
+skill	19	5	5	smm	50	50		39													329		The Impaler	UniqueItems	0
+skill	22	3	3	smm	20	20		51													330		Magewrath	UniqueItems	0
+skill	26	3	5	smm	30	50		44													331		Endlesshail	UniqueItems	0
+skill	27	3	3	smm	2	2		41													332		Kuko Shakaku	UniqueItems	0
+skill	34	3	3	smm	2	2		55													333		Thudergod's Vigor	UniqueItems	0
+skill	35	3	3	smm	30	30		55													334		Thudergod's Vigor	UniqueItems	0
+skill	36	3	5	smm	1	1		7													335		Bane Ash	UniqueItems	0
+skill	37	2	3	smm	20	20		5													336		The Salamander	UniqueItems	0
+skill	41	3	3	smm	0	0		19													337		Leaf	Runes	0
+skill	42	2	3	smm	15	25		24													338		Lazarus Spire	UniqueItems	0
+skill	43	3	3	smm	1	1		47													339		Warpspear	UniqueItems	0
+skill	44	3	3	smm	1	1		38													340		The Iron Jang Bong	UniqueItems	0
+skill	46	2	2	smm	1	1		38													341		The Iron Jang Bong	UniqueItems	0
+skill	47	2	2	smm	14	14		28													342		The Salamander	UniqueItems	0
+skill	48	2	2	smm	1	1		38													343		The Iron Jang Bong	UniqueItems	0
+skill	49	2	2	smm	15	15		24													344		Lazarus Spire	UniqueItems	0
+skill	51	1	1	smm	6	6		28													345		The Salamander	UniqueItems	0
+skill	53	1	1	smm	15	15		24													346		Lazarus Spire	UniqueItems	0
+skill	54	3	3	smm	1	1		47													347		Warpspear	UniqueItems	0
+skill	55	3	3	smm	1	1		49													348		Snowclash	UniqueItems	0
+skill	58	3	3	smm	6	6		37													349		Warpspear	UniqueItems	0
+skill	59	2	2	smm	20	20		49													350		Snowclash	UniqueItems	0
+skill	60	2	2	smm	4	4		49													351		Snowclash	UniqueItems	0
+skill	61	1	1	smm	10	10		43													352		Chromatic Ire	UniqueItems	0
+skill	63	1	1	smm	10	10		43													353		Chromatic Ire	UniqueItems	0
+skill	65	1	1	smm	10	10		43													354		Chromatic Ire	UniqueItems	0
+skill	66	1	3	smm	1	1		19													355		Maelstromwrath	UniqueItems	0
+skill	68	3	3	smm	3	3		35													356		White	Runes	0
+skill	69	3	4	smm	40	40		35													357		White	Runes	0
+skill	70	3	3	smm	30	30		44													358		Arm of King Leoric	UniqueItems	0
+skill	73	5	5	smm	1	1		46													359		Blackbog's Sharp	UniqueItems	0
+skill	74	1	3	smm	10	30		19													360		Maelstromwrath	UniqueItems	0
+skill	76	1	3	smm	1	1		19													361		Maelstromwrath	UniqueItems	0
+skill	77	1	3	smm	0	0		14													362		Umes Lament	UniqueItems	0
+skill	77	3	3	smm	0	0		38													362		Umes Lament	UniqueItems	0
+skill	80	2	2	smm	5	5		44													363		Arm of King Leoric	UniqueItems	0
+skill	83	4	4	smm	1	1		46													364		Blackbog's Sharp	UniqueItems	0
+skill	84	2	2	smm	20	20		35													365		White	Runes	0
+skill	87	2	2	smm	2	2		38													366		Umes Lament	UniqueItems	0
+skill	92	4	4	smm	30	30		46													367		Blackbog's Sharp	UniqueItems	0
+skill	96	3	3	smm	1	1		20													368		Bloodrise	UniqueItems	0
+skill	101	4	4	smm	1	1		50													369		Hand of Blessed Light	UniqueItems	0
+skill	102	6	6	smm	10	10		31													370		Kinemils Awl	UniqueItems	0
+skill	103	3	3	smm	4	4		23													371		Rusthandle	UniqueItems	0
+skill	110	3	5	smm	1	1		31													372		Stormeye	UniqueItems	0
+skill	111	1	3	smm	2	6		23													373		Rusthandle	UniqueItems	0
+skill	114	2	2	smm	3	3		45													374		Zakarum's Hand	UniqueItems	0
+skill	115	2	2	smm	1	1		39													375		Tearhaunch	UniqueItems	0
+skill	118	2	3	smm	30	30		21													376		Stormeye	UniqueItems	0
+skill	121	1	1	smm	2	2		30													377		Hand of Blessed Light	UniqueItems	0
+skill	121	2	2	smm	4	4		50													377		Hand of Blessed Light	UniqueItems	0
+skill	127	2	4	smm	2	4		38													378		Bloodletter	UniqueItems	0
+skill	129	3	3	smm	3	3		56													379		Bloodtree Stump	UniqueItems	0
+skill	131	4	4	smm	1	1		44													380		Heart Carver	UniqueItems	0
+skill	132	2	2	smm	1	1		12													381		Gorefoot	UniqueItems	0
+skill	142	4	4	smm	4	4		44													382		Heart Carver	UniqueItems	0
+skill	147	5	5	smm	25	25		65													383		Fury	Runes	0
+skill	150	4	4	smm	1	1		44													384		Heart Carver	UniqueItems	0
+skill	151	1	3	smm	8	24		38													385		Bloodletter	UniqueItems	0
+skill	233	1	1	smm	1	1		51													386		Islestrike	UniqueItems	0
+skill	238	5	5	smm	10	10		49													387		Plague Bearer	UniqueItems	0
+skill	248	1	1	smm	2	2		51													388		Islestrike	UniqueItems	0
+skill	Battle Command	1	2	smm	1	2		85													389		Halaberd's Reign	UniqueItems	0
+skill	Battle Orders	1	2	smm	3	6		85													390	vit	Halaberd's Reign	UniqueItems	0
+skill	Bone Armor	4	5	smm	4	5		84													391		Boneshade	UniqueItems	0
+skill	Bone Spear	2	3	smm	20	30		84													392		Boneshade	UniqueItems	0
+skill	Bone Spirit	1	2	smm	3	6		84													393		Boneshade	UniqueItems	0
+skill	Bone Wall	2	3	smm	1	1		84													394		Boneshade	UniqueItems	0
+skill	Cold Mastery	1	2	smm	5	10		65													395	cold	Tal Rasha's Lidless Eye	SetItems	0
+skill	feral rage	1	2	smm	2	4		71													396	dmg	Cerebus	UniqueItems	0
+skill	Fire Mastery	1	2	smm	5	10		65													397	fire	Tal Rasha's Lidless Eye	SetItems	0
+skill	Holy Bolt	2	4	smm	1	1		80													398		The Reedeemer	UniqueItems	0
+skill	Inferno Sentry	1	2	smm	1	1		75													399	fire	Firelizard's Talons	UniqueItems	0
+skill	Lightning Bolt	3	3	smm	1	1		77													400	ltng	Thunderstroke	UniqueItems	0
+skill	Lightning Mastery	1	2	smm	5	10		65													401	ltng	Tal Rasha's Lidless Eye	SetItems	0
+skill	Raven	7	7	smm	1	1		82													402		Ravenlore	UniqueItems	0
+skill	Redemption	2	4	smm	2	4		80													403		The Reedeemer	UniqueItems	0
+skill	Skeleton Mastery	1	2	smm	10	20		74													404		Marrowwalk	UniqueItems	0
+skill	Teeth	4	5	smm	2	3		84													405		Boneshade	UniqueItems	0
+skill	Wake of Fire Sentry	1	2	smm	2	4		75													406	fire	Firelizard's Talons	UniqueItems	0
+skill-rand	3	10	29	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skill-rand	3	36	60	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skill-rand	3	67	75	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skill-rand	3	96	121	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skill-rand	3	140	152	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skill-rand	3	225	250	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skill-rand	3	252	282	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
+skilltab	0	1	4	smm	10	40					Y							shld	mele		408		Amazone – Bow & Xbow	UniqueItems	0
+skilltab	1	1	4	smm	10	40					Y	amaz	armo								409		Amazon – Passive & Magic	SetItems	0
+skilltab	2	1	4	smm	10	40					Y							class			410		Amazon – Jave & spear	UniqueItems	0
+skilltab	2	1	4	smm	10	40					Y	aspe	jave								410		Amazon – Jave & spear	UniqueItems	0
+skilltab	3	1	4	smm	10	40															411		Sorceress – Fire	UniqueItems	0
+skilltab	4	1	4	smm	10	40															412		Sorceress – Lightning	Custom	0
+skilltab	5	1	4	smm	10	40															413		Sorceress – Cold	Custom	0
+skilltab	6	1	4	smm	10	40															414		Necro - Curses	UniqueItems	0
+skilltab	7	1	4	smm	10	40															415		Necro – Poison & Bone	Runes	0
+skilltab	8	1	4	smm	10	40															416		Necro – Summoning	UniqueItems	0
+skilltab	9	1	4	smm	10	40												class			417		Palladin – Offensive Auras	UniqueItems	0
+skilltab	9	1	4	smm	10	40						pala									417		Palladin – Offensive Auras	UniqueItems	0
+skilltab	10	1	4	smm	10	40															418		Paladin – Combat Skills	Runes	0
+skilltab	11	1	4	smm	10	40															419		Paladin – Defensive Auras	SetItems	0
+skilltab	12	1	4	smm	10	40															420		Barb – Masteries	UniqueItems	0
+skilltab	13	1	4	smm	10	40															421		Barb – Combat	UniqueItems	0
+skilltab	14	1	4	smm	10	40															422		Barb – Warcries	UniqueItems	0
+skilltab	15	1	4	smm	10	40															423		Druid – Summoning	Custom	0
+skilltab	16	1	4	smm	10	40															424		Druid – Shapeshifting	UniqueItems	0
+skilltab	17	1	4	smm	10	40															425		Druid – Elemental	UniqueItems	0
+skilltab	17	7	7	smm	250	250		77			Y	weap									426		Druid – Elemental	UniqueItems	0
+skilltab	18	1	4	smm	10	40															427		Assassin – Traps	Custom	0
+skilltab	19	1	4	smm	10	40															428		Assassin – Shadow Disc	SetItems	0
+skilltab	20	1	4	smm	10	40					Y							weap			429		Assassin – Martial Arts	UniqueItems	0
+skilltab	20	1	4	smm	10	40					Y	assn									429		Assassin – Martial Arts	UniqueItems	0
+slow	0	10	75	r=	1	25	10														247		The Generals Tan Do Li Ga	UniqueItems	0
+sock	2			s		20		39			Y	shld	tors	helm	weap			thro	rune		122		Mosers Blessed Circle	UniqueItems	0
+sock	3			s		30		43			Y	shld	tors	helm	weap			thro	rune		122		Blade of Ali Baba	UniqueItems	0
+sock	0	1	3	r	3	10		22				helm	shld	weap	tors			thro	rune		122				0
+sock	0	1	5	r	3	30		69				helm	tors	weap				thro	rune		122				0
+sor		1	3	r	35	210												sor			125	skills	Tal Rasha's Wrappings	Sets	0
+sor		1	3	r	30	150						sor									125	skills	Tal Rasha's Wrappings	Sets	0
+stack	0	60	60	r	5	5						thro									141		Titan's Revenge	UniqueItems	0
+stam	0	15	180	r=	0	0															109		Cow King's Leathers	Sets	0
+stam/lvl	8	0	0	lvl		0															109		Sandstorm Trek	UniqueItems	0
+stamdrain	0	10	50	r=	0	0															248		The Centurion	UniqueItems	0
+stamdrain		-25	-15	c	-25	-15															248		Duress	Runes	0
+state	fullsetgeneric	1	1	s	0	0		21				fset									252		Aldur's Watchtower	Sets	0
+state	monsterset	1	1	s	0	0		32				fset									252		Trang-Oul's Avatar	Sets	0
+str	0	2	50	r=	2	50	5														31		Naj's Ancient Set	Sets	0
+str/lvl	6	0	0	lvl		15	3														42		Enigma	Runes	0
+stupidity	0	1	3	r	1	1															249	ac	Deathspade	UniqueItems	0
+stupidity	0	10	33	r	1	6		43													249	ac	RandomizeAdd14		0
+swing1		10	30	r=	7	20												weap			6	dmg		UniqueItems	0
+swing1		10	30	r=	7	20						weap									6	dmg	Bloodrise	UniqueItems	0
+swing2		-20	-1	c	-140	-7															6	dmg	Bladebone	UniqueItems	0
+swing2		5	45	r=	3	30												weap			6	dmg	Twitchthroe	UniqueItems	0
+swing2		5	80	r=	3	53						weap									6	dmg	Bladebone	UniqueItems	0
+swing3		15	30	r=	10	20												weap			6	dmg	Sigon’s Gage	SetItems	0
+swing3		15	50	r=	10	33						weap									6	dmg	Goreshovel	UniqueItems	0
+thorns	0	2	77	r	1	7															5		Stoutnail	UniqueItems	0
+thorns/lvl	11	0	0	lvl		3															5		Spike Thorn	UniqueItems	0
+vit	0	2	25	r	4	50			30												250	vit	Stoutnail	UniqueItems	0
+vit	0	2	100	r	2	100		30													250	vit	Stoutnail	UniqueItems	0
+vit/lvl	4	0	0	lvl		15															251	vit	Warlord's Trust	UniqueItems	0

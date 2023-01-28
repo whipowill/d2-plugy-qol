@@ -13,7 +13,7 @@ raven	10		0	1					strUI5		2	raven									0
 spiritwolf	11		0	1		1	1	1	strUI6	1	2	wolf									0
 fenris	12		0	1		1	1	1	UIFenirsui	1	2	wolf									0
 totem	13		0	1		1	1	1	strUI14	1	3	oaksage	423	heartofwolverine	422	spiritofbarbs					0
-vine	14		0	1		1	1	1	strUI13	1	3	plaguepoppy	426	cycleoflife	427	vines					0
+vine	14		0	1		1	1	1	strUI13	1	3	plaguepoppy	426	vines	427	cycleoflife					0
 grizzly	15		0	1		1	1	1	strUI7	1	1	bear									0
 shadowwarrior	16		0	1		1	1	1	UiShadowUI	1	1	shadowassassin									0
 assassintrap	17		0		1																0
