@@ -143,3 +143,4 @@ Alternatively, there are some jewels in these files that will also grant ``splas
 - [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files (handy for reverse engineering what others have done).
 - [Unix2Dos](https://phoenixnap.com/kb/convert-dos-to-unix) - Command line tool for converting file endings (handy for modding TXT files)
 - [XVI32](http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm#download) - Freeware hex editor XVI32.
+- [AFJ](https://d2mods.info/forum/viewtopic.php?t=15454) - Table editor for game strings.
