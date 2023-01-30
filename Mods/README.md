@@ -125,6 +125,8 @@ Code by [whipowill](https://github.com/whipowill).
 	- Spirits & vines cannot die
 	- Teleport allowed in shapeshift form
 
+#### Discussion
+
 Adding automagic affixes to weapons is a pretty invasive change and there is no going back.  If you wanted to install w/out making such a big change, you would delete ``Weapons.txt``, ``UniqueItems.txt``, and ``SetItems.txt`` to disable that effect.
 
 Alternatively, there are some jewels in these files that will also grant ``splash`` and ``rep-quant``, but I have them disabled.  You would edit the ``MagicPrefix.txt`` and ``MagicSuffix.txt`` files to make those new jewels spawnable if you wanted them.
