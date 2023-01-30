@@ -223,3 +223,5 @@ helrune + normal torso → socketed torso	1			100					2	tors,nos	r15						useite
 helrune + normal weapon → socketed weapon	1			100					2	weap,nos	r15						useitem				sock			1	6																																																																															0
 helrune + normal helm → socketed helm	1			100					2	helm,nos	r15						useitem				sock			1	6																																																																															0
 helrune + normal shield → socketed shield	1			100					2	shld,nos	r15						useitem				sock			1	6																																																																															0
+reroll any item	1			0					2	comb	isc						useitem				splash		358	100		rep-quant		100																																																																												0
+reroll any item	1			0					2	mele	isc						useitem				splash		358	100																																																																																0

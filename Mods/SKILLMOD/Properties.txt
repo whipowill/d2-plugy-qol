@@ -268,4 +268,4 @@ ethereal	1			23																															0
 oskill	1			22	item_nonclassskill																										Skill	min level	max level	none	0
 state	1			24	state																										state	1	1		0
 randclassskill	1		3	36	item_addclassskills																														0
-meleesplash	1			11	melee_splash																														0
+splash	1			11	melee_splash																														0

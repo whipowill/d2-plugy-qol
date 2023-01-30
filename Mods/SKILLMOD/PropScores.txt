@@ -62,7 +62,7 @@ aura	Redemption	1	30	smm	20	75		30				weap	armo								254		Phoenix	Runes	0
 aura	Sanctuary	1	30	smm	12	160		24				weap	armo								254		Lawbringer	Runes	0
 aura	Thorns	1	30	smm	25	141		6				weap	armo								254		Bramble	Runes	0
 aura	Vigor	1	30	smm	13	48		18				weap	armo								254		Harmony	Runes	0
-balance1		10	10	r=	4	4															17	block	Cathan’s Visage	SetItems	0
+balance1		10	10	r=	4	4															17	block	Cathanï¿½s Visage	SetItems	0
 balance2	0	10	55	r=	4	22															17	block	Culwens Point	UniqueItems	0
 balance3	0	10	55	r=	4	22															17	block	Aldur's Stony Gaze	SetItems	0
 bar		1	3	r	35	210												bar			125	skills	Immortal King	Sets	0
@@ -238,7 +238,7 @@ gethit-skill	53	5	5	scl		0		78													44		Stormspire	UniqueItems	0
 gethit-skill	53	18	5	scl		1		18													44		Cow King's Hide	SetItems	0
 gethit-skill	53	12	5	scl		1		28													44		Naj's Circlet	SetItems	0
 gethit-skill	54	25	1	scl		0		50													44		The Oculus	UniqueItems	0
-gethit-skill	55	10	3	scl		2		70													44		Mavina’s Embrace	SetItems	0
+gethit-skill	55	10	3	scl		2		70													44		Mavinaï¿½s Embrace	SetItems	0
 gethit-skill	56	2	0	scl		0		73													44		The Rising Sun	UniqueItems	0
 gethit-skill	59	5	0	scl		0		49													44		Snowclash	UniqueItems	0
 gethit-skill	59	4	6	scl		0		43													44		Stormchaser	UniqueItems	0
@@ -412,7 +412,7 @@ mana%		5	40	r	3	20															41	mana	Frostburn	UniqueItems	0
 manasteal		2	15	r	10	30				Y		weap									28	dmg	Natalya's Odium	Sets	0
 manasteal		2	100	r	10	50						lst									28	dmg	Natalya's Odium	Sets	0
 manasteal		2	15	r	10	30												weap			28	dmg	Natalya's Odium	Sets	0
-meleesplash	358	100	1	s		30	15											orb	wand	miss	430	dmg			0
+splash	358	100	1	s		30	15											orb	wand	miss	430	dmg			0
 move2		10	20	r=	10	45												boot			35		Isenhart's Armory	Sets	0
 move2		10	30	r=	10	30						amu	jave	rune	tors	miss					35		The Cat's Eye	Sets	0
 move2		10	45	r=	10	45						boot	tors								35		Isenhart's Armory	Sets	0
@@ -579,31 +579,31 @@ skill-rand	3	96	121	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
 skill-rand	3	140	152	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
 skill-rand	3	225	250	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
 skill-rand	3	252	282	s		36		30													407	skills	Ormus' Robes	UniqueItems	0
-skilltab	0	1	4	smm	10	40					Y							shld	mele		408		Amazone – Bow & Xbow	UniqueItems	0
-skilltab	1	1	4	smm	10	40					Y	amaz	armo								409		Amazon – Passive & Magic	SetItems	0
-skilltab	2	1	4	smm	10	40					Y							class			410		Amazon – Jave & spear	UniqueItems	0
-skilltab	2	1	4	smm	10	40					Y	aspe	jave								410		Amazon – Jave & spear	UniqueItems	0
-skilltab	3	1	4	smm	10	40															411		Sorceress – Fire	UniqueItems	0
-skilltab	4	1	4	smm	10	40															412		Sorceress – Lightning	Custom	0
-skilltab	5	1	4	smm	10	40															413		Sorceress – Cold	Custom	0
+skilltab	0	1	4	smm	10	40					Y							shld	mele		408		Amazone ï¿½ Bow & Xbow	UniqueItems	0
+skilltab	1	1	4	smm	10	40					Y	amaz	armo								409		Amazon ï¿½ Passive & Magic	SetItems	0
+skilltab	2	1	4	smm	10	40					Y							class			410		Amazon ï¿½ Jave & spear	UniqueItems	0
+skilltab	2	1	4	smm	10	40					Y	aspe	jave								410		Amazon ï¿½ Jave & spear	UniqueItems	0
+skilltab	3	1	4	smm	10	40															411		Sorceress ï¿½ Fire	UniqueItems	0
+skilltab	4	1	4	smm	10	40															412		Sorceress ï¿½ Lightning	Custom	0
+skilltab	5	1	4	smm	10	40															413		Sorceress ï¿½ Cold	Custom	0
 skilltab	6	1	4	smm	10	40															414		Necro - Curses	UniqueItems	0
-skilltab	7	1	4	smm	10	40															415		Necro – Poison & Bone	Runes	0
-skilltab	8	1	4	smm	10	40															416		Necro – Summoning	UniqueItems	0
-skilltab	9	1	4	smm	10	40												class			417		Palladin – Offensive Auras	UniqueItems	0
-skilltab	9	1	4	smm	10	40						pala									417		Palladin – Offensive Auras	UniqueItems	0
-skilltab	10	1	4	smm	10	40															418		Paladin – Combat Skills	Runes	0
-skilltab	11	1	4	smm	10	40															419		Paladin – Defensive Auras	SetItems	0
-skilltab	12	1	4	smm	10	40															420		Barb – Masteries	UniqueItems	0
-skilltab	13	1	4	smm	10	40															421		Barb – Combat	UniqueItems	0
-skilltab	14	1	4	smm	10	40															422		Barb – Warcries	UniqueItems	0
-skilltab	15	1	4	smm	10	40															423		Druid – Summoning	Custom	0
-skilltab	16	1	4	smm	10	40															424		Druid – Shapeshifting	UniqueItems	0
-skilltab	17	1	4	smm	10	40															425		Druid – Elemental	UniqueItems	0
-skilltab	17	7	7	smm	250	250		77			Y	weap									426		Druid – Elemental	UniqueItems	0
-skilltab	18	1	4	smm	10	40															427		Assassin – Traps	Custom	0
-skilltab	19	1	4	smm	10	40															428		Assassin – Shadow Disc	SetItems	0
-skilltab	20	1	4	smm	10	40					Y							weap			429		Assassin – Martial Arts	UniqueItems	0
-skilltab	20	1	4	smm	10	40					Y	assn									429		Assassin – Martial Arts	UniqueItems	0
+skilltab	7	1	4	smm	10	40															415		Necro ï¿½ Poison & Bone	Runes	0
+skilltab	8	1	4	smm	10	40															416		Necro ï¿½ Summoning	UniqueItems	0
+skilltab	9	1	4	smm	10	40												class			417		Palladin ï¿½ Offensive Auras	UniqueItems	0
+skilltab	9	1	4	smm	10	40						pala									417		Palladin ï¿½ Offensive Auras	UniqueItems	0
+skilltab	10	1	4	smm	10	40															418		Paladin ï¿½ Combat Skills	Runes	0
+skilltab	11	1	4	smm	10	40															419		Paladin ï¿½ Defensive Auras	SetItems	0
+skilltab	12	1	4	smm	10	40															420		Barb ï¿½ Masteries	UniqueItems	0
+skilltab	13	1	4	smm	10	40															421		Barb ï¿½ Combat	UniqueItems	0
+skilltab	14	1	4	smm	10	40															422		Barb ï¿½ Warcries	UniqueItems	0
+skilltab	15	1	4	smm	10	40															423		Druid ï¿½ Summoning	Custom	0
+skilltab	16	1	4	smm	10	40															424		Druid ï¿½ Shapeshifting	UniqueItems	0
+skilltab	17	1	4	smm	10	40															425		Druid ï¿½ Elemental	UniqueItems	0
+skilltab	17	7	7	smm	250	250		77			Y	weap									426		Druid ï¿½ Elemental	UniqueItems	0
+skilltab	18	1	4	smm	10	40															427		Assassin ï¿½ Traps	Custom	0
+skilltab	19	1	4	smm	10	40															428		Assassin ï¿½ Shadow Disc	SetItems	0
+skilltab	20	1	4	smm	10	40					Y							weap			429		Assassin ï¿½ Martial Arts	UniqueItems	0
+skilltab	20	1	4	smm	10	40					Y	assn									429		Assassin ï¿½ Martial Arts	UniqueItems	0
 slow	0	10	75	r=	1	25	10														247		The Generals Tan Do Li Ga	UniqueItems	0
 sock	2			s		20		39			Y	shld	tors	helm	weap			thro	rune		122		Mosers Blessed Circle	UniqueItems	0
 sock	3			s		30		43			Y	shld	tors	helm	weap			thro	rune		122		Blade of Ali Baba	UniqueItems	0
@@ -627,7 +627,7 @@ swing1		10	30	r=	7	20						weap									6	dmg	Bloodrise	UniqueItems	0
 swing2		-20	-1	c	-140	-7															6	dmg	Bladebone	UniqueItems	0
 swing2		5	45	r=	3	30												weap			6	dmg	Twitchthroe	UniqueItems	0
 swing2		5	80	r=	3	53						weap									6	dmg	Bladebone	UniqueItems	0
-swing3		15	30	r=	10	20												weap			6	dmg	Sigon’s Gage	SetItems	0
+swing3		15	30	r=	10	20												weap			6	dmg	Sigonï¿½s Gage	SetItems	0
 swing3		15	50	r=	10	33						weap									6	dmg	Goreshovel	UniqueItems	0
 thorns	0	2	77	r	1	7															5		Stoutnail	UniqueItems	0
 thorns/lvl	11	0	0	lvl		3															5		Spike Thorn	UniqueItems	0

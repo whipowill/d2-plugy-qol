@@ -109,23 +109,29 @@ Code by [whipowill](https://github.com/whipowill).
 
 Code by [whipowill](https://github.com/whipowill).
 
-- Jewels
-	- "Brute's" and "of the Brawler" allow splash damage
-- Druid
-	- Shapeshift lasts longer
-	- All beasts can be summoned at the same time
-	- Spirits & Vines cannot die
-	- Teleport allowed in shapeshift form
+- Barbarian
+	- Melee weapons spawn w/ splash damage
+	- Thrown weapons spawn w/ replenishing quantity
+	- Leap, Shout, Battle Orders, Battle Command allowed in town
 - Amazon
 	- Magic and rare quivers are possible and are replenishing
-	- All magic skills that use stacks (bows/javs) will not consume quantity
 	- Dodge, Avoid, Evade bug fixed (per technique by [Nagahaku](https://d2mods.info/forum/viewtopic.php?p=500423&sid=923afb1f8828e76713d3c8a1f9f78ff1#p500423))
 - Sorceress
-	- Teleport allowed in town, and makes less irritating sound
-	- Meteor lands 2/3 faster than vanilla, and makes less irritating sound
-- Barbarian
-	- All magic skills that use stacks (throw) will not consume quantity
-	- Leap, Shout, Battle Orders, Battle Command are allowed in town
+	- Teleport allowed in town and makes less irritating sound
+	- Meteor lands 2/3 faster and makes less irritating sound
+- Druid
+	- Shapeshift lasts longer
+	- All beasts can be summoned at same time
+	- Spirits & vines cannot die
+	- Teleport allowed in shapeshift form
+
+Adding automagic affixes to weapons is a pretty invasive change and there is no going back.  If you wanted to install w/out making such a big change, you would delete ``Weapons.txt``, ``UniqueItems.txt``, and ``SetItems.txt`` to disable that effect.
+
+Alternatively, there are some jewels in these files that will also grant ``splash`` and ``rep-quant``, but I have them disabled.  You would edit the ``MagicPrefix.txt`` and ``MagicSuffix.txt`` files to make those new jewels spawnable if you wanted them.
+
+- Jewels
+	- "Brute's" and "of the Brawler" grant splash damage
+	- "Quartermaster's" and "of Renewal" grant replenishing quantity
 
 ## External Links
 
@@ -134,3 +140,4 @@ Code by [whipowill](https://github.com/whipowill).
 - [Phrozen Keep](https://d2mods.info/forum) - The forum of master D2 modders and their ancient discussions.
 - [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files (handy for reverse engineering what others have done).
 - [Unix2Dos](https://phoenixnap.com/kb/convert-dos-to-unix) - Command line tool for converting file endings (handy for modding TXT files)
+- [XVI32](http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm#download) - Freeware hex editor XVI32.

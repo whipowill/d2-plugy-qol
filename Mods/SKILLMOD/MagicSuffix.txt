@@ -747,4 +747,5 @@ of the Lamprey		100	1	1	85		73				2	27	lifesteal		6	6									1	cred	amul							
 of the Bat		1	1	1	25		21				2	28	manasteal		2	3											ring														0
 of the Wraith		1	1	1	58		46				2	28	manasteal		4	5											ring														0
 of the Vampire		100	1	1	86		74				2	28	manasteal		6	6									1	cred	ring														0
-of the Brawler		100	1	1	1		1				4	666	meleesplash	358	100	1											jewl														0
+of the Brawler		100		1	1		1				4	666	splash	358	100	1											jewl														0
+of Renewal		100		1	1		1				4	667	rep-quant	100													jewl														0

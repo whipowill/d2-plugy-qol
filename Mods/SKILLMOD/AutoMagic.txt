@@ -36,3 +36,11 @@ of Venom		100	1	1	15		11				2	305	pois-min		16	16	pois-max		48	48	pois-len		75	7
 of Pestilence		100	1	1	25		18				2	305	pois-min		32	32	pois-max		72	72	pois-len		100	100			armo	weap													0
 of Anthrax		100	1		33		25				2	305	pois-min		64	64	pois-max		128	128	pois-len		100	100			armo	weap													0
 Quartermaster’s		0	1	1	1		1				1	350	rep-quant	100													bowq	xboq													0
+Brute’s		0	1	1	1		1				1	351	splash	358	100												mele														0
+Combo Weaps		0	1	1	1		1				1	352	splash	358	100		rep-quant	100									comb														0
+Splash Harpoonist's		100	1	1	1		15				3	353	skilltab	2	1	1	splash	358	100		rep-quant	100					armo	weap													0
+Splash Spearmaiden's		100	1	1	40		30				2	353	skilltab	2	2	2	splash	358	100		rep-quant	100					armo	weap													0
+Splash Lancer's		100	1		60		45				1	353	skilltab	2	3	3	splash	358	100		rep-quant	100					armo	weap													0
+Splash Harpoonist's		100	1	1	1		15				3	354	skilltab	2	1	1	splash	358	100								armo	weap													0
+Splash Spearmaiden's		100	1	1	40		30				2	354	skilltab	2	2	2	splash	358	100								armo	weap													0
+Splash Lancer's		100	1		60		45				1	354	skilltab	2	3	3	splash	358	100								armo	weap													0
