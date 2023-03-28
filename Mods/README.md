@@ -15,7 +15,6 @@ Code by [whipowill](https://github.com/whipowill).
 - Upgrade 3 gems -> 1 higher rank gem
 - Downgrade gem -> 3 lower rank gems
 - Use a key w/ a socketed item and get the runes back
-- Use a key w/ the armor/weapon upgrade recipe to downgrade item
 - Socket any item (including unique or set items) w/ a Hel Rune
 
 ### DROPMOD
