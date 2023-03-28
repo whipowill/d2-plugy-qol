@@ -46,7 +46,7 @@ Delete all the files you merged through this install process and copy the files 
 
 Out of the box, this modpack includes my settings.  These may not be the settings you prefer, but they are the settings I prefer, and here's why:
 
-- I set 100 pages max in the shared stash.  Having infinite stash allows you to acquire infinite wealth, and infinite wealth strips you of the joy and excitement of finding new items.  Scarcity is a fundamental part of this game.
+- I set 10 pages max in the shared stash.  Having infinite stash allows you to acquire infinite wealth, and infinite wealth strips you of the joy and excitement of finding new items.  Scarcity is a fundamental part of this game.
 
 - I disable skill point unassignment, but I enable Akara to respec you more than once for a fee.  This makes the game feel more like a game and less like spreadsheet editing.  It's fun to save up for a big respec.
 
