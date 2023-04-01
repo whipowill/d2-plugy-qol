@@ -73,7 +73,7 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 ## External Links
 
 - [Discord](https://discord.gg/KjDU67x) - Community and helpdesk for D2QOL players.
-- [Qolbot](https://github.com/whipowill/d2-qolbot) - A botting application for Diablo2 v1.13d.
+- [Qolbot](https://github.com/whipowill/d2-qolbot) - Play multiplayer w/ your other singleplayer characters.
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
 - [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
 - [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.

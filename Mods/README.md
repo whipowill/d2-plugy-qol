@@ -15,7 +15,7 @@ Code by [whipowill](https://github.com/whipowill).
 - Upgrade 3 gems -> 1 higher rank gem
 - Downgrade gem -> 3 lower rank gems
 - Use a key w/ a socketed item and get the runes back
-- Socket any item (including unique or set items) w/ a Hel Rune
+- Socket recipes work on Magic, Rare, Unique, and Set items
 
 ### DROPMOD
 
@@ -85,17 +85,27 @@ Code by [whipowill](https://github.com/whipowill).
 Code by [whipowill](https://github.com/whipowill).
 
 - Act 1
-	- Blessed Aim
-	- Fire - Fire Arrow / Exploding Arrow
-	- Ice - Cold Arrow / Ice Arrow
+	- Fire - Blessed Aim / Fire Arrow / Exploding Arrow
+	- Ice - Blessed Aim / Cold Arrow / Ice Arrow
+- Act 2 (no changes)
+	- Normal
+		- Combat - Jab / Prayer
+		- Defense - Jab / Defiance
+		- Offense - Jab / Blessed Aim
+	- Nightmare
+		- Combat - Jab / Thorns
+		- Defense - Jab / Holy Freeze
+		- Offense - Jab / Might
+	- Hell
+		- Combat - Jab / Prayer
+		- Defense - Jab / Defiance
+		- Offense - Jab / Blessed Aim
 - Act 3
-	- Meditation
-	- Fire - Inferno / Fireball
-	- Lightning - Charged Bolt / Chain Lightning
-	- Cold - Ice Blast / Glacial Spike
+	- Fire - Meditation / Inferno / Fireball
+	- Lightning - Meditation / Charged Bolt / Chain Lightning
+	- Cold - Meditation / Ice Blast / Glacial Spike
 - Act 5
-	- Might
-	- All - Bash / Stun
+	- All - Might / Bash / Stun
 
 ### MONSTERMOD
 
