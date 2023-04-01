@@ -211,7 +211,3 @@ flawed skull → 3 chipped skulls	1			0					1	skf							skc																					
 standard skull → 3 flawed skulls	1			0					1	sku							skf																													skf																													skf																													0
 flawless skull → 3 standard skulls	1			0					1	skl							sku																													sku																													sku																													0
 perfect skull → 3 flawless skulls	1			0					1	skz							skl																													skl																													skl																													0
-helrune + normal torso → socketed torso	1			100					2	tors,nos	r15						useitem				sock			1	6																																																																															0
-helrune + normal weapon → socketed weapon	1			100					2	weap,nos	r15						useitem				sock			1	6																																																																															0
-helrune + normal helm → socketed helm	1			100					2	helm,nos	r15						useitem				sock			1	6																																																																															0
-helrune + normal shield → socketed shield	1			100					2	shld,nos	r15						useitem				sock			1	6																																																																															0
