@@ -81,8 +81,8 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 - [D2 Planner](https://d2planner.github.io/skills/) - Plan your skill allocations.
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [Arq](https://www.arqbackup.com/) - App for backing up your save files.
-- [ProjectDiablo2](projectdiablo2.com/) - These guys are taking the game to a whole new level.
-- [SlashDiablo](slashdiablo.net/) - If you want to play the original game online, this is where you do it.
+- [ProjectDiablo2](http://projectdiablo2.com/) - These guys are taking the game to a whole new level.
+- [SlashDiablo](http://slashdiablo.net/) - If you want to play the original game online, this is where you do it.
 - [Loot Filter Rules](https://github.com/planqi/slashdiablo-maphack/wiki/Stats) - A list of the official loot filter coding rules.
 
 ## Credits
