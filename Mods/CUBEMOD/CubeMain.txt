@@ -122,6 +122,7 @@ magic spear + jewel + rune 12 + perfect emerald -> safety weapon	1			100					4	s
 2 rune 30 + 1 flawless sapphire -> rune 31	1			100					2	r30,qty=2							r31																																																																																							0
 2 rune 31 + 1 flawless ruby -> rune 32	1			100					2	r31,qty=2							r32																																																																																							0
 2 rune 32 + 1 flawless emerald -> rune 33	1			100					2	r32,qty=2							r33																																																																																							0
+Error Protect on Throwing Weaps	1			100					4	thro,nos	r08	r11	gpv											1	6																																																																															0
 r07 + r10 + 1 perfect topaz + normal torso -> socketed torso	1			100					4	tors,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
 r08 + r11 + 1 perfect amethyst + normal weapon -> socketed weapon	1			100					4	weap,nos	r08	r11	gpv				useitem				sock			1	6																																																																															0
 r08 + r10 + 1 perfect sapphire + normal helm -> socketed helm	1			100					4	helm,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
