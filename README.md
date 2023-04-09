@@ -6,7 +6,7 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## What's Included
 
-- [D2DX](https://github.com/bolrog/d2dx/releases) - adds widescreen resolutions and wildly improves framerate (v0.99.529).
+- [D2GL](https://github.com/bayaraa/d2gl/releases/tag/v1.0.4) - widescreen resolutions, HD upgrades, and wildly improves framerate (v1.0.4).
 - [PlugY](http://plugy.free.fr/en/index.html) - adds infinite stash, shared stash, infinite respec, all runewords (v14.02).
 - [BaseMod](https://www.moddb.com/mods/basemod) - configurable settings, bug fixes, and much much more (v1.13.9).
 - [AutoPickup](https://www.moddb.com/mods/basemod) - automatically pickup gold, scrolls, keys, and arrows.
@@ -52,7 +52,7 @@ Out of the box, this modpack includes my settings.  These may not be the setting
 
 - I make all items drop as identified.  This saves me a ton of time as I can inspect an item from the ground w/out having to pick it up.  This lets me use the loot filter more aggressively.
 
-Feel free to edit ``PlugY.ini`` and ``BaseMod.ini`` to the settings you want to play.
+Feel free to edit ``d2gl.ini``, ``PlugY.ini``, and ``BaseMod.ini`` to the settings you want to play.
 
 ## Soft Mods
 
@@ -87,7 +87,7 @@ This game is very clicky and you can quickly develop carpal tunnel syndrome.  To
 
 ## Credits
 
-- D2DX by __Balrog__
+- D2GL by __Bayaraa__
 - PlugY by __Yohann Nicolas__
 - UberMod by __SnapChip__
 - BaseMod, AutoPickup, QuestRewards, LinearMF, NoPenalty by __devurandom__
