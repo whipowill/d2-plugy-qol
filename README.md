@@ -1,6 +1,6 @@
 # Diablo II QOL Mod Pack
 
-This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.  Join our [Discord](https://discord.gg/KjDU67x) server for a community of D2QOL players.
+This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.
 
 ![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/D1CKhA2.jpg)
 
