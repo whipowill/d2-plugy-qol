@@ -15,6 +15,12 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 - [Reformed](https://github.com/whipowill/d2-mod-reformed) - My soft-mod (TXT files) changes to the game (both D2LOD and D2R).
 - [Qolbot](https://github.com/whipowill/d2-qolbot) - Play multiplayer w/ your other singleplayer characters.
 
+### HELP WANTED!
+
+Sadly, the Act 1 mercs can't equip quivers and I don't have the skills to fix it (requires DLL work).  Also sadly, I don't yet know how to make the hex edit that fixes merc running animation when out of combat in v1.13d (clue [here](https://d2mods.info/forum/viewtopic.php?t=63030)).
+
+If anyone knows how to fix these issues, open a ticket and let's discuss!  I'd be so grateful.
+
 ## What's Included
 
 - [D2GL](https://github.com/bayaraa/d2gl/releases/tag/v1.0.4) - Widescreen resolutions, HD upgrades, and wildly improves framerate (v1.0.4).
@@ -32,7 +38,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 - [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - Filter items and get notified about important drops (BH v1.9.10).
 - [BuffIcons](https://github.com/BeLikeLeBron/slashdiablo-maphack) - Shows your current buff and debuff icons (BH v1.9.10).
 - [3DSound](https://www.indirectsound.com/downloads.html) - Enables 3D sound option in sound settings (Windows only).
-- [ItemLabels](https://github.com/Trihedraf/d2-item-labels) - Toggle "always show items" on or off using ``L`` (v1.0.0).
+- [ItemLabels](https://github.com/Trihedraf/d2-item-labels) - Toggle "always show items" on or off (v1.0.0).
 - [D2RCinematics](https://www.moddb.com/downloads/cinematics-from-diablo-2-resurrected-for-diablo-2-lord-of-destruction) - Use the new cinematic cutscenes from D2R.
 - [NoPenaltyMonsters](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - Remove XP penalty when you're higher level than monsters.
 - **NoPenaltyParty** - Low lvl players still get XP when partied w/ high lvl players (hex edit by me).
