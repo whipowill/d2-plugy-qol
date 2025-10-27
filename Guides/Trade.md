@@ -2,8 +2,6 @@
 
 How to trade w/ remote players on PlugY SP Diablo II.
 
-Join our [Discord](https://discord.gg/KjDU67x) server and post to the ``#trading`` board to find potential trades.
-
 ## Pre Trade
 
 - Find someone willing to trade with you.
@@ -13,6 +11,7 @@ Join our [Discord](https://discord.gg/KjDU67x) server and post to the ``#trading
 
 - Create a new mule character.
 - Place the items for trade in the character inventory.
+- **Make sure you are looking at a empty stash page when you exit the game.**
 - Transmit your respective ``D2S`` save files.
 - Open the recieved save file and inspect the contents.
 - Move the new items into your shared stash.
@@ -20,4 +19,4 @@ Join our [Discord](https://discord.gg/KjDU67x) server and post to the ``#trading
 ## Post Trade
 
 - If the trade was conducted honestly, delete the temp characters.
-- If the trade was conducted dishonestly, retrieve your original items and report them as a cheater.
+- If the trade was conducted dishonestly, retrieve your original items and pray for their eternal soul.

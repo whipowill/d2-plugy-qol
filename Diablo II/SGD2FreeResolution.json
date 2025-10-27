@@ -7,8 +7,7 @@
             "Minor Version B": 0
         },
         "Ingame Resolutions": [
-            "640x480",
-            "800x600",
+            "854x480",
             "1068x600"
         ],
         "Ingame Resolution Mode": 2,

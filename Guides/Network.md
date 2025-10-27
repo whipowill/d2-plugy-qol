@@ -31,4 +31,4 @@ The easiest way to get this working is to use [ZeroTier](https://docs.zerotier.c
 
 ## Issues
 
-- You can inspect other players using MapHack by hovering your mouse over the player and hitting ``0``, but at the moment this is causing an fatal error.  I will update this guide when I figure out what the problem is.
+- You can inspect other players using MapHack by hovering your mouse over the player and hitting ``0``.
