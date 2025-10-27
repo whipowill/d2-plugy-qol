@@ -17,7 +17,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 
 ### HELP WANTED!
 
-Sadly, the Act 1 mercs can't equip quivers and I don't have the skills to fix it (requires DLL work).  Also sadly, I don't yet know how to make the hex edit that fixes merc running animation when out of combat in v1.13d (clue [here](https://d2mods.info/forum/viewtopic.php?t=63030)).
+Act 1 mercs can't equip quivers and I don't have the skills to fix it (requires DLL work).  Also, I don't know how to make the hex edit that fixes merc running animation when out of combat in v1.13d (clue [here](https://d2mods.info/forum/viewtopic.php?t=63030)).
 
 If anyone knows how to fix these issues, open a ticket and let's discuss!  I'd be so grateful.
 
