@@ -107,6 +107,8 @@ Also note that having World Event on in ``plugy.ini`` will cause bots to crash a
 
 The loot filter provided by the ``qol_ui.dll`` file uses the older Slash Diablo loot filter rules.  Edit ``qol_ui_filter.cfg`` to customize your ruleset.
 
+See the [documentation](https://github.com/whipowill/d2-mod-qol-ui) for more on how to use this.
+
 ## Commands
 
 - ``control-o`` - open the graphics settings
@@ -132,6 +134,8 @@ The loot filter provided by the ``qol_ui.dll`` file uses the older Slash Diablo 
 - ``.storage`` - see what you have stored w/ the Quartermaster
 - ``.take rejuv 3`` - withdraw items from the Quartermaster
 
+See the [documentation](https://github.com/whipowill/d2-mod-quartermaster) for more on how to use this.
+
 ## Hero Editor
 
 One of the benefits of playing vanilla Diablo II is you can still make use of all the old tools.  When using [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104), be sure to make the following changes to your ``config.ini`` file so it will still work w/ PlugY:
@@ -145,15 +149,15 @@ StashWidth=10
 
 ## External Links
 
-- [The Arreat Summit](http://classic.battle.net/diablo2exp/) - Official guide to playing the game.
-- [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - Keep track of your items as you find them.
-- [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - See what runewords you can make.
-- [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - Fan website w/ helpful information about the game.
-- [D2 Planner](https://d2planner.github.io/skills/) - Plan your skill allocations.
-- [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
-- [ProjectDiablo2](http://projectdiablo2.com/) - These guys are taking the game to a whole new level.
-- [SlashDiablo](http://slashdiablo.net/) - If you want to play the original game online.
-- [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104) - A Windows app for editing your character files.
+- [The Arreat Summit](http://classic.battle.net/diablo2exp/) - official guide to playing the game
+- [Holy Grail Tracker](https://d2-holy-grail.herokuapp.com/) - keep track of your items as you find them
+- [Tankazon's Rune Wizard](https://fabd.github.io/diablo2/runewizard/index.html) - see what runewords you can make
+- [Tomb of Knowledge](http://www.d2tomb.com/curses.shtml) - fan website w/ helpful information about the game
+- [D2 Planner](https://d2planner.github.io/skills/) - plan your skill allocations
+- [Reddit](https://www.reddit.com/r/diablo2/) - online forum for all the D2 fans
+- [ProjectDiablo2](http://projectdiablo2.com/) - these guys are taking the game to a whole new level
+- [SlashDiablo](http://slashdiablo.net/) - if you want to play the original game online
+- [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104) - a Windows app for editing your character files
 
 ## Credits
 
