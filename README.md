@@ -49,6 +49,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Always Show Items** - no more holding alt to show items
 - [Will Scarlet's Quartermaster](https://github.com/whipowill/d2-mod-quartermaster)
 	- **Quartermaster** - a chat command system for storing common items
+	- **Holy Grail** - tracks your progress on your Holy Grail quest
 - [IndirectSound's 3D Sound](https://www.indirectsound.com/downloads.html)
 	- **3D Sound** - enables 3D sound option in sound settings (Windows only)
 - [Neuronetwork's Cinematics](https://www.moddb.com/downloads/start/222392)
@@ -138,6 +139,8 @@ Pressing the ``Insert`` key will perform the same action as the ``.deposit`` com
 - ``.take rejuv 5`` - taking rejuvination potions out of storage
 - ``.take perfect skull 1`` - taking gems out of storage
 - ``.take shael 1`` - taking runes out of storage
+- ``.grail`` - get progress on your Holy Grail quest
+- ``.grail scan`` - scan your save files for Holy Grail items
 
 See the [documentation](https://github.com/whipowill/d2-mod-quartermaster) for more on how to use this.
 
