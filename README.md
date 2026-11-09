@@ -130,9 +130,14 @@ See the [documentation](https://github.com/whipowill/d2-mod-qol-ui) for more on 
 
 ### Quartermaster
 
-- ``.deposit`` - store common items w/ the Quartermaster
-- ``.storage`` - see what you have stored w/ the Quartermaster
-- ``.take rejuv 3`` - withdraw items from the Quartermaster
+Pressing the ``Insert`` key will perform the same action as the ``.deposit`` command.
+
+- ``.deposit`` - send items from your inventory to storage
+- ``.storage`` - summary of what is available from storage
+- ``.storage potions|gems|runes|essences`` - display what is available in that category
+- ``.take rejuv 5`` - taking rejuvination potions out of storage
+- ``.take perfect skull 1`` - taking gems out of storage
+- ``.take shael 1`` - taking runes out of storage
 
 See the [documentation](https://github.com/whipowill/d2-mod-quartermaster) for more on how to use this.
 
