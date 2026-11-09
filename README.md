@@ -6,42 +6,53 @@ This is a mod pack for Diablo II that brings together the best quality-of-life f
 
 ## Introduction
 
-It's been 25 years and we're still playing this game.  Hats off to the [Project Diablo 2](http://projectdiablo2.com/) guys who continue to do amazing work, w/ modding capabilities second to none.  For those looking to revisit the vanilla experience, this modpack might be just what you wanted.
+It's been 25 years and we're still playing this game.  Hats off to the [Project Diablo 2](http://projectdiablo2.com/) guys who continue to do amazing work, w/ modding capabilities second to none.  For those looking to play the vanilla experience, this modpack might be just what you're looking for.
 
 **This repo is just for tweaks to the game engine, adding QOL features w/ no changes to the game itself.**
 
 ### Other Projects
 
-- [Reformed](https://github.com/whipowill/d2-mod-reformed) - My soft-mod (TXT files) changes to the game (both D2LOD and D2R).
-- [Qolbot](https://github.com/whipowill/d2-qolbot) - Play multiplayer w/ your other singleplayer characters.
-
-### HELP WANTED!
-
-Act 1 mercs can't equip quivers and I don't have the skills to fix it (requires DLL work).  Also, I don't know how to make the hex edit that fixes merc running animation when out of combat in v1.13d (clue [here](https://d2mods.info/forum/viewtopic.php?t=63030)).
-
-If anyone knows how to fix these issues, open a ticket and let's discuss!  I'd be so grateful.
+- [Will Scarlet's Reformed](https://github.com/whipowill/d2-mod-reformed) - my soft-mod (TXT files) changes to the game
+- [Will Scarlet's Qolbot](https://github.com/whipowill/d2-qolbot-go) - play multiplayer w/ your other singleplayer characters
 
 ## What's Included
 
-- [D2GL](https://github.com/bayaraa/d2gl/releases/tag/v1.0.4) - Widescreen resolutions, HD upgrades, and wildly improves framerate (v1.0.4).
-- [D2FPS](https://github.com/Jarcho/d2-rs) - Used in combo w/ D2GL and makes FPS even better, smooth as butter (v1.0.2).
-- [PlugY](http://plugy.free.fr/en/index.html) - Adds infinite stash, shared stash, infinite respec, all runewords (v14.02).
-- [BaseMod](https://www.moddb.com/mods/basemod) - Configurable settings, bug fixes, and much much more (v1.13.9).
-- [AutoPickup](https://www.moddb.com/mods/basemod) - Automatically pickup gold, scrolls, keys, and arrows.
-- [QuestRewards](https://www.moddb.com/mods/basemod) - Pay Akara/Charsi/Larzuk to respec/imbue/socket more than once.
-- [UberMod](http://plugy.free.fr/en/index.html) - Take down Diablo Clone and the Uber bosses in singleplayer.
-- [LinearMF](https://www.moddb.com/mods/basemod) - Removes diminishing returns on magic find.
-- [FontFix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - Makes 5s look like 5s instead of 6s.
-- [NoIntro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - Skip the intro videos when you boot the game.
-- [KeepEquip](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#equipmentdeath) - Keep your equipment when you die.
-- [MapHack](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - Shows the entire map w/ monsters and chests (BH v1.9.10).
-- [LootFilter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) - Filter items and get notified about important drops (BH v1.9.10).
-- [BuffIcons](https://github.com/BeLikeLeBron/slashdiablo-maphack) - Shows your current buff and debuff icons (BH v1.9.10).
-- [3DSound](https://www.indirectsound.com/downloads.html) - Enables 3D sound option in sound settings (Windows only).
-- [ItemLabels](https://github.com/Trihedraf/d2-item-labels) - Toggle "always show items" on or off (v1.0.0).
-- [D2RCinematics](https://www.moddb.com/downloads/cinematics-from-diablo-2-resurrected-for-diablo-2-lord-of-destruction) - Use the new cinematic cutscenes from D2R.
-- [NoPenaltyMonsters](https://d2mods.info/forum/viewtopic.php?p=496186#p496186) - Remove XP penalty when you're higher level than monsters.
-- **NoPenaltyParty** - Low lvl players still get XP when partied w/ high lvl players (hex edit by me).
+- [Bayaraa's D2GL](https://github.com/bayaraa/d2gl) (v1.0.4)
+	- **Widescreen** - play in widescreen 16:9 native resolutions
+	- **Motion Predict** - get smoothest framerates w/ motion prediction
+	- **D2FPS** - used in combo w/ D2GL and makes FPS even better, smooth as butter (v1.0.2)
+- [Yohann's PlugY](http://plugy.free.fr/en/index.html) (v14.03)
+	- **Infinite Stash** - store as many items as you want w/ infinite pages
+	- **Ladder Runewords** - play w/ all ladder runewords available to you
+	- **Infinite Respec** - reset your skill and talent points as often as you wish
+- [Devurandom's Basemod](https://www.moddb.com/mods/basemod) (v1.13.9)
+	- **Uber Mod** - take down Diablo Clone and the Uber bosses in singleplayer
+	- **Linear Magic Find** - removes diminishing returns on magic find
+	- **Quest Rewards** - pay Akara/Charsi/Larzuk to respec/imbue/socket more than once
+- [Will Scarlet's QOL](https://github.com/whipowill/d2-mod-qol)
+	- **Auto Pickup** - potions, scrolls, keys, gold
+	- **Keep Equip** - keep your equipment when you die
+	- **No XP Penalty** - no penalty for fighting low lvl monsters or partying high level friends
+	- **Merc Run** - mercenaries now run when they are following you (bug fix)
+	- **Merc Equip** - mercenaries now can hold various item types consistent with their class
+	- **Merc Drop** - mercenaries will now drop their gear when you hire a new one
+	- **Druid Summons** - the minions you had when you logged out will auto respawn
+	- **Wide Hallways** - Maggot Lair and Arcane Sanctuary now have wider hallways
+	- **Auto Click** - hold down spacebar to auto-click left mouse
+- [Will Scarlet's QOL UI](https://github.com/whipowill/d2-mod-qol-ui)
+	- **Loot Filter** - filter out useless items w/ filter rules
+	- **Buff Icons** - see what buffs and debuffs are effecting you
+	- **Stat Ranges** - see the range of possible stats on items
+	- **Player Inspect** - see what another player is wearing
+	- **Directions** - lines show you were to go on the map
+	- **HUD Clock** - game always shows the current time
+	- **Always Show Items** - no more holding alt to show items
+- [Will Scarlet's Quartermaster](https://github.com/whipowill/d2-mod-quartermaster)
+	- **Quartermaster** - a chat command system for storing common items
+- [IndirectSound's 3D Sound](https://www.indirectsound.com/downloads.html)
+	- **3D Sound** - enables 3D sound option in sound settings (Windows only)
+- [Neuronetwork's Cinematics](https://www.moddb.com/downloads/start/222392)
+	- **D2R Cinematics** - use the new cinematic cutscenes from D2R
 
 ## Install
 
@@ -55,42 +66,71 @@ If anyone knows how to fix these issues, open a ticket and let's discuss!  I'd b
 - Make a ``Game.exe`` shortcut w/ target ``"C:\Games\Diablo II\Game.exe" -3dfx -direct -txt``.
 - Launch the game by running the shortcut you made.
 
-**Special Keybinds**
-
-- Press ``0`` to show/hide the maphack settings button
-- Press ``9`` to reload the maphack settings
-- Press ``B`` to show the verbose stats screen
-- Press ``L`` to show/hide items on the ground
-- Press ``Control-O`` to open the graphics settings
-
-If your maphack settings button will not show, try deleting the ``C:\Games\Diablo II\UI.ini`` file (if it exists) and reload the game.
-
-### Mac/Linux
-
-You can successfully install the game on Mac and Linux but you will have to use Wine in order to do it.  It's more advanced and requires the use of Terminal.  I've written a [guide](https://github.com/whipowill/d2-plugy-qol/blob/master/Guides/Unix.md) on how to do this.
-
-**I recommend [Bottles](https://usebottles.com/) on Linux!**
-
 ### Uninstall
 
 Delete all the files you merged through this install process and copy the files from ``Backups`` into your ``C:\Games\Diablo II\`` folder.
 
 ## Settings
 
-Since this modpack includes a compilation of various mods, there are several places where you can tweak things:
+Since this mod pack includes a compilation of various mods, there are several places where you can edit things:
 
 - ``PlugY.ini`` - stash settings
 - ``BaseMod.ini`` - game settings
-- ``BH_settings.cfg`` - maphack settings
-- ``BH.cfg`` - loot filter settings (check [documentation](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/))
 - ``d2gl.ini`` - video settings
-- ``d2fps.ini`` - video settings
+- ``d2fps.ini`` - more video settings
+- ``qol.ini`` - quality-of-life settings
+- ``qol_ui.ini`` - maphack settings
+- ``qol_ui_filter.cfg`` - loot filter settings
+- ``quartermaster.ini`` - storage settings
 
-## Keyboard
+### Loading Sequence
 
-This game is very clicky and you can quickly develop carpal tunnel syndrome.  To avoid this I wrote an [AutoHotKey](https://github.com/whipowill/ahk-autoattack) script that lets you hold down ``spacebar`` to move and attack.  This makes melee characters a lot easier to play.
+- ``Game.exe``
+	- ``d2gfx.dll``
+		- ``plugy.dll``
+			- ``basemod.dll``
+			- ``qol.dll``
+	- ``glide3x.dll`` (this is D2GL)
+		- ``d2fps.dll``
+		- ``qol_ui.dll``
+		- ``quartermaster.dll``
 
-**I recommend this alternate [version](https://github.com/whipowill/sh-d2-autoattack) on Linux!**
+### Qolbot Compatibility
+
+The reason I orchestrated these loading choices for the DLLs has to do with my using Qolbot.
+
+Because Qolbot loads the game w/out ``-3dfx`` it means the bots never load D2GL, and so the bots never load the mods descended from it. This saves resources on the machine when running bots.
+
+Also note that having World Event on in ``plugy.ini`` will cause bots to crash and disconnect.
+
+### Loot Filter
+
+The loot filter provided by the ``qol_ui.dll`` file uses the older Slash Diablo loot filter rules.  Edit ``qol_ui_filter.cfg`` to customize your ruleset.
+
+## Commands
+
+- ``control-o`` - open the graphics settings
+
+### Inventory
+
+- ``shift + left click`` - identify an unknown item in your inventory
+- ``shift + right click`` - move an item to the open stash or cube, or back
+- ``ctrl + right click`` - drop an item to the ground
+- ``ctrl + left click`` - sell an item if at vendor (in stock game already)
+
+### Maphack & Loot Filter
+
+- ``.reload`` - reload the loot filter and maphack configs
+- ``+`` - increase item filter level
+- ``-`` - decrease item filter level
+- ``B`` - show the extensive stats screen
+- ``L`` - show/hide items on the ground
+
+### Quartermaster
+
+- ``.deposit`` - store common items w/ the Quartermaster
+- ``.storage`` - see what you have stored w/ the Quartermaster
+- ``.take rejuv 3`` - withdraw items from the Quartermaster
 
 ## Hero Editor
 
@@ -113,7 +153,6 @@ StashWidth=10
 - [Reddit](https://www.reddit.com/r/diablo2/) - Online forum for all the D2 fans.
 - [ProjectDiablo2](http://projectdiablo2.com/) - These guys are taking the game to a whole new level.
 - [SlashDiablo](http://slashdiablo.net/) - If you want to play the original game online.
-- [Loot Filter Rules](https://github.com/planqi/slashdiablo-maphack/wiki/Stats) - A list of the official loot filter coding rules.
 - [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104) - A Windows app for editing your character files.
 
 ## Credits
