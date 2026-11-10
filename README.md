@@ -29,6 +29,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Uber Mod** - take down Diablo Clone and the Uber bosses in singleplayer
 	- **Linear Magic Find** - removes diminishing returns on magic find
 	- **Quest Rewards** - pay Akara/Charsi/Larzuk to respec/imbue/socket more than once
+	- **Eth Bug Fix** - fixes the famous bug on ethereal armor items (bug fix)
 - [Will Scarlet's QOL](https://github.com/whipowill/d2-mod-qol)
 	- **Auto Pickup** - potions, scrolls, keys, gold
 	- **Keep Equip** - keep your equipment when you die
@@ -48,7 +49,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **HUD Clock** - game always shows the current time
 	- **Always Show Items** - no more holding alt to show items
 - [Will Scarlet's Quartermaster](https://github.com/whipowill/d2-mod-quartermaster)
-	- **Quartermaster** - a chat command system for storing common items
+	- **Safe Storage** - a chat command system for storing common items
 	- **Holy Grail** - tracks your progress on your Holy Grail quest
 - [IndirectSound's 3D Sound](https://www.indirectsound.com/downloads.html)
 	- **3D Sound** - enables 3D sound option in sound settings (Windows only)
@@ -168,16 +169,5 @@ StashWidth=10
 - [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104) - a Windows app for editing your character files
 
 ## Credits
-
-- D2GL by __Bayaraa__
-- D2FPS by __Jarcho__
-- PlugY by __Yohann Nicolas__
-- UberMod by __SnapChip__
-- BaseMod, AutoPickup, QuestRewards, LinearMF, NoPenaltyMonsters by __devurandom__
-- FontFix, NoIntro, KeepEquip by __SnakeByteStudios__
-- MapHack, LootFilter, BuffIcons by __SlashDiablo__
-- 3DSound by __IndirectSound__
-- ItemLabels by __Trihedraf__
-- D2RCinematics by __N3UR0N3TW0RK__
 
 Special thanks to all the fans of this amazing game for keeping it alive.
