@@ -44,10 +44,11 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Loot Filter** - filter out useless items w/ filter rules
 	- **Buff Icons** - see what buffs and debuffs are effecting you
 	- **Stat Ranges** - see the range of possible stats on items
+	- **Always Show Items** - no more holding alt to show items
 	- **Player Inspect** - see what another player is wearing
 	- **Directions** - lines show you were to go on the map
 	- **HUD Clock** - game always shows the current time
-	- **Always Show Items** - no more holding alt to show items
+	- **Auto Party** - auto invite players to your party
 - [Will Scarlet's Quartermaster](https://github.com/whipowill/d2-mod-quartermaster)
 	- **Safe Storage** - a chat command system for storing common items
 	- **Holy Grail** - tracks your progress on your Holy Grail quest
