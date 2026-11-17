@@ -39,6 +39,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Merc Drop** - mercenaries will now drop their gear when you hire a new one
 	- **Druid Summons** - the minions you had when you logged out will auto respawn
 	- **Wide Hallways** - Maggot Lair and Arcane Sanctuary now have wider hallways
+	- **Infinite Ammo** - quivers and throwing weapons no longer consume ammo
 	- **Auto Click** - hold down spacebar to auto-click left mouse
 - [Will Scarlet's QOL UI](https://github.com/whipowill/d2-mod-qol-ui)
 	- **Loot Filter** - filter out useless items w/ filter rules
@@ -50,8 +51,9 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **HUD Clock** - game always shows the current time
 	- **Auto Party** - auto invite players to your party
 - [Will Scarlet's Quartermaster](https://github.com/whipowill/d2-mod-quartermaster)
-	- **Safe Storage** - a chat command system for storing common items
-	- **Holy Grail** - tracks your progress on your Holy Grail quest
+	- **Reagents Bank** - enter a command to send common items to a chat-based storage system
+	- **PlugY Organizer** - enter a command to instantly organize all your gear in the shared stash (**EXPERIMENTAL**)
+	- **Holy Grail** - track your progress as you discover new items on your Holy Grail quest
 - [IndirectSound's 3D Sound](https://www.indirectsound.com/downloads.html)
 	- **3D Sound** - enables 3D sound option in sound settings (Windows only)
 - [Neuronetwork's Cinematics](https://www.moddb.com/downloads/start/222392)
@@ -120,8 +122,8 @@ See the [documentation](https://github.com/whipowill/d2-mod-qol-ui) for more on 
 
 - ``shift + left click`` - identify an unknown item in your inventory
 - ``shift + right click`` - move an item to the open stash or cube, or back
-- ``ctrl + right click`` - drop an item to the ground
-- ``ctrl + left click`` - sell an item if at vendor (in stock game already)
+- ``control + right click`` - drop an item to the ground
+- ``control + left click`` - sell an item if at vendor (in stock game already)
 
 ### Maphack & Loot Filter
 
@@ -138,24 +140,28 @@ Pressing the ``Insert`` key will perform the same action as the ``.deposit`` com
 - ``.deposit`` - send items from your inventory to storage
 - ``.storage`` - summary of what is available from storage
 - ``.storage potions|gems|runes|essences`` - display what is available in that category
+
+How to retrieve items:
+
 - ``.take rejuv 5`` - taking rejuvination potions out of storage
 - ``.take perfect skull 1`` - taking gems out of storage
 - ``.take shael 1`` - taking runes out of storage
+
+How to track Holy Grail progress:
+
 - ``.grail`` - get progress on your Holy Grail quest
 - ``.grail scan`` - scan your save files for Holy Grail items
 
+How to organize your shared stash:
+
+- ``.organize`` - send items from your current page to shared stash
+- ``.organize scan`` - reorganize all the items in your shared stash
+
+Pressing the ``Delete`` key will perform the same action as the ``.organize`` command.
+
+**THIS STASH ORGANIZER FEATURE IS EXPERIMENTAL! MAKE BACKUPS OF YOUR SAVE FILES.**
+
 See the [documentation](https://github.com/whipowill/d2-mod-quartermaster) for more on how to use this.
-
-## Hero Editor
-
-One of the benefits of playing vanilla Diablo II is you can still make use of all the old tools.  When using [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104), be sure to make the following changes to your ``config.ini`` file so it will still work w/ PlugY:
-
-```
-ErrorIgnore=1
-LargerStashPicture=1
-StashHeight=10
-StashWidth=10
-```
 
 ## External Links
 
