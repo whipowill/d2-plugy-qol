@@ -52,7 +52,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Auto Party** - auto invite players to your party
 - [Will Scarlet's Quartermaster](https://github.com/whipowill/d2-mod-quartermaster)
 	- **Reagents Bank** - enter a command to send common items to a chat-based storage system
-	- **PlugY Organizer** - enter a command to instantly organize all your gear in the shared stash (**EXPERIMENTAL**)
+	- **PlugY Organizer** - enter a command to instantly organize all your gear in the shared stash
 	- **Holy Grail** - track your progress as you discover new items on your Holy Grail quest
 - [IndirectSound's 3D Sound](https://www.indirectsound.com/downloads.html)
 	- **3D Sound** - enables 3D sound option in sound settings (Windows only)
