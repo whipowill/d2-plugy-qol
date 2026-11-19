@@ -40,6 +40,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Druid Summons** - the minions you had when you logged out will auto respawn
 	- **Wide Hallways** - Maggot Lair and Arcane Sanctuary now have wider hallways
 	- **Infinite Ammo** - quivers and throwing weapons no longer consume ammo
+	- **Achievement Aura** - bask in the glow of your achievement with Hell completion aura
 	- **Auto Click** - hold down spacebar to auto-click left mouse
 - [Will Scarlet's QOL UI](https://github.com/whipowill/d2-mod-qol-ui)
 	- **Loot Filter** - filter out useless items w/ filter rules
