@@ -37,7 +37,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Merc Run** - mercenaries now run when they are following you (bug fix)
 	- **Merc Equip** - mercenaries now can hold various item types consistent with their class
 	- **Merc Drop** - mercenaries will now drop their gear when you hire a new one
-	- **Druid Summons** - the minions you had when you logged out will auto respawn
+	- **Zoo Keeper** - the minions you had when you logged out will auto respawn
 	- **Wide Hallways** - Maggot Lair and Arcane Sanctuary now have wider hallways
 	- **Infinite Ammo** - quivers and throwing weapons no longer consume ammo
 	- **Achievement Aura** - bask in the glow of your achievement with Hell completion aura
