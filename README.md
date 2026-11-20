@@ -26,7 +26,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Ladder Runewords** - play w/ all ladder runewords available to you
 	- **Infinite Respec** - reset your skill and talent points as often as you wish
 - [Devurandom's Basemod](https://www.moddb.com/mods/basemod) (v1.13.9)
-	- **Uber Mod** - take down Diablo Clone and the Uber bosses in singleplayer
+	- **Uber Mod** - take down the Uber bosses in singleplayer
 	- **Linear Magic Find** - removes diminishing returns on magic find
 	- **Quest Rewards** - pay Akara/Charsi/Larzuk to respec/imbue/socket more than once
 	- **Eth Bug Fix** - fixes the famous bug on ethereal armor items (bug fix)
@@ -41,6 +41,8 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Wide Hallways** - Maggot Lair and Arcane Sanctuary now have wider hallways
 	- **Infinite Ammo** - quivers and throwing weapons no longer consume ammo
 	- **Achievement Aura** - bask in the glow of your achievement with Hell completion aura
+	- **Random DClone** - stay on your toes w/ randomized DClone spawns as you play
+	- **Terror Zones** - random zones will double gold, XP, MF, and monster density
 	- **Auto Click** - hold down spacebar to auto-click left mouse
 - [Will Scarlet's QOL UI](https://github.com/whipowill/d2-mod-qol-ui)
 	- **Loot Filter** - filter out useless items w/ filter rules
