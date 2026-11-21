@@ -33,6 +33,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 - [Will Scarlet's QOL](https://github.com/whipowill/d2-mod-qol)
 	- **Auto Pickup** - potions, scrolls, keys, gold
 	- **Keep Equip** - keep your equipment when you die
+	- **Hitcap 100** - attack rating can reach 100% hit chance on monsters
 	- **No XP Penalty** - no penalty for fighting low lvl monsters or partying high level friends
 	- **Merc Run** - mercenaries now run when they are following you (bug fix)
 	- **Merc Equip** - mercenaries now can hold various item types consistent with their class
