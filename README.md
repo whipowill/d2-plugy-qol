@@ -34,7 +34,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Auto Click** - hold spacebar for repeated left mouse clicks (works w/ PD2)
 	- **Auto Pickup** - potions, scrolls, keys, and gold (works w/ PD2)
 	- **Hitcap 100%** - attack rating can reach 100% hit chance on monsters
-	- **NoXP Penalty** - no longer penalized for fighting low lvl monsters, or partying high level friends
+	- **No XP Penalty** - no longer penalized for fighting low lvl monsters, or partying high level friends
 	- **Death Keep** - no longer lose your gear when you die
 	- **Merc Equip** - mercs can equip various item types consistent w/ their class, including quivers
 	- **Merc Drop** - mercs will drop their gear if you hire a new one
@@ -45,7 +45,7 @@ It's been 25 years and we're still playing this game.  Hats off to the [Project 
 	- **Achievement Aura** - bask in the glow of your achievement with Hell completion aura
 	- **Random DClone** - stay on your toes w/ randomized DClone spawns as you play
 	- **Terror Zones** - random zones will double gold, XP, MF, and monster density
-	- **Free Respec** - reset your stats or your skills on demand
+	- **Horde Mode** - increase the default monster density of the game
 	- **Merc Run** - mercs run when following you instead of walking (bug fix)
 	- **NM FE Fix** - fire enchants explode w/ correct damage in Nightmare (bug fix)
 	- **CPU Fix** - fixes legacy CPU bug in the original game (bug fix)
