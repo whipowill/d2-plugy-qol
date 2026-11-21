@@ -1,8 +1,8 @@
-# Diablo II QOL Mod Pack
+# Will Scarlet's Diablo II QOL Mod Pack
 
 This is a mod pack for Diablo II that brings together the best quality-of-life features I have found to maximize the singleplayer experience.
 
-![D2LOD PlugY QOL Mod Pack](https://i.imgur.com/D1CKhA2.jpg)
+![Cover Art](https://i.imgur.com/IH1j8UZ.jpeg)
 
 ## Introduction
 
